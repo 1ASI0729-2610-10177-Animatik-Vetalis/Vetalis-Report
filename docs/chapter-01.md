@@ -26,7 +26,7 @@
 | Nombre y Apellido | Gamero Miranda, Lui Mathias - U202419335 |
 | :--- | :--- |
 | **Descripción** | Experto en aseguramiento de calidad, pruebas corporativas y entrega del aplicativo. Vela por el estricto cumplimiento de los estándares de programación en todos los módulos de Vetalis. |
-| **Foto** | ![Foto_Lui](https://drive.google.com/uc?export=view&id=1Wtjq6fplduhNzflaOcK1Fjh5-w24X7Pv) |
+| **Foto** | <img src="../assets/member_Gamero_Lui.jpeg" alt="Foto Lui" width="150" /> |
 
 <br>
 
