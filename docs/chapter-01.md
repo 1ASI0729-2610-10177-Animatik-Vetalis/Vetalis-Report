@@ -107,7 +107,7 @@ Internamente, nuestro apartado EHR dota al experto veterinario con una interfaz 
 
 #### 1.2.2.4. Lean UX Canvas
 
-<img src="../assets/lean_ux_canvas.png" alt="Lean UX picture"/>
+<img src="../assets/lean_ux_canvas.png" alt="Lean UX picture" width="900"/>
 
 ## 1.3. Segmentos objetivo
 
