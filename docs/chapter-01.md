@@ -8,7 +8,7 @@
 
 ### 1.1.1. Descripción de la Startup
 
-**Animatik** se fundamenta como una iniciativa tecnológica orientada a revolucionar el manejo administrativo, clínico y físico de las veterinarias. **Vetalis**, nuestro producto central, amalgama un software de gestión corporativa, una plataforma de historiales clínicos electrónicos y una **infraestructura IoT**. Este ecosistema permite a las clínicas centralizar tareas, automatizar la alimentación en áreas de hospitalización mediante dispensadores inteligentes y multiplicar su rendimiento. Los **doctores veterinarios** controlan insumos, agendas, dietas automatizadas y actualizan fichas al instante. La **gerencia** accede a métricas precisas, control de ingresos y rotación de dispositivos IoT, propiciando mayor rentabilidad.
+Animatik se fundamenta como una iniciativa tecnológica orientada a revolucionar el manejo administrativo, clínico y físico de las veterinarias. Vetalis, nuestro producto central, amalgama un software de gestión corporativa, una plataforma de historiales clínicos electrónicos y una infraestructura IoT.Este ecosistema permite a las clínicas centralizar tareas y multiplicar su rendimiento operativo. A través de este entorno, el doctor veterinario no solo controla insumos, agendas y fichas clínicas, sino que gestiona directamente los dispensadores inteligentes en el área de hospitalización; esto le permite configurar dietas automatizadas y precisas según los requerimientos de cada paciente. Por su parte, la gerencia accede a métricas en tiempo real, control de ingresos y rotación de dispositivos, asegurando una rentabilidad optimizada y un estándar de cuidado superior.
 
 | Atributo | Declaración Estratégica |
 | :--- | :--- |
@@ -61,52 +61,67 @@
 
 ***
 
-**Vetalis** actúa como un ecosistema todo-en-uno que fusiona áreas empresariales, salud clínica y telemetría de hardware (IoT). Su objetivo es acabar con la descentralización, enlazando la atención, el calendario, la rebaja de utilería, el control financiero y **la ejecución de planes nutricionales a través de dispensadores inteligentes**. Equipado con indicadores interactivos y puntos de facturación, Vetalis ahorra horas de tipeo y rutinas mecánicas (como la alimentación manual en perreras).
+**Animatik** es una iniciativa tecnológica orientada a revolucionar el manejo administrativo, clínico y físico de los centros veterinarios a través de su producto central: **Vetalis**. Nuestra solución es un ecosistema integral que amalgama un software de gestión empresarial (ERP), una plataforma de historiales clínicos electrónicos (EHR) y una **infraestructura IoT** de dispensación inteligente.
 
-### 1.2.1. Antecedentes y problemática
+A diferencia de los sistemas tradicionales, Vetalis permite que el médico veterinario configure y automatice la nutrición en áreas de hospitalización según las necesidades específicas de cada paciente, sincronizando este consumo con el inventario y la facturación en tiempo real. Al proporcionar dashboards de inteligencia de negocios y automatización física, Animatik permite que la gerencia maximice la rentabilidad mientras el personal médico optimiza su tiempo y la precisión del tratamiento.
 
-La fragmentación actual resta agilidad. La divergencia entre el consultorio, la administración y las zonas de internamiento resulta en descuadres de inventario, errores en la dosificación de alimentos y desinformación.
+---
 
-Al aplicar el modelo de las **5 W's y 2 H's**, observamos:
+### 1.2.1. Antecedentes y Problemática
 
-* **Who:** Impacta a gerentes (control contable), doctores (rutina clínica) y técnicos veterinarios (sobrecarga en la alimentación y pesaje de raciones).
-* **What:** Desconexión entre el software, el almacén y el manejo físico del paciente. Faltan programas que interconecten el consumo de productos y la dispensación de alimento in-situ.
-* **When:** Ocurre continuamente, evidenciándose cuando los materiales gastados o el alimento consumido en hospitalización no cuadran con la facturación.
-* **Where:** En oficinas logísticas y áreas de internamiento/hospitalización.
-* **Why:** Por la barrera entre plataformas ofimáticas, registros médicos y procesos manuales de cuidado físico.
-* **How:** Desencadena operaciones trabadas, errores de dosificación nutricional y desabastecimiento. La digitalización e integración IoT erradica estos bloqueos.
-* **How Much:** La adopción del ecosistema agiliza el diagnóstico en un 40%, reduce el tiempo de cuidado físico rutinario en internamiento y retiene capital al evitar fugas de inventario.
+En el sector veterinario actual, la fragmentación operativa no solo afecta la administración, sino que se extiende al cuidado físico del paciente. La desconexión entre el área médica, el almacén y las zonas de hospitalización genera errores en la dosificación de alimentos, descuadres críticos de inventario y una sobrecarga en el personal técnico. Según Beyer, Chomiak-Orsa, Pietrzykowski y Rozkrut (2025), la transformación digital es un imperativo para superar estas ineficiencias; sin embargo, en veterinaria, esta transformación queda incompleta si no integra el manejo físico del paciente (IoT) con el registro clínico.
 
+Al analizar esta situación con la metodología de las **5 W’s y 2 H’s** se identifican los siguientes elementos:
+
+* **Who (Quiénes):** Administradores que pierden el rastro de insumos y rentabilidad; médicos veterinarios que enfrentan una alta carga de transcripción de datos; y personal técnico sobrecargado por tareas manuales de alimentación y pesaje de raciones.
+* **What (Qué):** La problemática radica en la **fragmentación entre el software de gestión y el cuidado físico**. Las clínicas carecen de una plataforma que conecte el diagnóstico médico con la ejecución física de dietas y el control de stock derivado de estas.
+* **When (Cuándo):** El desafío es crítico durante la hospitalización, donde la falta de sistemas que sincronicen la dispensación de alimento con el registro financiero y clínico genera fugas de capital e inconsistencias en el tratamiento.
+* **Where (Dónde):** En el "back-office" contable y en las **áreas de internamiento y hospitalización**. El problema se localiza donde el error humano en procesos manuales de cuidado físico impide una toma de decisiones estratégica (Soltani & Siadati, 2019).
+* **Why (Por qué):** Las causas principales son el uso de herramientas aisladas que no se comunican con el hardware de la clínica y la dependencia de procesos manuales para la dosificación nutricional, lo que obstaculiza la mejora de procesos (Beyer et al., 2025).
+* **How (Cómo):** Se manifiesta en una administración reactiva, desabastecimiento de insumos médicos y errores de dosificación nutricional que comprometen la recuperación del paciente.
+* **How Much (Cuánto):**
+    * La digitalización e integración IoT permite agilizar los procesos de diagnóstico y cuidado en un **40%** (Beyer et al., 2025).
+    * La automatización de tareas nutricionales reduce el tiempo operativo manual en hospitalización hasta en un **60%**.
+    * La implementación de BI y hardware conectado incrementa la eficiencia operativa y la retención de capital al evitar fugas de inventario (Soltani & Siadati, 2019).
+
+---
 
 ### 1.2.2. Lean UX Process
 
 #### 1.2.2.1. Lean UX Problem Statements
 
-**Problem Statement 1: Monitorización Logística y Financiera**
-Vetalis está pensado para consolidar los espectros contables y logísticos desde su matriz empresarial. Gracias a ello, la cúpula de la veterinaria obtiene reportería clara, portales de pago y automatización de repuestos. Ciertas evaluaciones evidencian que el aislamiento del balance contable promueve escenarios sin insumos disponibles y parálisis estratégica. Partiendo de este contexto, ideamos lo siguiente: **¿De qué forma construimos una herramienta integral que sincronice el consumo de productos médicos y la economía a gran escala, eliminando los desajustes y entregando transparencia en las finanzas de la empresa?**
+**Problem Statement 1: Enfoque en la Gestión Logística y Financiera IoT**
+Nuestra solución, Vetalis, ofrece una plataforma de gestión (ERP) que sincroniza el control contable con la infraestructura física de la clínica. A través del ecosistema, los administradores aceden a dashboards de BI que integran la rotación de dispositivos IoT y el consumo exacto de insumos.
 
-**Problem Statement 2: Sinergia Clínica y Automatización del Cuidado (EHR + IoT)**
-Actualmente, el personal veterinario y técnico enfrenta una doble carga: una **burocrática**, al dedicar casi el 50% de la consulta a la transcripción manual de datos, y una **operativa**, al gestionar manualmente la dosificación nutricional en hospitalización, lo que induce a errores de tratamiento. El aislamiento entre el historial médico y las tareas físicas de cuidado diluye la eficiencia y compromete la salud animal. Ante esto, planteamos: **¿Cómo podemos liberar al equipo médico de la sobrecarga administrativa y los riesgos de la dosificación manual mediante un ecosistema que unifique el registro clínico con la ejecución automatizada de dietas vía IoT, permitiendo que el 100% del tiempo se enfoque en la recuperación del paciente?**
+Se ha identificado que el aislamiento del balance contable respecto al consumo real en áreas de internamiento provoca fugas de capital y quiebres de stock no detectados.
+
+Por tanto, nos preguntamos: **¿Cómo podríamos proporcionar a los administradores una plataforma unificada que sincronice automáticamente el uso de productos médicos y alimento (vía IoT) con la contabilidad en tiempo real, eliminando desajustes de inventario y facilitando el control total del flujo de caja?**
+
+**Problem Statement 2: Enfoque en la Sinergia Clínica y Automatización del Cuidado (EHR + IoT)**
+Nuestra solución ofrece un ecosistema clínico donde el médico veterinario no solo gestiona historiales, sino que configura directamente los dispensadores IoT según el cuadro clínico del paciente hospitalizado.
+
+Se ha identificado que el personal médico sufre una doble carga: burocrática (transcripción manual de datos) y operativa (dosificación manual de dietas). Esta desconexión consume tiempo vital y aumenta el riesgo de errores en tratamientos nutricionales.
+
+Por tanto, nos preguntamos: **¿Cómo podríamos ofrecer a los médicos veterinarios una herramienta que unifique el registro clínico con la ejecución automatizada de dietas vía IoT, eliminando tareas repetitivas y permitiéndoles enfocar el 100% de su tiempo en la recuperación del paciente?**
 
 #### 1.2.2.2. Lean UX Assumptions
 
-* **Creemos sinceramente que nuestros usuarios meta necesitan** alinear su labor clínica, de ventas y de cuidado físico en internamiento dentro de un único recurso digital.
-* **Las exigencias operativas y financieras se atenuarán usando** Vetalis, logrando atar expedientes con salidas de almacenes, a la vez que se programa directamente a los dispensadores de comida según la receta, descontando gramos exactos del inventario general.
-* **Nuestro pionero de adopción temprana contempla a** dueños administrativos y doctores en áreas sumamente pobladas, con alta rotación de pacientes hospitalizados.
-* **El mayor triunfo de valor brindado es** anular por completo la doble mecanografía de información y la ejecución manual de tareas nutricionales repetitivas.
-* **Dentro de las bondades periféricas, se incluyen** rastreos minuciosos del dinero, transacciones fluidas y telemetría de consumo de alimento en tiempo real.
-* **Lograremos posicionamiento en la industria apoyándonos en** esquemas promocionales B2B que incluyan el software y el comodato/venta de los dispensadores IoT.
-* **La facturación como empresa (Animatik) recae sobre** planes SaaS adaptables y rentas derivadas de la comercialización de hardware inteligente.
-* **Nuestras amenazas en el plano de ventas refieren a** programas locales anticuados o sistemas que priorizan solo agendar, sin llegar al nivel comercial ni de hardware (IoT).
-* **Nuestra lanza principal comprende** enlazar el estado natural de la salud y la nutrición automatizada con estrategias profundas de capital en una sola experiencia fluida (UX).
-* **El factor adverso más alarmante es** el recelo del veterinario analógico ante lo digital. Diluiremos esta fricción mediante interfaces minimalistas y un despliegue de hardware plug-and-play.
+* **Creo que mis clientes necesitan:** centralizar su operativa clínica, financiera y el cuidado físico en hospitalización en un solo entorno digital, ya que la desconexión actual genera errores de tratamiento y fugas de capital.
+* **Estas necesidades se pueden resolver mediante:** nuestra plataforma Vetalis, que vincula expedientes médicos con dispensadores inteligentes IoT, automatizando la salida de almacén según la receta configurada por el doctor.
+* **Mis clientes iniciales serán:** administradores y médicos de clínicas veterinarias urbanas con alta rotación de pacientes hospitalizados que requieren modernizar su gestión operativa.
+* **El valor #1 que un cliente quiere de nuestro servicio es:** la eliminación de la duplicidad de tareas administrativas y la ejecución manual de tareas nutricionales, obteniendo un control exacto del stock.
+* **El cliente también puede obtener estos beneficios adicionales mediante:** telemetría de consumo de alimento en tiempo real, programación ágil de citas y pasarelas de pago integradas que mejoran la experiencia del dueño de la mascota.
+* **Voy a adquirir la mayoría de mis clientes a través de:** estrategias de venta B2B directa que incluyan el software y el comodato o venta de hardware inteligente, además de demostraciones enfocadas en el ROI operativo.
+* **Haré dinero a través de:** un modelo de suscripción (SaaS) escalonado y rentas o ventas derivadas de la comercialización de la infraestructura IoT (dispensadores).
+* **Mi competencia principal serán:** softwares de gestión veterinaria genéricos que funcionan solo como agendas estáticas y sistemas de contabilidad manuales que no integran el componente físico (hardware).
+* **Los venceremos debido a:** nuestra capacidad de conectar directamente la acción médica y la nutrición automatizada (EHR-IoT) con el impacto financiero inmediato (ERP) en una interfaz intuitiva.
+* **Mi mayor riesgo de producto es:** la resistencia al cambio por parte de personal acostumbrado a procesos analógicos. Lo resolveremos con una experiencia de usuario (UX) minimalista y un despliegue de hardware *plug-and-play*.
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
-* **Declaración 1 (Flujos Económicos Constantes):** Prevemos que concatenar el surtido interior al registro del médico desaparecerá el desperdicio de ganancias. Sabremos que esto es absoluto cuando merme notablemente el pánico e inconsistencias al cuadrar cuentas mensuales.
-* **Declaración 2 (Apalancamiento de Datos y BI):** Asumimos férreamente que obsequiarle a la gerencia gráficas procesadas sobre sus alcances económicos, proyectará el éxito del emprendimiento. Tendremos constancia al percatar subidas superiores al 80% en la apreciación de márgenes idóneos.
-* **Declaración 3 (Rendimiento Clínico Integral):** Confirmamos que consolidar liquidaciones, tratamientos y dosificación IoT liberará los frenos de eficiencia para el veterinario y su equipo técnico. El acierto vendrá cuando las métricas logren documentar ahorros de reloj de hasta cuarenta por ciento en burocracia y una reducción del 60% en el tiempo dedicado a tareas de alimentación manual en hospitalización.
-
+* **Hipótesis 1 (Eficiencia Logística y Financiera):** Creemos que automatizar el control de inventario vinculando los dispensadores IoT al registro médico del historial clínico eliminará las fugas de capital. **Sabremos que estamos bien cuando** las clínicas que implementen Vetalis reporten una reducción significativa en discrepancias de stock a fin de mes.
+* **Hipótesis 2 (Estrategia de Datos y BI):** Creemos que proporcionar a los administradores dashboards de inteligencia de negocios con datos de consumo IoT e ingresos mejorará sustancialmente la toma de decisiones. **Sabremos que estamos bien cuando** los centros logren incrementar su percepción de salud financiera y rentabilidad en hasta un 80%.
+* **Hipótesis 3 (Rendimiento Clínico-Operativo):** Creemos que integrar el historial médico con la dosificación automatizada IoT reducirá la fragmentación operativa del personal. **Sabremos que estamos bien cuando** las métricas demuestren una reducción del 40% en carga administrativa y del 60% en el tiempo dedicado a tareas de alimentación manual.
 #### 1.2.2.4. Lean UX Canvas
 
 <img src="../assets/lean_ux_canva.png" alt="Lean" width="900" />
