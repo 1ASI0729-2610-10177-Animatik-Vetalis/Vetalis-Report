@@ -118,7 +118,7 @@ En esta sección se presenta la matriz de tareas que realizan los segmentos obje
 <img src="../assets/journey_map_1.png" alt="journey map veterinario" width="700">
 
 ### Journey Map 2: Administrador
-
+<img src="../assets/journey_map_2.png" alt="journey map administrador" width="700">
 
 ### 2.3.4. Empathy Mapping
 ## 2.4. Big Picture EventStorming
