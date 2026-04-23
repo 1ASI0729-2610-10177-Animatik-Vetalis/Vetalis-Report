@@ -121,3 +121,10 @@
 * **Invoice (Factura / Boleta):** Documento comercial y tributario que detalla los servicios prestados o productos vendidos al propietario del paciente, indicando el monto total a pagar.
 * **Payment (Pago):** La transacción económica realizada por el propietario para liquidar la deuda generada por la factura de los servicios o productos adquiridos.
 * **Cash Flow (Flujo de Caja):** El registro y monitoreo del movimiento de dinero dentro de la clínica, contabilizando los ingresos por atenciones y los egresos por gastos operativos.
+
+#### 4. IoT & Hospitalization Module (Módulo de Hospitalización e IoT)
+* **Smart Dispenser (Dispensador Inteligente):** Dispositivo físico de hardware integrado al ecosistema que ejecuta de forma automatizada la entrega de alimento según las instrucciones digitales del sistema.
+* **Clinical Feeding Plan (Plan Nutricional Clínico):** Configuración específica realizada por el veterinario que define la cantidad exacta (gramos), frecuencia y horario de alimentación para un paciente en estado de hospitalización.
+* **Automated Dosing (Dosificación Automatizada):** El proceso mediante el cual el dispositivo libera la ración exacta de alimento programada, eliminando la intervención manual y el error humano.
+* **Internment Unit (Unidad de Internamiento):** El espacio físico (jaula o cubículo) asignado a un paciente, el cual está vinculado a un identificador único de Smart Dispenser.
+* **Feeding Log (Registro de Alimentación):** El registro histórico generado automáticamente por el sistema tras cada evento de dispensación, que consolida la hora exacta, la cantidad entregada y las métricas de éxito.
