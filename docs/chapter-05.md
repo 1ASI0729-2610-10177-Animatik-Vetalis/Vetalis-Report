@@ -207,14 +207,35 @@ Para lograr el despliegue seguimos los siguientes pasos:
 La construcción de la página de inicio, junto con los servicios y aplicaciones, es un paso fundamental en nuestro ciclo de desarrollo. Esto nos permite hacer realidad el diseño y las funciones proyectadas, convirtiendo las ideas iniciales en productos tangibles y listos para su uso. En esta fase traducimos los requerimientos y especificaciones a código fuente, estructurando la plataforma web según las necesidades detectadas.
 ***
 ### 5.2.1. Sprint 1
+
+La primera iteración constituye un paso fundamental en nuestra metodología de desarrollo ágil. Durante este periodo, enfocaremos nuestra capacidad operativa en la construcción de las funcionalidades críticas y herramientas de alta prioridad establecidas en la fase de planificación. Este proceso consiste en traducir los requisitos técnicos y de negocio en componentes de software operativos, estableciendo los cimientos funcionales de nuestro producto bajo un modelo de mejora continua y entregas incrementales.
+
 #### 5.2.1.1. Sprint Planning 1
-#### 5.2.1.2. Aspect Leaders and Collaborators
-#### 5.2.1.3. Sprint Backlog 1
-#### 5.2.1.4. Development Evidence for Sprint Review
+
+| Sprint # | Sprint 1                                                                                                                                                                                                                                                                               |
+| :--- |:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Sprint Planning Background** | Sesión de planificación inicial para establecer las bases del proyecto VetCare, priorizando la presencia web y la documentación técnica del primer hito académico.                                                                                                                     |
+| **Date** | 2026-04-17                                                                                                                                                                                                                                                                             |
+| **Time** | 07:00 PM                                                                                                                                                                                                                                                                               |
+| **Location** | Google Meet (Reunión virtual)                                                                                                                                                                                                                                                          |
+| **Prepared By** | Sejuro Medina, Mario Gabriel                                                                                                                                                                                                                                                           |
+| **Attendees (to planning meeting)** | Gamero Miranda Lui Mathias/ Roman Zevallos, Sebastian Jared / Romero Vilela, Dario Alberto / Sanchez Benavente, Leonardo Matias / Sejuro Medina, Mario Gabriel                                                                                                                         |
+| **Sprint 1 – 1 Review Summary** | Se lograron los hitos de desarrollo para los capítulos iniciales y el despliegue funcional de la Landing Page. No obstante, se identificó como punto de mejora la finalización de los entregables administrativos en formatos PDF y Word para cumplir con la totalidad del hito.       |
+| **Sprint 1 – 1 Retrospective Summary** | El desempeño durante el primer ciclo fue aceptable, logrando un producto funcional aunque con oportunidades de optimización en la coordinación interna para futuros entregables de mayor complejidad técnica.                                                                          |
+| **Sprint Goal & User Stories** |                                                                                                                                                                                                                                                                                        |
+| **Sprint 1 Goal** | Lograr la culminación del reporte técnico y el despliegue exitoso de la Landing Page en el repositorio del equipo. La validación del éxito se mide mediante el flujo de tareas en el Board de Trello, asegurando que todos los ítems de prioridad alta alcancen el estado "Terminado". |
+| **Sprint 1 Velocity** | 20                                                                                                                                                                                                                                                                                     |
+| **Sum of Story Points** | 20                                                                                                                                                                                                                                                                                     |
+
+La sesión de Sprint Planning es clave dentro de la metodología ágil, ya que en ella el equipo organiza con detalle las actividades de la siguiente iteración. Aquí se determinan las tareas a realizar, los tiempos estimados y los responsables. Su objetivo principal es trazar una hoja de ruta definida y realista, promoviendo el trabajo en equipo y garantizando que todos compartan la misma visión sobre las metas trazadas.
+ 
+
 #### 5.2.1.5. Execution Evidence for Sprint Review
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
 #### 5.2.1.8. Team Collaboration Insights during Sprint
+
+
 ## 5.3. Validation Interviews
 ***
 ### 5.3.1. Diseño de Entrevistas
