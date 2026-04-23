@@ -175,7 +175,7 @@ Enlace para acceder a los Mockups en Figma: https://www.figma.com/design/eXvRezC
 ![Web Applications Mock-up - Clínico 6](../assets/web-mockup-clinical-6.png)
 ![Web Applications Mock-up - Agenda](../assets/app-schedule-mockup.png)
 ![Web Applications Mock-up - Comunicación](../assets/app-communication-mockup.png)
-![Web Applications Mock-up - Perfil](../assets/app-profile-mockup.png)
+![Web Applications Mock-up - Perfil](../assets/app-profile-mockup1.png)
 
 ### 4.4.4. Web Applications User Flow Diagrams
 
