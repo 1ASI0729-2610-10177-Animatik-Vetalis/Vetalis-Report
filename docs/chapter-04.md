@@ -69,24 +69,19 @@ Como equipo, hemos decidido incorporar patrones de lectura visuales e intuitivos
 
 
 ## 4.2. Information Architecture
-***
-
-VetCare optimiza la gestión veterinaria y el cuidado clínico de las mascotas, ofreciendo un entorno interactivo donde los dueños pueden organizar citas, leer el historial médico y comunicarse con especialistas, mientras que los veterinarios pueden administrar su flujo de pacientes y recursos. La plataforma presenta herramientas como una agenda visual y perfiles detallados, y cuenta con un sistema para acceder fácilmente a la información vital de tratamiento.
-
-A futuro, VetCare se perfila para integrarse de un modo más amplio con un ecosistema de comunidad y sistemas extendidos de bienestar animal, consolidándose como una herramienta central indispensable para clínicas veterinarias y tutores de mascotas.
 
 ---
 
 ### 4.2.1. Organization Systems
 
-La información en VetCare se diseña e implementa de manera modular y jerárquica para permitir a dueños y profesionales ubicar lo que necesitan velozmente, basándonos en la estructura mostrada en los mockups de la aplicación web:
+La información en Vetalis se diseña e implementa de manera modular y jerárquica para permitir a dueños y profesionales ubicar lo que necesitan velozmente, basándonos en la estructura mostrada en los mockups de la aplicación web:
 
 - **Estructura basada en módulos claros:** Tal como se aprecia en el dashboard, la aplicación web divide sus funciones en apartados clave: Dashboard (Inicio), Agenda, Comunicación (Mensajes/Avisos), Historias Clínicas de Pacientes / Mascotas y Perfil de Usuario.
 - **Jerarquización de contenidos:** Las funciones de uso recurrente y diario, como el número de mascotas atendidas, calendario o reportes visuales de ganancias/gastos (para el admin), se encuentran centralizados y destacados mediante tarjetas visuales (cards) ni bien se inicia sesión.
 
 ### 4.2.2. Labeling Systems
 
-El etiquetado en VetCare es fundamental para evitar confusiones de usabilidad. Por lo tanto, está redactado para ser conciso y familiar:
+El etiquetado en Vetalis es fundamental para evitar confusiones de usabilidad. Por lo tanto, está redactado para ser conciso y familiar:
 
 - **Uso de términos simples y de rápida comprensión:** En el menú lateral interactivo se usan etiquetas (labels) universales como: "Dashboard", "Agenda", "Comunicación", "Perfil" y "Log Out".
 - **Reducción de tecnicismos complejos:** Para los dueños de mascotas, se prefiere un lenguaje neutro en las interfaces de usuario finales (como el uso de "Historial", "Citas" o "Mascotas"), garantizando un entorno amigable e intuitivo, manteniendo la formalidad correspondiente sin ser difícil de digerir.
@@ -94,10 +89,10 @@ El etiquetado en VetCare es fundamental para evitar confusiones de usabilidad. P
 
 ### 4.2.3. SEO Tags and Meta Tags
 
-Para lograr un buen posicionamiento web, captar tráfico orgánico de calidad y hacer de la Landing Page de VetCare un sitio fácilmente encontrable:
+Para lograr un buen posicionamiento web, captar tráfico orgánico de calidad y hacer de la Landing Page de Vetalis un sitio fácilmente encontrable:
 
-- **Meta títulos:** Deberán integrar palabras clave precisas relacionadas al rubro como "Gestión Veterinaria", "Software Clínica Veterinaria", "Cuidado de Mascotas", y el propio nombre de marca "VetCare".
-- **Meta descripciones:** Claras, amigables e incluyendo llamadas a la acción directas (ejemplo: "Optimiza las citas de tu centro veterinario y acompaña a tus mascotas de la mejor manera. Regístrate en VetCare").
+- **Meta títulos:** Deberán integrar palabras clave precisas relacionadas al rubro como "Gestión Veterinaria", "Software Clínica Veterinaria", "Cuidado de Mascotas", y el propio nombre de marca "Vetalis".
+- **Meta descripciones:** Claras, amigables e incluyendo llamadas a la acción directas (ejemplo: "Optimiza las citas de tu centro veterinario y acompaña a tus mascotas de la mejor manera. Regístrate en Vetalis").
 - **Etiquetas Alt en Imágenes:** Cada imagen ilustrativa del landing page contará con textos descriptivos concisos para mejorar el rastreo por motores de búsqueda.
 - **Estructura tipo Headings:** Correcta aplicación semántica de jerarquías H1, H2, H3 en secciones donde se enuncian beneficios y funciones para su correcta indexación.
 
@@ -110,7 +105,7 @@ El sistema de búsqueda está pensado para una rápida asimilación por parte de
 
 ### 4.2.5. Navigation Systems
 
-El ecosistema de navegación debe guiar al usuario por VetCare fluidamente, evitando confusiones y sobrecarga visual:
+El ecosistema de navegación debe guiar al usuario por Vetalis fluidamente, evitando confusiones y sobrecarga visual:
 
 - **Menú Principal Lateral (Sidebar):** Tal como observamos en la interfaz web diseñada (mockups), es un área vertical estática siempre visible en lado izquierdo, con íconos claros acompañando cada opción ("Dashboard", "Agenda", "Comunicación"), facilitando el salto fácil entre contextos.
 - **Botones de llamado a la acción (CTAs):** Ubicados de forma destacada en la zona de trabajo (por ejemplo, para agregar nuevas mascotas, agendar nueva cita), usando el color primario de acento que indicamos en nuestros Style Guidelines.
