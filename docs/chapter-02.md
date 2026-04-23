@@ -125,9 +125,8 @@ En esta sección se presenta la matriz de tareas que realizan los segmentos obje
 ### Empathy map 1: Veterinario
 <img src="../assets/empathy_map_1.png" alt="empathy map vet" width="700">
 
-
-
-
+### Empathy map 2: Administrador
+<img src="../assets/empathy_map_2.png" alt="empathy map admin" width="700">
 
 ## 2.4. Big Picture EventStorming
 ***
