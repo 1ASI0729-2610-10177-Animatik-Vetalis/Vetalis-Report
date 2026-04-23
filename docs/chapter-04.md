@@ -149,7 +149,7 @@ Enlace para acceder a los Landing Page Mock-up en Figma: https://www.figma.com/d
 
 ### 4.4.1. Web Applications Wireframes
 
-Enlace para acceder a los wireframes en Figma: https://www.figma.com/design/7ZgHbtQwGETyMA1dPqxlX1/Mock-Ups-VetCare?node-id=0-1&t=fc3DNOs4kuDIE58K-1
+Enlace para acceder a los wireframes en Figma: https://www.figma.com/design/eXvRezCdZTesZeUPsZCY42/wireframes-y-mockups-Vetalis?node-id=1-10027&t=x43RGqzbom7CkyzT-0
 
 ![Web Applications Wireframe 1](../assets/web-wireframe-1.png)
 ![Web Applications Wireframe 2](../assets/web-wireframe-2.png)
@@ -165,7 +165,7 @@ Enlace para acceder a los wireframes en Figma: https://www.figma.com/design/7ZgH
 
 ### 4.4.3. Web Applications Mock-ups
 
-Enlace para acceder a los Mockups en Figma: https://www.figma.com/design/7ZgHbtQwGETyMA1dPqxlX1/Mock-Ups-VetCare?node-id=0-1&t=fc3DNOs4kuDIE58K-1
+Enlace para acceder a los Mockups en Figma: https://www.figma.com/design/eXvRezCdZTesZeUPsZCY42/wireframes-y-mockups-Vetalis?node-id=0-1&p=f&t=x43RGqzbom7CkyzT-0
 
 ![Web Applications Mock-up - Dashboard](../assets/app-dashboard-mockup.png)
 ![Web Applications Mock-up - Clínico 1](../assets/web-mockup-clinical-1.png)
@@ -187,7 +187,7 @@ Enlace para acceder a los Mockups en Figma: https://www.figma.com/design/7ZgHbtQ
 
 ### Introducción
 
-En esta sección se presentan los prototipos interactivos de la aplicación **VetCare**, diseñados tanto para desktop como para mobile web browser.
+En esta sección se presentan los prototipos interactivos de la aplicación **Vetalis**, diseñados tanto para desktop como para mobile web browser.
 Estos prototipos simulan la navegación y los principales flujos de interacción, basados en los **User Flow Diagrams** previamente definidos.
 
 ---
