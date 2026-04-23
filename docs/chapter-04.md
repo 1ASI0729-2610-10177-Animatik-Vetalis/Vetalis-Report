@@ -246,6 +246,8 @@ Los prototipos presentados corresponden directamente a los **User Flows** defini
 ## 4.6. Domain-Driven Software Architecture
 ***
 ### 4.6.1. Design-Level EventStorming
+<img src="../assets/desing-level-event-storming.png" alt="Design Level EventStorming">
+
 ### 4.6.2. Software Architecture Context Diagram
 <img src="../assets/architecture-context-diagram.png" alt="Architecture Diagram">
 
