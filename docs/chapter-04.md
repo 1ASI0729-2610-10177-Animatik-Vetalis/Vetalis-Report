@@ -129,6 +129,19 @@ Los Wireframes de la página son una versión simplificada de la manera en la qu
 <img src="../assets/landing-page-wireframe-6.jpg">
 
 ### 4.3.2. Landing Page Mock-up
+
+Un mockup es una representación visual de un producto que muestra cómo lucirá, a diferencia de un wireframe, que se enfoca en la estructura. Aunque no es interactivo, al ser un prototipo de alta fidelidad, ayuda a tomar decisiones finales sobre aspectos como los esquemas de colores (tonos corporativos de Vetalis: Azul Marino Profundo, Cian Vibrante, Blanco Puro), el estilo visual enfocado en salud y la tipografía seleccionada. Es una valiosa herramienta en nuestro proceso de diseño para alinear expectativas antes de la codificación y despliegue del landing page.
+
+Enlace para acceder a los Landing Page Mock-up en Figma: https://www.figma.com/design/eXvRezCdZTesZeUPsZCY42/wireframes-y-mockups-Vetalis?node-id=0-1&t=0uHLPgl89569wrB1-1
+
+<img src="../assets/Vetalis%20Landing%20Page.png">
+
+---
+
+#### Mobile Landing Page Mock-up
+
+<img src="../assets/Vetalis%20Landing%20Page%20-%20Mobile.png">
+
 ## 4.4. Web Applications UX/UI Design
 ***
 ### 4.4.1. Web Applications Wireframes
