@@ -101,9 +101,89 @@ Es el acto de examinar los artefactos y el comportamiento del software bajo prue
 | **Link de referencia:** | https://cucumber.io/docs/gherkin/ |
 | :--- | :--- |
 
-
 ### 5.1.2. Source Code Management
+
+En esta sección se presenta la gestión de código fuente o como es conocido por sus siglas en inglés SCM (Source Code Management). Su función principal es realizar un seguimiento de las modificaciones que el equipo realizará a lo largo del desarrollo de sus proyectos en los repositorios de código fuente. Se emplea como un sistema de control de versiones que permite dar seguimiento a los cambios que cada integrante o desarrollador realice en el proyecto. Asimismo, cabe resaltar que para el sistema de control de versiones emplearemos GitHub.
+
+**GitFlow**
+
+Es el modelo alternativo de creación de ramas en Git que en los últimos años se ha vuelto una herramienta indispensable para muchos desarrolladores. Este flujo de trabajo de control de versiones utiliza ramas y fue publicado y popularizado por Vincent Driessen. Su principal función es ayudar en la organización de la versión de un código, permitiendo la creación de nuevos Features y Hotfixes de manera organizada.
+
+**Main Branches:**
+
+* **main:** es la rama principal, a partir de ella se recorrerán todas las ramas y contendrá la última versión y las anteriores creadas por los desarrolladores.
+* **Develop:** Esta rama puede ser creada a partir de la rama main (master) y contará con todos los Features estables. Esto significa que a través de esta rama el equipo podrá integrar las funciones.
+
+**Support Branches:**
+
+* **Feature:** se ramifica de develop y al finalizar debe fusionarse de nuevo en develop. Se emplea para desarrollar nuevas funciones que se integrarán en versiones posteriores.
+* **Release:** también se ramifica de develop, es la rama que admite la preparación de una nueva versión de producción.
+* **Hotfix:** también está destinado a una nueva versión de producción, pero esta se ramifica de main. Su función es reparar rápidamente las publicaciones de producción.
+
+**Conventional Commits:**
+
+Son una convención para nombrar mensajes de commit en Git de forma estructurada, clara y semántica.
+
+* **feat:** Se añade una nueva funcionalidad.
+* **fix:** Se corrige un error.
+* **docs:** Cambios en la documentación.
+* **style:** Cambios de formato o estilo de código (sin impacto en la lógica).
+* **refactor:** Mejoras en el código que no añaden nuevas funcionalidades ni corrigen errores.
+* **test:** Añadir o modificar tests.
+* **chore:** Cambios menores sin impacto en el código de producción (actualización de dependencias, configuración, etc.).
+
 ### 5.1.3. Source Code Style Guide & Conventions
+
+El equipo ha definido un conjunto de reglas y estándares de programación con el objetivo de garantizar la legibilidad, mantenibilidad y coherencia del código en el proyecto Vetalis. Como regla transversal y obligatoria, toda la nomenclatura de los elementos del sistema se realizará en el idioma inglés.
+
+#### General Naming Conventions
+
+Se adoptan las convenciones de capitalización estándar para diferenciar la naturaleza de los componentes:
+
+* **PascalCase:** Utilizado para nombres de clases e interfaces en Java.
+* **camelCase:** Utilizado para variables locales, parámetros, nombres de métodos en Java y variables en TypeScript (Angular).
+* **kebab-case:** Utilizado para nombres de archivos, selectores CSS (IDs y clases) y selectores de componentes de Angular.
+
+#### HTML & CSS Style Guide
+
+Basado en la Google HTML/CSS Style Guide y las directrices de la W3C:
+
+* **HTML:** Uso obligatorio de etiquetas semánticas para mejorar el SEO y la accesibilidad. Se requiere una indentación de 2 espacios y el uso de comillas dobles para los atributos.
+* **CSS:** Se prioriza el uso de selectores de clase. Las propiedades deben agruparse de manera lógica (posicionamiento, luego modelo de caja, luego tipografía). Se prohíbe el uso de estilos en línea (inline styles).
+
+#### TypeScript & Angular Style Guide
+
+Siguiendo la Google TypeScript Style Guide y la Angular Style Guide:
+
+* **Sintaxis:** Uso de TypeScript (Arrow functions, destructuring y template literals). Se prefiere `const` para todas las declaraciones, usando `let` solo cuando sea estrictamente necesario.
+* **Angular:** Los nombres de los componentes deben seguir la convención de incluir el tipo en el nombre del archivo (ej. `hero-detail.component.ts`) y los selectores deben usar el prefijo definido para el proyecto seguido de kebab-case.
+
+#### Java & Spring Boot Coding Conventions
+
+Siguiendo las Oracle Java Code Conventions y las guías de Spring Boot:
+
+* **Estructura:** Las interfaces deben ser nombres descriptivos (aunque en Java no es obligatorio el prefijo "I", se mantiene por convención de equipo si se desea). Los campos privados deben utilizar camelCase estándar.
+* **Inyección de Dependencias:** Se prefiere la inyección por constructor sobre la anotación `@Autowired` en campos, para facilitar las pruebas unitarias y garantizar la inmutabilidad.
+
+#### Gherkin Conventions for Readable Specifications
+
+Para la redacción de criterios de aceptación y pruebas de comportamiento:
+
+* **Formato:** Uso riguroso de la estructura `Given / When / Then`.
+* **Lenguaje:** Las especificaciones deben redactarse desde la perspectiva del negocio (usuario de la veterinaria), evitando tecnicismos de implementación en los pasos de Gherkin.
+
+#### Referencias de Estándares Adoptados
+
+| Tecnología | Referencia Principal |
+| :--- | :--- |
+| HTML / CSS | Google HTML/CSS Style Guide / W3C |
+| TypeScript | Google TS Style Guide |
+| Java | Oracle Java Code Conventions |
+| Spring Boot | Spring Boot Coding Guidelines |
+| Angular | Angular Style Guide |
+| Gherkin | Gherkin Conventions for Readable Specifications |
+
+
 ### 5.1.4. Software Deployment Configuration
 ## 5.2. Landing Page, Services & Applications Implementation
 ***
