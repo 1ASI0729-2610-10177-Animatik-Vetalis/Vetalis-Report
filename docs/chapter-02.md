@@ -1,4 +1,4 @@
-﻿﻿# Capítulo II: Requirements Elicitation & Analysis
+﻿# Capítulo II: Requirements Elicitation & Analysis
 
 ---
 
@@ -80,6 +80,35 @@
 10. Si pudieras automatizar una parte del negocio hoy, ¿cuál sería y qué beneficio esperas obtener?
 
 ### 2.2.2. Registro de entrevistas
+
+**Segmento 1: Médicos veterinarios en clínicas de mediano a alto flujo**
+
+**Segmento 2: Administradores de centros veterinarios**
+
+Entrevista N°4
+
+● Nombre: Eduardo Aguirre
+
+● Sexo: Masculino
+
+● Edad: 26
+
+● Estado Civil: Soltero
+
+● Labor: Administrador de Veterinaria
+
+Detalles de la entrevista:
+
+● Duración: 6:21
+
+[● Link: https://drive.google.com/drive/my-drive?q=after:2026-04-23%20parent:0AGKHY4zYaTYwUk9PVA](https://drive.google.com/drive/my-drive?q=after:2026-04-23%20parent:0AGKHY4zYaTYwUk9PVA)
+
+Resumen de los puntos clave en la entrevista:
+
+La entrevista con Eduardo, médico veterinario, revela el alto nivel de desorganización y pérdida financiera en la gestión clínica por el uso de métodos manuales y mixtos. Su necesidad de invertir hasta el 40% de su tiempo en tareas administrativas, como el registro en cuadernos y el cruce de datos en Excel, ha limitado su capacidad para enfocarse en alianzas o marketing. Esto impacta directamente la rentabilidad de su negocio, generando una fuga de ingresos estimada entre el 10% y 15% debido a cobros omitidos durante emergencias y la pérdida de insumos vencidos. Aunque intenta mantener el orden con conteos físicos de inventario cada 15 días, el proceso no es confiable. Su clínica carece de sincronización entre la atención y la recepción. Eduardo valora contar con un sistema automatizado que descuente el stock en tiempo real tras cada tratamiento, registre los pagos con exactitud y le brinde reportes de rentabilidad claros de forma inmediata.
+
+Entrevista N°5
+
 ### 2.2.3. Análisis de entrevistas
 ## 2.3. Needfinding
 ***
