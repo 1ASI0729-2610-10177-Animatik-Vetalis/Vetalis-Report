@@ -124,7 +124,7 @@ Por tanto, nos preguntamos: **¿Cómo podríamos ofrecer a los médicos veterina
 * **Hipótesis 3 (Rendimiento Clínico-Operativo):** Creemos que integrar el historial médico con la dosificación automatizada IoT reducirá la fragmentación operativa del personal. **Sabremos que estamos bien cuando** las métricas demuestren una reducción del 40% en carga administrativa y del 60% en el tiempo dedicado a tareas de alimentación manual.
 #### 1.2.2.4. Lean UX Canvas
 
-<img src="../assets/lean_ux_canva.png" alt="Lean" width="900" />
+<img src="../assets/lean_ux_canvas.png" alt="Lean" width="900" />
 
 ## 1.3. Segmentos objetivo
 
