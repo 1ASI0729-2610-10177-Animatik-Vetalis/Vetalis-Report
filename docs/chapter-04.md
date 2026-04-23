@@ -403,3 +403,4 @@ Los prototipos presentados corresponden directamente a los **User Flows** defini
 ## 4.8. Database Design
 ***
 ### 4.8.1. Database Diagrams
+![Diagrama de Base de Datos](../assets/database-diagram.png)
