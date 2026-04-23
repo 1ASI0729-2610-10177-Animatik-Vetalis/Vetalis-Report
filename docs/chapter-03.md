@@ -345,6 +345,8 @@ As a developer I want to create an endpoint that verifies if a JWT is still acti
 
 <img src="../assets/Impact_map_1.png" alt="Impact map 1">
 
+<img src="../assets/Impact_map_2.png" alt="Impact map 2">
+
 
 
 ***
