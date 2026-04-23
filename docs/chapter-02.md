@@ -121,6 +121,14 @@ En esta sección se presenta la matriz de tareas que realizan los segmentos obje
 <img src="../assets/journey_map_02.png" alt="journey map administrador" width="700">
 
 ### 2.3.4. Empathy Mapping
+
+### Empathy map 1: Veterinario
+<img src="../assets/empathy_map_1.png" alt="empathy map vet" width="700">
+
+
+
+
+
 ## 2.4. Big Picture EventStorming
 ***
 ## 2.5. Ubiquitous Language
