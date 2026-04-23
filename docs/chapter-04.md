@@ -143,13 +143,106 @@ Enlace para acceder a los Landing Page Mock-up en Figma: https://www.figma.com/d
 <img src="../assets/Vetalis%20Landing%20Page%20-%20Mobile.png">
 
 ## 4.4. Web Applications UX/UI Design
-***
+
+---
+
+
 ### 4.4.1. Web Applications Wireframes
+
+Enlace para acceder a los wireframes en Figma: https://www.figma.com/design/7ZgHbtQwGETyMA1dPqxlX1/Mock-Ups-VetCare?node-id=0-1&t=fc3DNOs4kuDIE58K-1
+
+![Web Applications Wireframe 1](../assets/web-wireframe-1.png)
+![Web Applications Wireframe 2](../assets/web-wireframe-2.png)
+![Web Applications Wireframe 3](../assets/web-wireframe-3.png)
+![Web Applications Wireframe 4](../assets/web-wireframe-4.png)
+![Web Applications Wireframe 5](../assets/web-wireframe-5.png)
+![Web Applications Wireframe 6](../assets/web-wireframe-6.png)
+![Web Applications Wireframe 7](../assets/web-wireframe-7.png)
+
 ### 4.4.2. Web Applications Wireflow Diagrams
+
+![Web Applications Wireflow Diagram](../assets/web-wireflow-diagram.png)
+
 ### 4.4.3. Web Applications Mock-ups
+
+Enlace para acceder a los Mockups en Figma: https://www.figma.com/design/7ZgHbtQwGETyMA1dPqxlX1/Mock-Ups-VetCare?node-id=0-1&t=fc3DNOs4kuDIE58K-1
+
+![Web Applications Mock-up - Dashboard](../assets/app-dashboard-mockup.png)
+![Web Applications Mock-up - Clínico 1](../assets/web-mockup-clinical-1.png)
+![Web Applications Mock-up - Clínico 3](../assets/web-mockup-clinical-3.png)
+![Web Applications Mock-up - Clínico 4](../assets/web-mockup-clinical-4.png)
+![Web Applications Mock-up - Clínico 5](../assets/web-mockup-clinical-5.png)
+![Web Applications Mock-up - Clínico 6](../assets/web-mockup-clinical-6.png)
+![Web Applications Mock-up - Agenda](../assets/app-schedule-mockup.png)
+![Web Applications Mock-up - Comunicación](../assets/app-communication-mockup.png)
+![Web Applications Mock-up - Perfil](../assets/app-profile-mockup.png)
+
 ### 4.4.4. Web Applications User Flow Diagrams
+
+![Web Applications User Flow Diagram](../assets/web-user-flow-diagram.png)
+
+---
+
 ## 4.5. Web Applications Prototyping
-***
+
+### Introducción
+
+En esta sección se presentan los prototipos interactivos de la aplicación **VetCare**, diseñados tanto para desktop como para mobile web browser.
+Estos prototipos simulan la navegación y los principales flujos de interacción, basados en los **User Flow Diagrams** previamente definidos.
+
+---
+
+### Criterios de Diseño
+
+Los criterios principales que guiaron las decisiones de interacción fueron:
+
+- **Consistencia con la arquitectura de información:** se respetan los sistemas de organización, etiquetado, búsqueda y navegación definidos en la sección 4.2.
+- **Usabilidad e inclusión:** se priorizó un diseño simple, accesible y claro, de manera que los usuarios puedan completar sus objetivos (registro, login, agendar citas, revisión de historias clínicas) sin fricciones.
+- **Coherencia visual:** los prototipos mantienen el sistema de diseño propuesto en los mock-ups, con tipografía, colores institucionales y componentes reutilizables para garantizar uniformidad.
+
+---
+
+### Prototipo Desktop
+
+Los prototipos de escritorio muestran los siguientes flujos clave:
+
+- Registro e Inicio de sesión de usuario.
+- Acceso al Dashboard principal y visualización rápida.
+- Gestión de la Agenda y las citas.
+- Exploración de las Historias Clínicas y la mensajería.
+
+**Screenshot de ejemplo (Desktop):**
+
+![Prototipo Desktop](../assets/app-dashboard-mockup.png)
+
+---
+
+### Prototipo Mobile
+
+Los prototipos móviles priorizan la navegación simplificada en pantallas pequeñas, asegurando la accesibilidad de todas las funciones principales:
+
+- Registro e inicio de sesión adaptados a mobile.
+- Visualización compacta de las citas y características del paciente.
+- Optimización de las tarjetas en formato vertical.
+- Navegación global a través del menú hamburguesa.
+
+**Screenshot de ejemplo (Mobile):**
+
+![Prototipo Mobile](../assets/app-profile-mockup.png)
+
+---
+
+### Conexión con los User Flow Diagrams
+
+Los prototipos presentados corresponden directamente a los **User Flows** definidos en la sección 4.4:
+
+- Registro de usuario.
+- Inicio de sesión.
+- Acceso al dashboard web y landing page.
+- Modificación de agenda y contacto.
+
+---
+
 ## 4.6. Domain-Driven Software Architecture
 ***
 ### 4.6.1. Design-Level EventStorming
