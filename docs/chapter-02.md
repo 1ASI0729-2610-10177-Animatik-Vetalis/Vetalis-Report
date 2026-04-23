@@ -67,6 +67,17 @@
 9. Si pudieras eliminar o mejorar una parte de tu trabajo administrativo, ¿cuál sería y por qué?
 10. ¿Cómo te gustaría que un sistema ideal te ayude durante una consulta para que sea más rápida y ordenada?
 
+#### Segmento 2: Administrador / Propietario de Veterinaria
+1. ¿Cómo gestionas actualmente los ingresos, gastos y pagos dentro de tu clínica?
+2. ¿Te resulta fácil saber cuánto estás ganando realmente al final del mes? ¿Por qué?
+3. ¿Qué problemas has tenido con el control de pagos o facturación?
+4. ¿Te ha pasado que se te escapan cobros o servicios no registrados? ¿Con qué frecuencia?
+5. ¿Cómo controlas el inventario de medicamentos y productos? ¿Es un proceso confiable?
+6. ¿Cuánto tiempo dedicas a tareas administrativas en comparación con la gestión del negocio?
+7. ¿Qué tan difícil es obtener reportes claros sobre el rendimiento de tu clínica?
+8. ¿Qué herramientas utilizas actualmente y qué limitaciones encuentras en ellas?
+9. ¿Qué impacto crees que tiene la desorganización administrativa en tus ingresos?
+10. Si pudieras automatizar una parte del negocio hoy, ¿cuál sería y qué beneficio esperas obtener?
 
 ### 2.2.2. Registro de entrevistas
 ### 2.2.3. Análisis de entrevistas
