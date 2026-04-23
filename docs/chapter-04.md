@@ -112,8 +112,22 @@ El ecosistema de navegación debe guiar al usuario por Vetalis fluidamente, evit
 - **Compatibilidad Responsive y Adaptabilidad:** Traslación del menú lateral global a un menú interactivo tipo "hamburguesa" accesible cuando el usuario inicia sesión desde un dispositivo móvil o comprimido, preservando que las opciones de "Perfil" y "Log Out" queden resguardadas con jerarquía.
 
 ## 4.3. Landing Page UI Design
+
+El diseño de la interfaz de usuario para la landing page de Vetalis será un elemento clave, ya que representará la primera impresión que recibirán los usuarios (tutores y veterinarios) sobre la aplicación. Su objetivo es ofrecer una experiencia visual atractiva, profesional y fácil de usar que despierte el interés de los visitantes y los motive a conocer más sobre las soluciones de gestión clínica y cuidado animal que brinda la plataforma.
+
+
 ***
 ### 4.3.1. Landing Page Wireframe
+
+Los Wireframes de la página son una versión simplificada de la manera en la que se organizará la información. Se hace una organización de la estructura visual de todos los componentes previo a centrarse en la estética de la página. Gracias a esto, podemos observar la jerarquía de los elementos de Vetalis y qué características se necesitan cambiar, agilizando el tiempo de desarrollo.
+
+<img src="../assets/landing-page-wireframe-1.jpg">
+<img src="../assets/landing-page-wireframe-2.jpg">
+<img src="../assets/landing-page-wireframe-3.jpg">
+<img src="../assets/landing-page-wireframe-4.jpg">
+<img src="../assets/landing-page-wireframe-5.jpg">
+<img src="../assets/landing-page-wireframe-6.jpg">
+
 ### 4.3.2. Landing Page Mock-up
 ## 4.4. Web Applications UX/UI Design
 ***
