@@ -130,6 +130,10 @@ En esta sección se presenta la matriz de tareas que realizan los segmentos obje
 
 ## 2.4. Big Picture EventStorming
 ***
+
+<img src="../assets/big_picture_eventstorming.png" alt="eventstorming" width="900">
+<img src="../assets/big_picture_colors.png" alt="eventstorming" width="400">
+
 ## 2.5. Ubiquitous Language
 
 ---
