@@ -256,6 +256,90 @@ As an administrator I want the system to calculate the production of each doctor
 * **When** the administrator runs the Commission Report for Doctor A
 * **Then** the system displays a calculated payout amount of "200.00"
 
+---
+
+### Epic 4: Technical Stories (Developer / Restful APIs)
+
+#### TS001: Retrieve Patient History Endpoint
+As a developer I want to create a GET endpoint in Node.js to retrieve a patient's medical history so that the frontend application can display it.
+
+**Scenario: Successfully return patient records via API**
+* **Given** the Node.js API server is running and connected to the MySQL database
+* **When** an authenticated GET request is made to /api/v1/patients/{id}/history with a valid patient ID
+* **Then** the system queries the database and returns a 200 OK status with a JSON payload containing medical records and **IoT consumption history**
+
+#### TS002: Update Stock Quantity Endpoint
+As a developer I want to implement a PUT endpoint to update inventory quantities triggered by clinical events so that stock remains synchronized across the platform.
+
+**Scenario: Successfully process a stock update request**
+* **Given** a valid authentication token and a JSON payload with the new quantity
+* **When** a PUT request is made to /api/v1/inventory/{sku}
+* **Then** the system updates the MySQL record, reflecting clinical or **IoT dispenser usage**, and returns a 200 OK status response
+
+#### TS003: Validate JWT Authentication
+As a developer I want to implement JWT authentication middleware on all API routes so that only authorized users can access the system data.
+
+**Scenario: Successfully reject an unauthorized API request**
+* **Given** a client application without a valid JSON Web Token
+* **When** the client makes a request to a protected RESTful endpoint
+* **Then** the system blocks the request and returns a 401 Unauthorized HTTP status code
+
+#### TS004: Create Consultation Transaction
+As a developer I want to process consultation creation and related inventory movements within a single MySQL transaction so that data remains consistent if an error occurs.
+
+**Scenario: Successfully rollback database changes on failure**
+* **Given** a POST request to create a consultation that involves a medication or **IoT food stock deduction**
+* **When** the database query for the stock deduction fails during the process
+* **Then** the system rolls back the entire transaction, discarding the consultation creation, and returns a 500 Internal Server Error status
+
+#### TS005: Create New Appointment Endpoint
+As a developer I want to build a POST endpoint for scheduling appointments so that the frontend calendar can save new reservations.
+
+**Scenario: Successfully insert a new appointment**
+* **Given** a valid JSON payload containing patientId, doctorId, and dateTime
+* **When** a POST request is made to /api/v1/appointments
+* **Then** the system inserts the record into the database and returns a 201 Created status with the new appointment ID
+
+#### TS006: Dashboard Metrics Aggregation
+As a developer I want to create a GET endpoint that aggregates daily revenue and service usage so that the admin dashboard loads quickly.
+
+**Scenario: Successfully return aggregated dashboard data**
+* **Given** an authenticated request from an administrator account
+* **When** a GET request is made to /api/v1/dashboard/summary
+* **Then** the system executes a group-by query and returns a 200 OK status with a JSON object of the daily totals, including **IoT dispenser activities**
+
+#### TS007: User Login & Token Generation
+As a developer I want to implement a POST endpoint for user login so that the system can verify credentials and issue a JWT.
+
+**Scenario: Successfully generate an access token**
+* **Given** a valid email and password combination in the request body
+* **When** a POST request is made to /api/v1/auth/login
+* **Then** the system verifies the password hash and returns a 200 OK status with a signed JWT in the response payload
+
+#### TS008: Soft Delete Voided Invoice
+As a developer I want to implement a DELETE endpoint that performs a soft-delete on invoices so that voided records are hidden but kept for audits.
+
+**Scenario: Successfully flag an invoice as voided**
+* **Given** a valid invoice ID
+* **When** an authenticated DELETE request is made to /api/v1/invoices/{id}
+* **Then** the system updates the is_voided boolean to true in the database and returns a 204 No Content status
+
+#### TS009: Query Low Stock Products
+As a developer I want to create a GET endpoint that filters products below their minimum threshold so that the frontend can display alerts.
+
+**Scenario: Successfully return a list of low-stock items**
+* **Given** the database contains products where current_stock is less than or equal to min_stock
+* **When** a GET request is made to /api/v1/inventory/alerts
+* **Then** the system returns a 200 OK status with a JSON array containing only the affected products
+
+#### TS010: Validate Token Endpoint
+As a developer I want to create an endpoint that verifies if a JWT is still active so that the frontend can persist the user session upon page refresh.
+
+**Scenario: Successfully validate an unexpired token**
+* **Given** a client application sends an unexpired JWT in the Authorization header
+* **When** a GET request is made to /api/v1/auth/verify
+* **Then** the system decodes the token and returns a 200 OK status with the user's basic profile data
+
 ***
 ## 3.2. Impact Mapping
 ***
