@@ -48,9 +48,25 @@
 | | Reducción de barreras de entrada (vs. QVET) | Aplicar un modelo de **suscripción SaaS escalable** sin costo de licencia inicial, facilitando que clínicas pequeñas adopten la tecnología sin descapitalizarse.                           |
 | **Estrategias de Crecimiento** | Marketing de autoridad financiera | Ejecutar una estrategia de **Inbound Marketing** basada en la rentabilidad, usando los Dashboards de Vetalis como gancho para atraer administradores preocupados por el control de costos. |
 | | Retención por ecosistema integrado | Centralizar la facturación y los pagos dentro de la plataforma para generar una dependencia positiva basada en la **eficiencia operativa**, dificultando la migración a otros sistemas.    |
+
 ## 2.2. Entrevistas
-***
+
+---
+
 ### 2.2.1. Diseño de entrevistas
+
+#### Segmento 1: Médico Veterinario
+1. En tu día a día, ¿qué tareas administrativas sientes que te quitan más tiempo de la atención a las mascotas?
+2. Cuando atiendes a un paciente, ¿cómo registras actualmente la información médica?
+3. ¿Te ha pasado que pierdes información o no encuentras rápidamente el historial de una mascota? ¿Cómo lo solucionas?
+4. ¿Cuánto tiempo dirías que dedicas a llenar datos o registros después de cada consulta?
+5. ¿Qué tan fácil o difícil es para ti gestionar las citas y organizar tu agenda diaria?
+6. Cuando tienes varios pacientes al mismo tiempo, ¿qué es lo más complicado de manejar?
+7. ¿Te ha ocurrido olvidar algún detalle importante como medicación, vacuna o seguimiento? ¿Por qué crees que pasa?
+8. ¿Qué herramientas o sistemas usas actualmente? ¿Qué es lo que más te frustra de ellos?
+9. Si pudieras eliminar o mejorar una parte de tu trabajo administrativo, ¿cuál sería y por qué?
+10. ¿Cómo te gustaría que un sistema ideal te ayude durante una consulta para que sea más rápida y ordenada?
+
 
 ### 2.2.2. Registro de entrevistas
 ### 2.2.3. Análisis de entrevistas
