@@ -101,7 +101,7 @@ Detalles de la entrevista:
 
 ● Duración: 6:21
 
-[● Link: https://drive.google.com/drive/my-drive?q=after:2026-04-23%20parent:0AGKHY4zYaTYwUk9PVA](https://drive.google.com/drive/my-drive?q=after:2026-04-23%20parent:0AGKHY4zYaTYwUk9PVA)
+[● Link: https://drive.google.com/file/d/1y0_TqNTB0kN0RuZfMNMWJhLAXkJWZdC0/view?usp=drive_link](https://drive.google.com/file/d/1y0_TqNTB0kN0RuZfMNMWJhLAXkJWZdC0/view?usp=drive_link)
 
 Resumen de los puntos clave en la entrevista:
 
