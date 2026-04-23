@@ -55,39 +55,39 @@ Nos permite desarrollar el modelo en nuestro producto de manera digital y forme 
 
 **Software Development:**
 
-Es una estructura aplicada al desarrollo de un producto de software. Se utiliza para el establecimiento de un proceso para el desarrollo de software, cada uno de los cuales describe un enfoque diferente para diferentes actividades que tienen lugar durante el proceso.
+Representa el marco metodológico y técnico empleado para la construcción del producto. Esta estructura define los procesos y actividades específicas que guían el ciclo de vida del desarrollo, asegurando un enfoque organizado para cada etapa de la implementación.
 
-* **GitHub:** Es un repositorio comunitario cuya función es almacenar los avances de un proyecto elaborado por un grupo de personas.
+* **GitHub:** Plataforma de alojamiento y gestión de repositorios que facilita el control de versiones y la colaboración técnica entre los integrantes del equipo Animatik.
 
 | **Link de referencia:** | https://github.com/ |
 | :--- | :--- |
 
-* **WebStorm:** Es un entorno de JetBrains. Este nos ofrece facilidad en probar nuestro entorno web en navegadores web.
+* **WebStorm:** Entorno de desarrollo integrado (IDE) de JetBrains optimizado para el ecosistema web moderno, que agiliza la codificación, el refactorizado y las pruebas de la plataforma.
 
 | **Link de referencia:** | https://www.jetbrains.com/webstorm/ |
 | :--- | :--- |
 
-* **HTML:** Es un lenguaje que sirve como desarrollador de plataformas web que trabaja con hipertextos.
+* **HTML:** Lenguaje de marcado estándar utilizado para estructurar semánticamente el contenido y los componentes de la interfaz de usuario de Vetalis.
 
 | **Link de referencia:** | https://www.jetbrains.com/help/webstorm/editing-html-files.html |
 | :--- | :--- |
 
-* **CSS:** Es un lenguaje de diseño para el entorno web. Permite elaborar la interfaz de usuario diseñada anteriormente.
+* **CSS:** Lenguaje de hojas de estilo encargado de la presentación visual, permitiendo implementar la identidad de marca y asegurar una experiencia estética coherente.
 
 | **Link de referencia:** | https://www.jetbrains.com/help/webstorm/style-sheets.html#ws_css_completion |
 | :--- | :--- |
 
-* **JavaScript:** Es un lenguaje de programación ligero, interpretado o compilado justo a tiempo (JIT) con funciones de primera clase, esencial para el desarrollo de aplicaciones web interactivas.
+* **TypeScript:** Lenguaje de programación de código abierto que añade tipado estático opcional a JavaScript, permitiendo un desarrollo más robusto, mantenible y escalable para la lógica de la solución veterinaria.
 
-| **Link de referencia:** | https://developer.mozilla.org/es/docs/Web/JavaScript |
+| **Link de referencia:** | https://www.typescriptlang.org/ |
 | :--- | :--- |
 
-* **Vue.js:** Framework progresivo de JavaScript utilizado para construir interfaces de usuario y aplicaciones de una sola página (SPA).
+* **Angular:** Framework de desarrollo para aplicaciones web diseñado por Google, utilizado para construir aplicaciones de una sola página (SPA) altamente eficientes mediante una arquitectura basada en componentes.
 
-| **Link de referencia:** | https://vuejs.org/ |
+| **Link de referencia:** | https://angular.io/ |
 | :--- | :--- |
 
-* **GitHub Pages:** Servicio de Github que nos permitió alojar nuestra landing page y nos permitirá alojar nuestras web applications.
+* **GitHub Pages:** Servicio de despliegue que permite el alojamiento público de la Landing Page y las versiones preliminares de las aplicaciones web del proyecto.
 
 | **Link de referencia:** | https://pages.github.com/ |
 | :--- | :--- |
