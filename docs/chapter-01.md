@@ -109,7 +109,7 @@ Actualmente, el personal veterinario y técnico enfrenta una doble carga: una **
 
 #### 1.2.2.4. Lean UX Canvas
 
-<img src="../assets/lean_ux_canvas.png" alt="Lean UX picture" width="900"/>
+<img src="../assets/lean_ux_canva.png" alt="Lean" width="900" />
 
 ## 1.3. Segmentos objetivo
 
