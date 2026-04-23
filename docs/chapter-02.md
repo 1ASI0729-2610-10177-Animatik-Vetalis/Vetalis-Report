@@ -85,9 +85,33 @@
 ***
 ### 2.3.1. User Personas
 
+#### User Persona 1: Veterinario
 <img src="../assets/user_persona_1.png" alt="user persona veterinario" width="700">
 
+#### User Persona 2: Administrador
+<img src="../assets/user_persona_2.png" alt="user persona veterinario" width="700">
+
 ### 2.3.2. User Task Matrix
+
+En esta sección se presenta la matriz de tareas que realizan los segmentos objetivo independientemente de la solución de software propuesta. Se analizan las actividades de **Carlos Mendoza (Veterinario)** y **Jorge Cardozo (Administrador)**, permitiendo identificar los puntos críticos de su flujo de trabajo actual, incluyendo la gestión de dispositivos en hospitalización.
+
+| User Task Matrix                                                | Dr. Carlos Mendoza (Frecuencia) | Dr. Carlos Mendoza (Importancia) | Jorge Cardozo (Frecuencia) | Jorge Cardozo (Importancia) |
+|:----------------------------------------------------------------| :---: | :---: | :---: | :---: |
+| Registrar historia clínica y síntomas del paciente              | 3 | 3 | 1 | 1 |
+| Controlar el stock de medicamentos e insumos médicos            | 3 | 3 | 2 | 3 |
+| Agendar y organizar las citas del día                           | 3 | 2 | 2 | 3 |
+| Realizar el cobro de servicios y productos al cliente           | 3 | 3 | 3 | 3 |
+| Conciliar ingresos diarios con medios de pago                   | 1 | 1 | 3 | 3 |
+| Generar reportes de ventas y utilidad mensual                   | 1 | 1 | 2 | 3 |
+| Emitir comprobantes de pago (SUNAT)                             | 2 | 2 | 3 | 3 |
+| Notificar recordatorios de vacunas o citas                      | 2 | 2 | 1 | 2 |
+| Verificar la rentabilidad de procedimientos                     | 1 | 2 | 2 | 3 |
+| Configurar y supervisar dietas automatizadas (IoT) por paciente | 3 | 3 | 1 | 1 |
+| Gestionar mantenimiento y stock de dispositivos dispensadores   | 1 | 2 | 2 | 3 |
+
+**Leyenda:**
+* **Frecuencia:** 1 (Baja), 2 (Media), 3 (Alta).
+* **Importancia:** 1 (Baja), 2 (Media), 3 (Alta).
 ### 2.3.3. User Journey Mapping
 ### 2.3.4. Empathy Mapping
 ## 2.4. Big Picture EventStorming
