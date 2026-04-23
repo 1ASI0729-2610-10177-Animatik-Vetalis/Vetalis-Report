@@ -132,8 +132,14 @@ El ecosistema de navegación debe guiar al usuario por VetCare fluidamente, evit
 ***
 ### 4.6.1. Design-Level EventStorming
 ### 4.6.2. Software Architecture Context Diagram
+<img src="../assets/architecture-context-diagram.png" alt="Architecture Diagram">
+
 ### 4.6.3. Software Architecture Container Diagrams
+<img src="../assets/architecture-container-diagram.png" alt="Architecture Diagram">
+
 ### 4.6.4. Software Architecture Components Diagrams
+<img src="../assets/architecture-components-diagram.png" alt="Architecture Diagram">
+
 ## 4.7. Software Object-Oriented Design
 ***
 ### 4.7.1. Class Diagrams
