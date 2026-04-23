@@ -258,6 +258,146 @@ Los prototipos presentados corresponden directamente a los **User Flows** defini
 ## 4.7. Software Object-Oriented Design
 ***
 ### 4.7.1. Class Diagrams
+
+#### 1. BC: Gestión Clínica
+![Class Diagram](../assets/class-diagram-clinic-context.png)
+
+#### 2. BC: Gestión de Clientes
+![Class Diagram](../assets/class-diagram-client-context.png)
+
+#### 3. BC: Agenda Veterinaria
+![Class Diagram](../assets/class-diagram-appointment-context.png)
+
+#### 4. BC: Administración
+![Class Diagram](../assets/class-diagram-admin-context.png)
+
+---
+
+### 4.7.2. Class Dictionary
+
+#### 1. BC: Gestión Clínica (Core Domain)
+
+#### **Mascota (Entity - Aggregate Root)**
+* **Propósito:** Representa al paciente central del ecosistema veterinario y es el eje de la historia clínica.
+* **Atributos:** `id`, `nombre`, `sexo`, `fechaNacimiento`, `peso`.
+* **Métodos:** `registrarPeso(nuevoPeso: float)`, `obtenerHistorialCompleto(): List<Consulta>`.
+* **Relaciones:** Posee múltiples registros de **Consultas**, **Vacunas** y **Hospitalizaciones**. Pertenece a un **Cliente**.
+
+#### **Consulta (Entity)**
+* **Propósito:** Registro detallado del acto médico, diagnóstico y hallazgos clínicos (SOAP).
+* **Atributos:** `id`, `fecha`, `subjetivo`, `objetivo`, `evaluacion`, `plan`.
+* **Métodos:** `agregarObservacion(nota: text)`, `finalizarConsulta()`.
+* **Relaciones:** Se origina a partir de una **Cita**. Contiene uno o más **Tratamientos**.
+
+#### **Tratamiento (Entity)**
+* **Propósito:** Define las prescripciones, dosis y acciones terapéuticas indicadas por el veterinario durante la consulta.
+* **Atributos:** `id`, `descripcion`, `dosis`, `frecuencia`, `duracion`.
+* **Métodos:** `validarConsistencia(): boolean`.
+* **Relaciones:** Parte integral de una **Consulta**. Prescribe **Medicamentos** y genera un **Pago** en el módulo administrativo.
+
+#### **Hospitalización (Entity)**
+* **Propósito:** Gestión de cuidados críticos, internamiento y monitoreo del paciente en la clínica.
+* **Atributos:** `id`, `fechaIngreso`, `fechaSalida`.
+* **Métodos:** `calcularDiasInternamiento(): int`.
+* **Relaciones:** Vinculada a una **Mascota**. Puede utilizar un **DispensadorIoT** para la automatización de dietas.
+
+#### **Vacuna (Entity)**
+* **Propósito:** Registro de inmunizaciones aplicadas para el control preventivo de enfermedades.
+* **Atributos:** `id`, `fechaAplicacion`, `proximaDosis`.
+* **Métodos:** `esRefuerzo(): boolean`.
+* **Relaciones:** Asociada a una **Mascota** y categorizada por un **TipoVacuna**.
+
+---
+
+#### 2. BC: Gestión de Clientes y Especies (Supporting Domain)
+
+#### **Cliente (Entity)**
+* **Propósito:** Persona responsable legal, de contacto y financiera del paciente.
+* **Atributos:** `id`, `nombre`, `dni`, `telefono`, `email`, `direccion`.
+* **Métodos:** `actualizarDatosContacto(tel: string, mail: string)`.
+* **Relaciones:** Posee una o más **Mascotas**.
+
+#### **Especie (Value Object)**
+* **Propósito:** Clasificación biológica general de los pacientes (ej. Canino, Felino).
+* **Atributos:** `id`, `nombre`.
+* **Relaciones:** Clasifica a múltiples **Razas**.
+
+#### **Raza (Value Object)**
+* **Propósito:** Clasificación específica de linaje que determina predisposiciones genéticas.
+* **Atributos:** `id`, `nombre`.
+* **Relaciones:** Define la tipología biológica de una **Mascota**.
+
+---
+
+#### 3. BC: Agenda Veterinaria (Generic Subdomain)
+
+#### **Cita (Entity)**
+* **Propósito:** Reserva de tiempo y recursos de la clínica para una atención futura.
+* **Atributos:** `id`, `fecha`, `motivo`, `estado` (EstadoCita).
+* **Métodos:** `reprogramar(nuevaFecha: datetime)`, `cancelarCita()`.
+* **Relaciones:** Vinculada a una **Mascota**. Puede evolucionar a una **Consulta**.
+
+#### **EstadoCita (Enum)**
+* **Propósito:** Define los estados lógicos finitos por los que atraviesa una cita.
+* **Valores:** `PENDIENTE`, `CONFIRMADA`, `CANCELADA`, `ATENDIDA`.
+
+---
+
+#### 4. BC: Administración e Inventario (Supportive Domain)
+
+#### **Administrador (Entity)**
+* **Propósito:** Perfil de usuario encargado de la gestión logística, financiera y auditoría del sistema.
+* **Atributos:** `id`, `nombre`.
+* **Métodos:** `supervisarStock()`, `validarPagos()`.
+* **Relaciones:** Gestiona el **Inventario**, supervisa los **Pagos** y audita los **DispensadoresIoT**.
+
+#### **Inventario (Entity)**
+* **Propósito:** Control de existencias físicas y niveles de stock de insumos médicos.
+* **Atributos:** `id`, `stockActual`, `puntoReorden`.
+* **Métodos:** `descontarStock(cant: int)`, `registrarIngreso(cant: int)`.
+* **Relaciones:** Monitorea el stock vinculado a cada **Medicamento**.
+
+#### **Medicamento (Entity)**
+* **Propósito:** Insumo farmacéutico disponible para tratamientos clínicos y hospitalarios.
+* **Atributos:** `id`, `nombre`, `descripcion`.
+* **Relaciones:** Utilizado en **Tratamientos** y **MedicaciónHospitalaria**. Vinculado al **Inventario**.
+
+#### **Pago (Entity)**
+* **Propósito:** Registro de la transacción económica derivada de los servicios médicos prestados.
+* **Atributos:** `id`, `monto`, `estado`.
+* **Métodos:** `generarComprobante()`.
+* **Relaciones:** Se genera desde un **Tratamiento**. Validado por el **Administrador**.
+
+#### **DispensadorIoT (Entity - Aggregate Root)**
+* **Propósito:** Hardware inteligente encargado de la alimentación automatizada y envío de telemetría.
+* **Atributos:** `id`, `serie`, `nivelAlimento`.
+* **Métodos:** `enviarTelemetria()`, `dispensarAlimento(gramos: float)`.
+* **Relaciones:** Auditado por el **Administrador** y asignado opcionalmente a una **Hospitalización**.
+
+
+#### 5. BC: Monitoreo IoT (Core Domain)
+
+#### **DispensadorIoT (Entity - Aggregate Root)**
+* **Propósito:** Representa el hardware físico encargado de la alimentación automatizada y el monitoreo del estado del dispositivo.
+* **Atributos:** `id`, `serie`, `estado` (EstadoDispensador), `nivelAlimento`, `ultimaConexion`.
+* **Métodos:** `dispensarAlimento(gramos: float): boolean`, `obtenerTelemetría()`, `reiniciarDispositivo()`.
+* **Relaciones:** Gestiona múltiples **ProgramacionesDieta** y genera un historial en **LogAlimentacion**. Se vincula a una **Hospitalización**.
+
+#### **ProgramacionDieta (Entity)**
+* **Propósito:** Define los horarios y raciones específicas configuradas por el veterinario para un paciente hospitalizado.
+* **Atributos:** `id`, `horaEjecucion`, `cantidadGramos`, `activo`.
+* **Métodos:** `editarHorario(nuevaHora: time)`, `desactivar()`.
+* **Relaciones:** Pertenece a un **DispensadorIoT**.
+
+#### **LogAlimentacion (Value Object)**
+* **Propósito:** Registro histórico de cada evento de dispensación para verificar si el paciente fue alimentado correctamente.
+* **Atributos:** `fechaHora`, `cantidadServida`, `exito`.
+* **Métodos:** `registrarEvento()`.
+* **Relaciones:** Es generado por un **DispensadorIoT**.
+
+#### **EstadoDispensador (Enum)**
+* **Propósito:** Indica la situación operativa del hardware en tiempo real.
+* **Valores:** `ACTIVO`, `INACTIVO`, `ERROR`, `SIN_ALIMENTO`.
 ## 4.8. Database Design
 ***
 ### 4.8.1. Database Diagrams
