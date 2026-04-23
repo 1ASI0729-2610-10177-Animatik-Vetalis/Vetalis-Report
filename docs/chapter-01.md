@@ -24,10 +24,10 @@
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
-| Nombre y Apellido | Gamero Miranda, Lui Mathias - U202419335 |
-| :--- | :--- |
-| **Descripción** | Experto en aseguramiento de calidad, pruebas corporativas y entrega del aplicativo. Vela por el estricto cumplimiento de los estándares de programación en todos los módulos de Vetalis. |
-| **Foto** | <img src="../assets/member_Gamero_Lui.jpeg" alt="Foto Lui" width="150" /> |
+| Nombres y Apellidos | Gamero Miranda, Lui Mathias - U202419335 |
+|:--------------------| :--- |
+| **Descripción**     | Experto en aseguramiento de calidad, pruebas corporativas y entrega del aplicativo. Vela por el estricto cumplimiento de los estándares de programación en todos los módulos de Vetalis. |
+| **Foto**            | <img src="../assets/member_Gamero_Lui.jpeg" alt="Foto Lui" width="150" /> |
 
 <br>
 
