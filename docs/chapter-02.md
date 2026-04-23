@@ -90,4 +90,31 @@
 ## 2.4. Big Picture EventStorming
 ***
 ## 2.5. Ubiquitous Language
-***
+
+---
+
+#### 1. Core Domain (Conceptos Generales del Negocio)
+* **Clinic (Clínica):** El establecimiento físico o centro veterinario donde se brindan los servicios médicos, estéticos y administrativos para los animales.
+* **Pet Owner (Propietario / Cliente):** La persona física responsable legal y financieramente del animal, quien solicita y autoriza los servicios de la clínica.
+* **Patient (Paciente):** El animal que recibe la atención médica o los servicios dentro del establecimiento veterinario.
+* **Veterinarian (Médico Veterinario):** El profesional colegiado de la salud animal encargado de evaluar, diagnosticar, tratar y prescribir medicamentos a los pacientes.
+* **Staff (Personal):** Empleados de la clínica que no realizan actos médicos, encargados de la recepción, asistencia administrativa o mantenimiento.
+
+#### 2. Clinical Module (Módulo Clínico - EHR)
+* **Electronic Health Record (Historial Clínico):** Documento digital unificado e inmutable que centraliza toda la información de salud de un paciente a lo largo del tiempo, incluyendo alergias, vacunas, peso y atenciones previas.
+* **Triage (Triaje):** Evaluación inicial de los signos vitales (peso, temperatura, frecuencia cardíaca) y el motivo de consulta del paciente para determinar el nivel de urgencia antes de la atención médica.
+* **Consultation (Consulta Médica):** El acto médico principal en el que el veterinario examina al paciente, emite un diagnóstico y establece un plan de tratamiento.
+* **Diagnosis (Diagnóstico):** La conclusión clínica oficial sobre la patología, enfermedad o condición que padece el paciente, determinada por el veterinario.
+* **Medical Exam (Examen Médico):** Pruebas complementarias de laboratorio o diagnóstico por imágenes (radiografías, ecografías, análisis de sangre) solicitadas para apoyar el diagnóstico clínico.
+* **Prescription (Receta Médica):** Indicación terapéutica oficial formulada por el médico veterinario que detalla los medicamentos, dosis, frecuencia y duración del tratamiento que debe seguir el paciente.
+* **Vaccination Schedule (Cronograma de Vacunación):** Calendario preventivo programado que indica las fechas en las que el paciente debe recibir sus vacunas y desparasitaciones periódicas.
+
+#### 3. Administrative & Financial Module (Módulo de Gestión - ERP)
+* **Appointment (Cita):** Espacio de tiempo específico reservado y confirmado en la agenda de la clínica para que un médico veterinario evalúe a un paciente o se le realice un servicio.
+* **Inventory (Inventario):** Catálogo general y registro actualizado de todos los medicamentos, insumos médicos, alimentos y productos de venta disponibles en la clínica.
+* **Stock (Existencias):** La cantidad física y real disponible de un producto o medicamento específico dentro de la clínica en un momento determinado.
+* **Supplier (Proveedor):** La empresa o entidad comercial externa que abastece a la clínica de medicamentos, equipamiento o productos de venta.
+* **Service (Servicio):** Cualquier actividad intangible ofrecida por la clínica que genera un costo, como consultas, cirugías, baños o cortes de pelo.
+* **Invoice (Factura / Boleta):** Documento comercial y tributario que detalla los servicios prestados o productos vendidos al propietario del paciente, indicando el monto total a pagar.
+* **Payment (Pago):** La transacción económica realizada por el propietario para liquidar la deuda generada por la factura de los servicios o productos adquiridos.
+* **Cash Flow (Flujo de Caja):** El registro y monitoreo del movimiento de dinero dentro de la clínica, contabilizando los ingresos por atenciones y los egresos por gastos operativos.
