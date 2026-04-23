@@ -342,6 +342,11 @@ As a developer I want to create an endpoint that verifies if a JWT is still acti
 
 ***
 ## 3.2. Impact Mapping
+
+<img src="../assets/Impact_map_1.png" alt="Impact map 1">
+
+
+
 ***
 ## 3.3. Product Backlog
 
