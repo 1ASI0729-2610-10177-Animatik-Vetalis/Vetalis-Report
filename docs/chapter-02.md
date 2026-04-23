@@ -84,6 +84,9 @@
 ## 2.3. Needfinding
 ***
 ### 2.3.1. User Personas
+
+<img src="../assets/user_persona_1.png" alt="user persona veterinario" width="700">
+
 ### 2.3.2. User Task Matrix
 ### 2.3.3. User Journey Mapping
 ### 2.3.4. Empathy Mapping
