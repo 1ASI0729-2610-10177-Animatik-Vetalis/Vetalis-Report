@@ -8,18 +8,19 @@
 
 ### 1.1.1. Descripción de la Startup
 
-**Animatik** se fundamenta como una iniciativa tecnológica orientada a revolucionar el manejo administrativo y financiero de las veterinarias. **Vetalis**, nuestro producto central, amalgama un software de gestión corporativa (ERP) con una plataforma de historiales clínicos electrónicos (EHR). Este desarrollo permite a las clínicas actuales centralizar sus tareas y multiplicar su rendimiento diario. Gracias a esto, los **doctores veterinarios** controlan los insumos, consultan agendas y actualizan fichas de pacientes al instante. A la par, la **gerencia** accede a métricas de negocio precisas, control de ingresos y puntos de pago integrados, lo que propicia una mayor rentabilidad general.
+**Animatik** se fundamenta como una iniciativa tecnológica orientada a revolucionar el manejo administrativo, clínico y físico de las veterinarias. **Vetalis**, nuestro producto central, amalgama un software de gestión corporativa, una plataforma de historiales clínicos electrónicos y una **infraestructura IoT**. Este ecosistema permite a las clínicas centralizar tareas, automatizar la alimentación en áreas de hospitalización mediante dispensadores inteligentes y multiplicar su rendimiento. Los **doctores veterinarios** controlan insumos, agendas, dietas automatizadas y actualizan fichas al instante. La **gerencia** accede a métricas precisas, control de ingresos y rotación de dispositivos IoT, propiciando mayor rentabilidad.
 
 | Atributo | Declaración Estratégica |
 | :--- | :--- |
-| **Misión** | Proveer a los centros veterinarios de una solución unificada que abarque los flujos clínicos, contables y de reservas, facilitando que los expertos se centren en sanar a los animales y asegurando a la vez el éxito comercial del negocio. |
-| **Visión** | Ser el ecosistema digital líder en la región para el rubro veterinario, impulsando la modernización de los consultorios tradicionales hacia organizaciones altamente eficientes y de gran valor médico. |
+| **Misión** | Proveer a los centros veterinarios de una solución unificada que abarque flujos clínicos, contables y automatización física (IoT), facilitando la sanación animal y asegurando el éxito comercial. |
+| **Visión** | Ser el ecosistema digital y de hardware líder en la región para el rubro veterinario, impulsando la modernización hacia organizaciones altamente eficientes, interconectadas y de gran valor médico. |
 
 #### Valor Agregado de la Plataforma:
 * **Manejo Operativo y Médico:** Registro expedito de mascotas, diagnósticos y recetarios desde la misma consulta.
-* **Inventario Automatizado:** Descuento en tiempo real de los artículos y medicinas usados al término de cada revisión.
-* **Finanzas Transparentes:** Análisis de ingresos y salidas de dinero a través de gráficos interactivos, favoreciendo la planificación estratégica.
-* **Pagos Integrados:** Posibilidad de cobrar y facturar directamente en la plataforma, simplificando la contabilidad diaria.
+* **Automatización Física (IoT):** Integración con dispensadores automáticos de comida para programar dietas exactas en hospitalización y monitorear el consumo nutricional de forma remota.
+* **Inventario Automatizado:** Descuento en tiempo real de artículos, medicinas y raciones de alimento dispensadas.
+* **Finanzas Transparentes:** Análisis de ingresos y salidas a través de gráficos interactivos.
+* **Pagos Integrados:** Cobro directo en plataforma, incluyendo la comercialización y suscripción de los dispositivos IoT para clientes finales.
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
@@ -60,50 +61,51 @@
 
 ***
 
-**Vetalis** actúa como un software todo-en-uno que fusiona las áreas empresariales (ERP) y de salud clínica (EHR) con el fin de unificar operaciones en las clínicas veterinarias. Su objetivo supremo es acabar con la descentralización de la información, enlazando en un único panel la atención de las mascotas, los calendarios de reservas, la rebaja automática de utilería y el seguimiento financiero riguroso. Equipado con indicadores interactivos y puntos de facturación fluidos, Vetalis alienta estrategias comerciales sólidas y ahorra a los médicos valiosas horas de tipeo rutinario.
+**Vetalis** actúa como un ecosistema todo-en-uno que fusiona áreas empresariales, salud clínica y telemetría de hardware (IoT). Su objetivo es acabar con la descentralización, enlazando la atención, el calendario, la rebaja de utilería, el control financiero y **la ejecución de planes nutricionales a través de dispensadores inteligentes**. Equipado con indicadores interactivos y puntos de facturación, Vetalis ahorra horas de tipeo y rutinas mecánicas (como la alimentación manual en perreras).
 
 ### 1.2.1. Antecedentes y problemática
 
-Actualmente, la mayor parte de las instalaciones veterinarias emplea herramientas fragmentadas (o directamente registros a papel) que restan demasiada agilidad. Dicha divergencia entre el consultorio médico y el área organizativa resulta en descuadres de dinero, robos o pérdidas de insumos y profunda desinformación ejecutiva. Múltiples investigaciones apuntan a que la modernización tecnológica es innegociable para dejar atrás estas fallas operacionales y elevar la competitividad de las veterinarias.
+La fragmentación actual resta agilidad. La divergencia entre el consultorio, la administración y las zonas de internamiento resulta en descuadres de inventario, errores en la dosificación de alimentos y desinformación.
 
 Al aplicar el modelo de las **5 W's y 2 H's**, observamos:
 
-* **Who (Quiénes):** Impacta sobre todo a dueños y gerentes que demandan control contable fidedigno, así como a doctores que requieren una herramienta interactiva rápida para su rutina clínica.
-* **What (Qué):** El núcleo del problema radica en la desconexión del software. Faltan programas que interconecten el consumo de productos médicos dentro de los consultorios con el almacén principal y la caja.
-* **When (Cuándo):** Ocurre a toda hora, repercutiendo desde la agenda del cliente hasta la liquidación del pago. Principalmente al evidenciarse que los materiales gastados no se reportan en la contabilidad general de forma automática.
-* **Where (Dónde):** Reside en las oficinas logísticas (back-office) de veterinarias urbanas. Al operar con visibilidad nula (sin Inteligencia de Negocios o BI), la clínica trabaja de manera reactiva en lugar de proactiva.
-* **Why (Por qué):** Debido a la barrera entre plataformas ofimáticas y registros médicos básicos. La ausencia de un formato integral detona conteos en hojas de cálculo imprecisas.
-* **How (Cómo):** Desencadena operaciones trabadas, filas de espera en caja y desabastecimiento repentino. Avanzar a un plano digital erradica los bloqueos estimulando el flujo del dinero líquido.
-* **How Much (Cuánto):** Contar con un despliegue tecnológico no solo remedia los cortes organizacionales, sino que agiliza el diagnóstico por encima del 40% del tiempo de consultas y afianza cuantiosas sumas de retención de capital.
+* **Who:** Impacta a gerentes (control contable), doctores (rutina clínica) y técnicos veterinarios (sobrecarga en la alimentación y pesaje de raciones).
+* **What:** Desconexión entre el software, el almacén y el manejo físico del paciente. Faltan programas que interconecten el consumo de productos y la dispensación de alimento in-situ.
+* **When:** Ocurre continuamente, evidenciándose cuando los materiales gastados o el alimento consumido en hospitalización no cuadran con la facturación.
+* **Where:** En oficinas logísticas y áreas de internamiento/hospitalización.
+* **Why:** Por la barrera entre plataformas ofimáticas, registros médicos y procesos manuales de cuidado físico.
+* **How:** Desencadena operaciones trabadas, errores de dosificación nutricional y desabastecimiento. La digitalización e integración IoT erradica estos bloqueos.
+* **How Much:** La adopción del ecosistema agiliza el diagnóstico en un 40%, reduce el tiempo de cuidado físico rutinario en internamiento y retiene capital al evitar fugas de inventario.
+
 
 ### 1.2.2. Lean UX Process
 
 #### 1.2.2.1. Lean UX Problem Statements
 
 **Problem Statement 1: Monitorización Logística y Financiera**
-Vetalis está pensado para consolidar los espectros contables y logísticos desde su matriz empresarial (ERP). Gracias a ello, la cúpula de la veterinaria obtiene reportería clara, portales de pago y automatización de repuestos. Ciertas evaluaciones evidencian que el aislamiento del balance contable promueve escenarios sin insumos disponibles y parálisis estratégica. Partiendo de este contexto, ideamos lo siguiente: **¿De qué forma construimos una herramienta integral que sincronice el consumo de productos médicos y la economía a gran escala, eliminando los desajustes y entregando transparencia en las finanzas de la empresa?**
+Vetalis está pensado para consolidar los espectros contables y logísticos desde su matriz empresarial. Gracias a ello, la cúpula de la veterinaria obtiene reportería clara, portales de pago y automatización de repuestos. Ciertas evaluaciones evidencian que el aislamiento del balance contable promueve escenarios sin insumos disponibles y parálisis estratégica. Partiendo de este contexto, ideamos lo siguiente: **¿De qué forma construimos una herramienta integral que sincronice el consumo de productos médicos y la economía a gran escala, eliminando los desajustes y entregando transparencia en las finanzas de la empresa?**
 
-**Problem Statement 2: Maximizando la Efectividad Clínica**
-Internamente, nuestro apartado EHR dota al experto veterinario con una interfaz fácil para redactar síntomas, preinscribir recetas o acomodar turnos. En la actualidad, estos especialistas derrochan casi la mitad de su consulta copiando de nuevo la misma información para entregársela al gerente u oficinista. Entonces, nos preguntamos lo próximo: **¿Cómo liberamos al médico veterinario de esta pesada sobrecarga burocrática mediante un servicio que deseche las validaciones inútiles, encausando su tiempo íntegro hacia el beneficio animal?**
+**Problem Statement 2: Sinergia Clínica y Automatización del Cuidado (EHR + IoT)**
+Actualmente, el personal veterinario y técnico enfrenta una doble carga: una **burocrática**, al dedicar casi el 50% de la consulta a la transcripción manual de datos, y una **operativa**, al gestionar manualmente la dosificación nutricional en hospitalización, lo que induce a errores de tratamiento. El aislamiento entre el historial médico y las tareas físicas de cuidado diluye la eficiencia y compromete la salud animal. Ante esto, planteamos: **¿Cómo podemos liberar al equipo médico de la sobrecarga administrativa y los riesgos de la dosificación manual mediante un ecosistema que unifique el registro clínico con la ejecución automatizada de dietas vía IoT, permitiendo que el 100% del tiempo se enfoque en la recuperación del paciente?**
 
 #### 1.2.2.2. Lean UX Assumptions
 
-* **Creemos sinceramente que nuestros usuarios meta necesitan** alinear su labor clínica y de ventas dentro de un único recurso digital, para fulminar el tiempo muerto y contrarrestar des balances de recursos críticos.
-* **Las exigencias anteriores se atenuarán usando** Vetalis, logrando atar directamente los expedientes con las salidas de almacenes, a la par que arroja un análisis fiscal constante.
-* **Nuestro pionero de adopción temprana contempla a** dueños administrativos y doctores en áreas sumamente pobladas, quienes se ven acorralados por la multitud que atienden a diario.
-* **El mayor triunfo de valor brindado es** anular por completo la doble mecanografía de información (registros internos y caja), asegurando minutos preciosos en el consultorio.
-* **Dentro de las bondades periféricas, se incluyen** rastreos minuciosos del dinero, una cuadrícula flexible para planificar encuentros con pacientes y transacciones remotas fluidas.
-* **Lograremos posicionamiento en la industria apoyándonos en** esquemas promocionales B2B, asistencia a ferias de mascotas corporativas y periodos de gracia (Trial) para atestiguar el impacto del software en vivo.
-* **La facturación como empresa (Animatik) recae sobre** planes tipo Software as a Service (SaaS) adaptables por aforos, y rentas comisionistas derivados de transacciones pagadas vía Vetalis.
-* **Nuestras amenazas en el plano de ventas refieren a** programas locales anticuados o sistemas que priorizan solo agendar, sin llegar nunca al nivel comercial (ERP).
-* **Nuestra lanza principal comprende** enlazar el estado natural de la salud (EHR) con estrategias profundas de capital y rendimiento en una sola experiencia fluida (UX).
-* **El factor adverso más alarmante es** el recelo del veterinario analógico ante lo digital. Diluiremos esta fricción de curva tecnológica por medio de interfaces minimalistas y un seguimiento amigable tras la compra.
+* **Creemos sinceramente que nuestros usuarios meta necesitan** alinear su labor clínica, de ventas y de cuidado físico en internamiento dentro de un único recurso digital.
+* **Las exigencias operativas y financieras se atenuarán usando** Vetalis, logrando atar expedientes con salidas de almacenes, a la vez que se programa directamente a los dispensadores de comida según la receta, descontando gramos exactos del inventario general.
+* **Nuestro pionero de adopción temprana contempla a** dueños administrativos y doctores en áreas sumamente pobladas, con alta rotación de pacientes hospitalizados.
+* **El mayor triunfo de valor brindado es** anular por completo la doble mecanografía de información y la ejecución manual de tareas nutricionales repetitivas.
+* **Dentro de las bondades periféricas, se incluyen** rastreos minuciosos del dinero, transacciones fluidas y telemetría de consumo de alimento en tiempo real.
+* **Lograremos posicionamiento en la industria apoyándonos en** esquemas promocionales B2B que incluyan el software y el comodato/venta de los dispensadores IoT.
+* **La facturación como empresa (Animatik) recae sobre** planes SaaS adaptables y rentas derivadas de la comercialización de hardware inteligente.
+* **Nuestras amenazas en el plano de ventas refieren a** programas locales anticuados o sistemas que priorizan solo agendar, sin llegar al nivel comercial ni de hardware (IoT).
+* **Nuestra lanza principal comprende** enlazar el estado natural de la salud y la nutrición automatizada con estrategias profundas de capital en una sola experiencia fluida (UX).
+* **El factor adverso más alarmante es** el recelo del veterinario analógico ante lo digital. Diluiremos esta fricción mediante interfaces minimalistas y un despliegue de hardware plug-and-play.
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
-* **Declaración 1 (Flujos Económicos Constantes):** Prevemos que concatenar el surtido interior al registro del médico desaparecerá el desperdicio de ganancias por equivocación humana. Sabremos que esto es absoluto cuando merme notablemente el pánico e inconsistencias a fin de cada mes al cuadrar cuentas.
-* **Declaración 2 (Apalancamiento de Datos y BI):** Asumimos férreamente que obsequiarle a la gerencia gráficas procesadas sobre sus alcances económicos, proyectará el éxito del emprendimiento. Tendremos constancia al percatar subidas superiores al 80% en la apreciación de márgenes idóneos medidos en encuestas.
-* **Declaración 3 (Rendimiento por Paciente):** Confirmamos que consolidar liquidaciones, tratamientos y fichas enlazadas liberará los frenos de eficiencia para el veterinario principal. El acierto vendrá cuando las métricas logren documentar ahorros de reloj de hasta cuarenta por ciento en actividades burocráticas dentro de su día.
+* **Declaración 1 (Flujos Económicos Constantes):** Prevemos que concatenar el surtido interior al registro del médico desaparecerá el desperdicio de ganancias. Sabremos que esto es absoluto cuando merme notablemente el pánico e inconsistencias al cuadrar cuentas mensuales.
+* **Declaración 2 (Apalancamiento de Datos y BI):** Asumimos férreamente que obsequiarle a la gerencia gráficas procesadas sobre sus alcances económicos, proyectará el éxito del emprendimiento. Tendremos constancia al percatar subidas superiores al 80% en la apreciación de márgenes idóneos.
+* **Declaración 3 (Rendimiento Clínico Integral):** Confirmamos que consolidar liquidaciones, tratamientos y dosificación IoT liberará los frenos de eficiencia para el veterinario y su equipo técnico. El acierto vendrá cuando las métricas logren documentar ahorros de reloj de hasta cuarenta por ciento en burocracia y una reducción del 60% en el tiempo dedicado a tareas de alimentación manual en hospitalización.
 
 #### 1.2.2.4. Lean UX Canvas
 
@@ -111,12 +113,10 @@ Internamente, nuestro apartado EHR dota al experto veterinario con una interfaz 
 
 ## 1.3. Segmentos objetivo
 
-***
+La tendencia en el bienestar de las mascotas no para de crecer poblacionalmente hablando (CPI, 2023). En contrapartida, organismos promotores del comercio de la ciudad previenen que, aun habiendo un número sin precedentes de centros curativos, una gigantesca ración perece frente al descontrol contable y falta imperativa de innovación modernizadora, tanto en gestión de datos como en automatización física. Impulsados bajo esta luz, focalizamos a Animatik a través de dos blancos principales:
 
-La tendencia en el bienestar de las mascotas no para de crecer poblacionalmente hablando (CPI, 2023). En contrapartida, organismos promotores del comercio de la ciudad previenen que, aun habiendo un número sin precedentes de centros curativos, una gigantesca ración perece frente al descontrol contable y falta imperativa de innovación modernizadora. Impulsados bajo esta luz, focalizamos a Animatik a través de dos blancos principales:
+* **Médicos veterinarios en clínicas de mediano a alto flujo** que carecen de herramientas integradas. La gestión manual de historiales e inventarios consume un tiempo crítico. Ante la alta demanda, requieren una plataforma clínica en tiempo real para optimizar consultas, controlar medicamentos y programar la alimentación exacta de pacientes internados usando dispensadores inteligentes, mejorando la atención al paciente y reduciendo su dependencia de procesos analógicos.
 
-* **Médicos en Tráfico Constante:** Quienes ocupan gigantescas franjas de sus horas ordenando datos de las consultas de hoy a papel. Anhelan un apoyo sistemático que fluya automáticamente y no los margine del contexto administrativo de la firma completa.
-
-* **Dirección Corporativa de Veterinarias:** Perfiles de 30 a 55 años inmersos en evitar desbalances y en promover el crecimiento constante. Empoderados con Vetalis en su modalidad gerencial, portarán gráficas intachables del volumen operario de su grupo con el fin de jamás sucumbir al derroche ni a las quiebras por extravíos de fármacos.
+* **Administradores de centros veterinarios**, usualmente entre 30 y 55 años, enfocados en la eficiencia operativa y financiera. La plataforma les brindará herramientas de inteligencia de negocios, control de flujo de caja, pagos integrados y el monitoreo automático del consumo de alimento a través de los equipos conectados. Esto les dará reportes claros, facilitando decisiones para maximizar la rentabilidad y evitar el desperdicio de insumos.
 
 Delimitarnos en estas vertientes promete un afianzamiento expedito para el progreso de la marca, asegurando a posteriori el paso evolutivo a todos los eslabones regionales dedicados al mundo y protección de animales de compañía en América Latina.
