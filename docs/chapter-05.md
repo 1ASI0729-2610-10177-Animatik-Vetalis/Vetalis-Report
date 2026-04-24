@@ -317,7 +317,8 @@ En esta entrega, el equipo de desarrolladores de Vetalis ha completado con éxit
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
 #### 5.2.1.8. Team Collaboration Insights during Sprint
-
+A continuación todos los analíticos que nos proporciona Github, en su apartado de Insights, sobre la colaboración del equipo durante el Sprint 1:
+<img src="../assets/team_Insights.png" alt="Vetalis landing"/>
 
 ## 5.3. Validation Interviews
 ***
