@@ -83,6 +83,53 @@
 
 **Segmento 1: Médicos veterinarios en clínicas de mediano a alto flujo**
 
+Entrevista N°1
+
+● Nombre: Diego Lavado
+
+● Sexo: Masculino
+
+● Edad: 28
+
+● Estado Civil: Soltero
+
+● Labor: Practicante de Veterinaria
+
+Detalles de la entrevista:
+
+● Duración: 3:46
+
+[● Link: https://drive.google.com/file/d/1nM0OIsRKgyyDADDFHH-yaDa_JVTFisPJ/view?usp=sharing
+
+Resumen de los puntos clave en la entrevista:
+
+La entrevista con Diego Lavado, practicante de medicina, expone una crítica saturación operativa debido a la carga administrativa que consume gran parte de su jornada, restando tiempo valioso a la atención clínica directa. El uso de métodos fragmentados como fichas físicas y archivos de Excel le obliga a dedicar entre 10 y 15 minutos adicionales tras cada consulta para regularizar la información, lo que genera desorden y dificulta el acceso inmediato a historiales médicos precisos. Esta falta de integración tecnológica no solo propicia errores humanos y olvidos en el seguimiento de tratamientos, sino que también complica el control logístico en hospitalización, especialmente en la precisión de la dieta y medicación. Diego identifica como una necesidad urgente la implementación de un sistema centralizado que automatice la trazabilidad del paciente y la gestión de insumos mediante alertas inteligentes. Para él, una solución ideal debe unificar el registro médico con el monitoreo en tiempo real y la automatización IoT, permitiéndole recuperar capacidad operativa y garantizar un estándar de cuidado animal más riguroso y eficiente.
+
+---
+
+Entrevista N°2
+
+● Nombre: Carla Gallardo
+
+● Sexo: Femenino
+
+● Edad: 26
+
+● Estado Civil: Soltera
+
+● Labor: Practicante de Veterinaria
+
+Detalles de la entrevista:
+
+● Duración: xxxx
+
+[● Link: https://drive.google.com/file/d/1y0_TqNTB0kN0RuZfMNMWJhLAXkJWZdC0/view?usp=drive_link](https://drive.google.com/file/d/1y0_TqNTB0kN0RuZfMNMWJhLAXkJWZdC0/view?usp=drive_link)
+
+Resumen de los puntos clave en la entrevista:
+
+La entrevista con ca, practicante de medicina, expone una crítica saturación operativa debido a la carga administrativa que consume gran parte de su jornada, restando tiempo valioso a la atención clínica directa. El uso de métodos fragmentados como fichas físicas y archivos de Excel le obliga a dedicar entre 10 y 15 minutos adicionales tras cada consulta para regularizar la información, lo que genera desorden y dificulta el acceso inmediato a historiales médicos precisos. Esta falta de integración tecnológica no solo propicia errores humanos y olvidos en el seguimiento de tratamientos, sino que también complica el control logístico en hospitalización, especialmente en la precisión de la dieta y medicación. Diego identifica como una necesidad urgente la implementación de un sistema centralizado que automatice la trazabilidad del paciente y la gestión de insumos mediante alertas inteligentes. Para él, una solución ideal debe unificar el registro médico con el monitoreo en tiempo real y la automatización IoT, permitiéndole recuperar capacidad operativa y garantizar un estándar de cuidado animal más riguroso y eficiente.
+
+
 **Segmento 2: Administradores de centros veterinarios**
 
 Entrevista N°4
@@ -105,7 +152,7 @@ Detalles de la entrevista:
 
 Resumen de los puntos clave en la entrevista:
 
-La entrevista con Eduardo, médico veterinario, revela el alto nivel de desorganización y pérdida financiera en la gestión clínica por el uso de métodos manuales y mixtos. Su necesidad de invertir hasta el 40% de su tiempo en tareas administrativas, como el registro en cuadernos y el cruce de datos en Excel, ha limitado su capacidad para enfocarse en alianzas o marketing. Esto impacta directamente la rentabilidad de su negocio, generando una fuga de ingresos estimada entre el 10% y 15% debido a cobros omitidos durante emergencias y la pérdida de insumos vencidos. Aunque intenta mantener el orden con conteos físicos de inventario cada 15 días, el proceso no es confiable. Su clínica carece de sincronización entre la atención y la recepción. Eduardo valora contar con un sistema automatizado que descuente el stock en tiempo real tras cada tratamiento, registre los pagos con exactitud y le brinde reportes de rentabilidad claros de forma inmediata.
+La entrevista con Eduardo, administrador de una veterinaria, revela el alto nivel de desorganización y pérdida financiera en la gestión clínica por el uso de métodos manuales y mixtos. Su necesidad de invertir hasta el 40% de su tiempo en tareas administrativas, como el registro en cuadernos y el cruce de datos en Excel, ha limitado su capacidad para enfocarse en alianzas o marketing. Esto impacta directamente la rentabilidad de su negocio, generando una fuga de ingresos estimada entre el 10% y 15% debido a cobros omitidos durante emergencias y la pérdida de insumos vencidos. Aunque intenta mantener el orden con conteos físicos de inventario cada 15 días, el proceso no es confiable. Su clínica carece de sincronización entre la atención y la recepción. Eduardo valora contar con un sistema automatizado que descuente el stock en tiempo real tras cada tratamiento, registre los pagos con exactitud y le brinde reportes de rentabilidad claros de forma inmediata.
 
 ---
 
