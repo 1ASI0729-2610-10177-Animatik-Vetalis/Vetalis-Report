@@ -155,6 +155,26 @@ La entrevista evidencia que Luciana opera con métodos tradicionales y herramien
 
 ---
 ### 2.2.3. Análisis de entrevistas
+
+#### Segmento 2: Administradores de centros veterinarios enfocados en la eficiencia operativa
+
+#### Hallazgos
+
+* **Carga administrativa abrumadora:** Ambos administradores dedican entre el **40% y 50% de su jornada** a tareas de oficina (cuadre de caja, revisión de facturas e inventario manual), descuidando la gestión estratégica.
+* **Fuga constante de ingresos por omisión:** Existe una desconexión crítica entre el área médica y la recepción. Al no registrarse automáticamente los insumos en urgencias, se estima una **pérdida de rentabilidad de hasta el 20%**.
+* **Gestión de inventario reactiva:** El control de stock es visual o mediante conteos físicos poco fiables, lo que genera quiebres de suministros en momentos críticos y pérdidas por productos vencidos.
+* **Fragmentación de herramientas:** Dependen de un sistema mixto (Google Sheets, agendas y software contable básico) que no se comunica entre sí, obligando a una duplicidad de tareas.
+* **Necesidad de reportes en tiempo real:** Los entrevistados operan bajo intuición; reportan gran dificultad para obtener métricas claras de rentabilidad o desempeño sin horas de trabajo manual en Excel.
+
+---
+
+#### Conclusión
+
+Los testimonios de **Anghelo y Luciana** revelan una realidad operativa donde la falta de integración tecnológica drena recursos y tiempo valioso. La dependencia de procesos manuales para el registro de insumos y cobros genera un ciclo de ineficiencia que impacta directamente en la salud financiera del negocio.
+
+Esta situación valida la propuesta de valor de **Vetalis**: la automatización del flujo **Caja-Inventario** y la implementación de reportes de **inteligencia de negocios** son necesidades urgentes para estos administradores, quienes buscan recuperar el control y la "paz mental" mediante una plataforma que centralice la operación y reduzca las pérdidas por error humano.
+
+---
 ## 2.3. Needfinding
 ***
 ### 2.3.1. User Personas
