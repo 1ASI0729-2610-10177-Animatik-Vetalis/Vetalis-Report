@@ -133,7 +133,27 @@ La entrevista revela que la veterinaria tiene una gestión desorganizada: usan h
 
 ---
 
+Entrevista N°6
 
+● Nombre: Luciana Cristobal
+
+● Sexo: Femenino
+
+● Edad: 24
+
+● Estado Civil: Soltera
+
+● Labor: Administrador de Veterinaria
+
+● Duración: 5:35
+
+● Link: https://drive.google.com/file/d/1DKd6yk7YOgPyVI-Yiyc038Zer3lMDpvj/view?usp=sharing
+
+Resumen de los puntos clave en la entrevista:
+
+La entrevista evidencia que Luciana opera con métodos tradicionales y herramientas no integradas, como tickets físicos y agendas, lo que genera una desconexión entre los servicios realizados y lo que se factura. Esto ocasiona pérdidas de ingresos por omisiones, especialmente en momentos de alta demanda. Además, el control manual del inventario provoca quiebres de stock inesperados. Luciana destaca que invierte gran parte de su tiempo en cuadrar cuentas y considera clave automatizar la facturación y el inventario para recuperar rentabilidad y enfocarse en la gestión estratégica del negocio.
+
+---
 ### 2.2.3. Análisis de entrevistas
 ## 2.3. Needfinding
 ***
