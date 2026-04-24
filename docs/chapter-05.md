@@ -314,8 +314,27 @@ En esta entrega, el equipo de desarrolladores de Vetalis ha completado con éxit
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
+Durante el Sprint 1, se llevó a cabo la publicación de la Landing Page de Vetalis empleando GitHub Pages como servicio de hosting. A continuación, se detallan las acciones realizadas para lograr su despliegue exitoso.
 
+Se creó el repositorio denominado Vetalis-Landing-Page dentro de la organización 1ASI0729-2610-10177-Animatik-Vetalis en GitHub.
+
+El desarrollo de la Landing Page se realizó en la rama develop, siguiendo el modelo de trabajo GitFlow, donde se implementaron secciones como hero, problemática, beneficios, startup, planes y footer.
+
+Tras validar el contenido, se efectuó la fusión de la rama develop hacia main mediante un Pull Request, lo que permitió activar automáticamente el despliegue del sitio a través de GitHub Pages.
+
+Se verificó el despliegue exitoso accediendo a la URL pública: https://1asi0729-2610-10177-animatik-vetalis.github.io/Vetalis-Landing/
+
+---
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
+
+Se desplegó la landing page usando el servicio de GitHub Pages. Se configuró para utilizar la rama main como base del proyecto a desplegar.
+
+<img src="../assets/Landing-deploy.jpeg" alt="Vetalis landing deploy"/>
+
+URL de Landing Page Desplegada: https://1asi0729-2610-10177-animatik-vetalis.github.io/Vetalis-Landing/
+
+
+---
 #### 5.2.1.8. Team Collaboration Insights during Sprint
 A continuación todos los analíticos que nos proporciona Github, en su apartado de Insights, sobre la colaboración del equipo durante el Sprint 1:
 <img src="../assets/team_Insights.png" alt="Vetalis landing"/>
