@@ -38,10 +38,14 @@
 
 # Registro de Versiones del Informe
 
-| Versión | Fecha | Autor | Descripción de modificación |
-| :---: | :---: | :--- | :--- |
+| Versión |   Fecha    | Autor | Descripción de modificación |
+| :---: |:----------:| :--- | :--- |
 | 1.0 | 10/04/2026 | Sejuro Medina, Mario Gabriel | Creación del reporte en formato Markdown. |
-
+| 1.1 | 12/04/2026 | Sanchez Benavente, Leonardo Matias | Completado el Capítulo 1. |
+| 1.2 | 14/04/2026 | Gamero Miranda, Lui Mathias | Completado el Capítulo 2. |
+| 1.3 | 16/04/2026 | Romero Vilela, Dario Alberto | Completado el Capítulo 3. |
+| 1.4 | 18/04/2026 | Roman Zevallos, Sebastian Jared | Completado el Capítulo 4. |
+| 1.5 | 23/04/2026 | Sejuro Medina, Mario Gabriel | Completado el Capítulo 5. |
 <br>
 
 # Project Report Collaboration Insights
@@ -66,9 +70,9 @@ El curso contribuye al cumplimiento del Student Outcome ABET:
 En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 3.
 
 | Criterio específico | Acciones realizadas | Conclusiones |
-| :--- | :--- | :---: |
-| Comunica oralmente con efectividad a diferentes rangos de audiencia | Gamero Miranda, Lui Mathias <br><br> Roman Zevallos, Sebastian Jared <br><br> Romero Vilela, Dario Alberto <br><br> Sanchez Benavente, Leonardo Matias <br><br> Sejuro Medina, Mario Gabriel |  |
-| Comunica por escrito con efectividad a diferentes rangos de audiencia | Gamero Miranda, Lui Mathias <br><br> Roman Zevallos, Sebastian Jared <br><br> Romero Vilela, Dario Alberto <br><br> Sanchez Benavente, Leonardo Matias <br><br> Sejuro Medina, Mario Gabriel |  |
+| :--- | :--- | :--- |
+| **Comunica oralmente con efectividad a diferentes rangos de audiencia** | **Gamero Miranda, Lui Mathias:** Sustentación del análisis competitivo y las tácticas frente a los competidores identificados.<br><br>**Roman Zevallos, Sebastian Jared:** Presentación de los User Stories y el Impact Mapping ante los interesados del proyecto.<br><br>**Romero Vilela, Dario Alberto:** Exposición detallada de la arquitectura de software, incluyendo diagramas de contenedores y componentes.<br><br>**Sanchez Benavente, Leonardo Matias:** Comunicación de los hallazgos obtenidos durante el registro y análisis de las entrevistas a usuarios.<br><br>**Sejuro Medina, Mario Gabriel:** Presentación de la propuesta de solución basada en el Lean UX Canvas y los objetivos de la Startup. | El equipo demuestra una sólida capacidad para articular ideas técnicas y de negocio de forma clara. La distribución de las presentaciones permitió validar que cada integrante domina su área, logrando una comunicación fluida que facilita la comprensión del proyecto por parte de audiencias tanto técnicas como comerciales. |
+| **Comunica por escrito con efectividad a diferentes rangos de audiencia** | **Gamero Miranda, Lui Mathias:** Elaboración de los perfiles de usuario (User Personas) y la matriz de tareas de usuario (Task Matrix).<br><br>**Roman Zevallos, Sebastian Jared:** Redacción técnica de la arquitectura de software dirigida por el dominio (Domain-Driven Design).<br><br>**Romero Vilela, Dario Alberto:** Documentación de las guías de estilo y el diseño de la arquitectura de información (SEO, etiquetas y navegación).<br><br>**Sanchez Benavente, Leonardo Matias:** Redacción de los enunciados de problemas, supuestos e hipótesis dentro del proceso Lean UX.<br><br>**Sejuro Medina, Mario Gabriel:** Documentación del reporte final en Markdown, detallando la configuración del entorno y la gestión del código fuente. | La documentación escrita destaca por su orden jerárquico y precisión técnica. Se ha logrado un balance adecuado entre el lenguaje técnico necesario para el desarrollo y las descripciones funcionales requeridas por los interesados, garantizando que el reporte sea una guía útil para cualquier lector. |
 
 <br>
 
