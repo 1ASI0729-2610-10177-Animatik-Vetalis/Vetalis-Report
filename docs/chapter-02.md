@@ -109,26 +109,51 @@ La entrevista con Diego Lavado, practicante de medicina, expone una crítica sat
 
 Entrevista N°2
 
-● Nombre: Carla Gallardo
+● Nombre: Adrian Cerdan
 
-● Sexo: Femenino
+● Sexo: Masculino
 
-● Edad: 26
+● Edad: 30
 
-● Estado Civil: Soltera
+● Estado Civil: Soltero
 
 ● Labor: Practicante de Veterinaria
 
 Detalles de la entrevista:
 
-● Duración: xxxx
+● Duración: 3:05
 
-[● Link: https://drive.google.com/file/d/1y0_TqNTB0kN0RuZfMNMWJhLAXkJWZdC0/view?usp=drive_link](https://drive.google.com/file/d/1y0_TqNTB0kN0RuZfMNMWJhLAXkJWZdC0/view?usp=drive_link)
+[● Link: https://drive.google.com/file/d/1BGYq1yVYAhpoYhfwEWUBFwGSxxMljYCi/view?usp=sharing](https://drive.google.com/file/d/1BGYq1yVYAhpoYhfwEWUBFwGSxxMljYCi/view?usp=sharing)
 
 Resumen de los puntos clave en la entrevista:
 
-La entrevista con ca, practicante de medicina, expone una crítica saturación operativa debido a la carga administrativa que consume gran parte de su jornada, restando tiempo valioso a la atención clínica directa. El uso de métodos fragmentados como fichas físicas y archivos de Excel le obliga a dedicar entre 10 y 15 minutos adicionales tras cada consulta para regularizar la información, lo que genera desorden y dificulta el acceso inmediato a historiales médicos precisos. Esta falta de integración tecnológica no solo propicia errores humanos y olvidos en el seguimiento de tratamientos, sino que también complica el control logístico en hospitalización, especialmente en la precisión de la dieta y medicación. Diego identifica como una necesidad urgente la implementación de un sistema centralizado que automatice la trazabilidad del paciente y la gestión de insumos mediante alertas inteligentes. Para él, una solución ideal debe unificar el registro médico con el monitoreo en tiempo real y la automatización IoT, permitiéndole recuperar capacidad operativa y garantizar un estándar de cuidado animal más riguroso y eficiente.
+La entrevista con el veterinario Adrián destaca los graves problemas de organización y pérdida de tiempo derivados del uso de fichas impresas y hojas de Excel básicas. Adrián invierte entre 10 y 15 minutos por paciente solo en registrar datos, lo que le supone una pérdida de casi tres horas diarias en tareas de digitación. Además, la búsqueda de historiales de pacientes antiguos en carpetas físicas o correos retrasa la atención, lo que genera frustración en los dueños de las mascotas. En la operativa diaria, enfrenta desafíos constantes con el cruce de citas y emergencias al no tener un sistema de alertas, así como en el control de pacientes hospitalizados, donde el cansancio y el uso de notas físicas (post-its) han provocado olvidos en la medicación y seguimiento. El software genérico que utiliza actualmente lo frustra porque no le permite vincular los historiales médicos con las necesidades de la clínica. Adrián considera fundamental contar con un sistema diseñado específicamente para veterinarias, con una interfaz limpia que permita, con pocos clics, visualizar historiales, programar dietas en dispensadores inteligentes y generar cobros de manera automática.
 
+---
+
+Entrevista N°3
+
+● Nombre: David Bermudez
+
+● Sexo: Masculino
+
+● Edad: 31
+
+● Estado Civil: Soltero
+
+● Labor: Practicante de Veterinaria
+
+Detalles de la entrevista:
+
+● Duración: 4:39
+
+[● Link: https://drive.google.com/file/d/1mwxMAZjR1POjRgdj4TdPqpi-UGCLeybD/view?usp=sharing](https://drive.google.com/file/d/1mwxMAZjR1POjRgdj4TdPqpi-UGCLeybD/view?usp=sharing)
+
+Resumen de los puntos clave en la entrevista:
+
+La entrevista con el veterinario David Bermudez evidencia un entorno de trabajo caótico debido al uso de un sistema mixto de historias clínicas en cartón y hojas de cálculo. Esta falta de digitalización eficiente provoca historias incompletas por mala caligrafía u olvidos al transcribir, y la pérdida constante de información de pacientes antiguos, lo que genera situaciones estresantes con los dueños. David pierde casi tres horas diarias en labores de digitación y papeleo, tiempo que le resta a cirugías o a su propio descanso. Además, sufre un estrés logístico significativo en el área de hospitalización, donde le preocupa constantemente el cumplimiento de las dietas y medicaciones exactas de los internados mientras atiende cirugías u otras urgencias. Actualmente utiliza un software de facturación genérico que no se adapta a las necesidades médicas ni conecta el historial con la operatividad de la clínica. Su sistema ideal incluiría una interfaz visual intuitiva que muestre todo el historial, curvas de peso y alertas al instante, permitiendo además programar dietas en dispensadores inteligentes directamente desde la consulta y automatizar el flujo de cobros hacia recepción para reducir su enorme carga mental.
+
+---
 
 **Segmento 2: Administradores de centros veterinarios**
 
@@ -202,6 +227,30 @@ La entrevista evidencia que Luciana opera con métodos tradicionales y herramien
 
 ---
 ### 2.2.3. Análisis de entrevistas
+
+#### Segmento 1: Médicos veterinarios en clínicas de mediano a alto flujo
+
+#### Hallazgos
+
+* **Carga administrativa abrumadora:** Los tres veterinarios coinciden en que pierden entre 3 y 4 horas diarias o hasta el 40% de su jornada en tareas de digitación, papeleo y cuadre de caja manual, restando tiempo valioso a las cirugías, la atención médica y el descanso personal.
+
+* **Fuga constante de ingresos por omisión:** Existe una desconexión crítica entre la atención médica y la recepción. Al no registrarse automáticamente los insumos utilizados en urgencias o cirugías, se estima una pérdida de rentabilidad de entre el 10% y 15% de los ingresos potenciales.
+
+* **Gestión de inventario reactiva:** El control de stock depende de conteos físicos poco confiables cada 15 días o inspecciones visuales. Esto genera pérdidas directas por productos vencidos en estantes y quiebres de suministros en momentos críticos de emergencia.
+
+* **Fragmentación de herramientas:** Los profesionales dependen de un sistema mixto ineficiente que mezcla fichas de cartón, cuadernos, Excel y software de facturación genérico. Estas herramientas no se comunican entre sí, provocando duplicidad de tareas, historias clínicas incompletas y errores en el seguimiento de medicación.
+
+* **Necesidad de reportes en tiempo real:** Los entrevistados operan bajo intuición y reportan una gran dificultad para obtener métricas claras de rentabilidad o desempeño. Cruzar los gastos fijos con los ingresos de servicios requiere horas de trabajo manual en Excel que rara vez resultan en datos precisos.
+
+---
+
+#### Conclusión
+
+Los testimonios de Eduardo, Adrián y David revelan una realidad operativa donde la falta de integración tecnológica drena recursos y genera un alto nivel de estrés logístico, especialmente en áreas de hospitalización y cobros. La dependencia de procesos manuales y el uso de herramientas no especializadas crean un ciclo de ineficiencia que impacta directamente en la salud financiera de sus clínicas.
+
+Esta situación valida la propuesta de valor de Vet-Smart/VetCare: la automatización del flujo Caja-Inventario-Historial y la implementación de una interfaz visual intuitiva son necesidades urgentes. Estos médicos veterinarios buscan recuperar el control operativo y la "paz mental" mediante una plataforma que centralice la información, automatice las dietas/medicaciones y elimine las pérdidas económicas por error humano.
+
+---
 
 #### Segmento 2: Administradores de centros veterinarios enfocados en la eficiencia operativa
 
