@@ -107,7 +107,32 @@ Resumen de los puntos clave en la entrevista:
 
 La entrevista con Eduardo, médico veterinario, revela el alto nivel de desorganización y pérdida financiera en la gestión clínica por el uso de métodos manuales y mixtos. Su necesidad de invertir hasta el 40% de su tiempo en tareas administrativas, como el registro en cuadernos y el cruce de datos en Excel, ha limitado su capacidad para enfocarse en alianzas o marketing. Esto impacta directamente la rentabilidad de su negocio, generando una fuga de ingresos estimada entre el 10% y 15% debido a cobros omitidos durante emergencias y la pérdida de insumos vencidos. Aunque intenta mantener el orden con conteos físicos de inventario cada 15 días, el proceso no es confiable. Su clínica carece de sincronización entre la atención y la recepción. Eduardo valora contar con un sistema automatizado que descuente el stock en tiempo real tras cada tratamiento, registre los pagos con exactitud y le brinde reportes de rentabilidad claros de forma inmediata.
 
+---
+
 Entrevista N°5
+
+● Nombre: Anghelo Faustino 
+
+● Sexo: Masculino
+
+● Edad: 24
+
+● Estado Civil: Soltero
+
+● Labor: Administrador de Veterinaria
+
+● Duración: 5:26
+
+● Link: https://drive.google.com/file/d/16mMMNXUSO98sTWSoNVqfFMeESr85HkSf/view?usp=drive_link
+
+Resumen de los puntos clave en la entrevista:
+
+
+La entrevista revela que la veterinaria tiene una gestión desorganizada: usan herramientas básicas como Google Sheets para ingresos, pero no controlan bien gastos ni flujo de caja. Esto provoca pérdidas diarias por registros incompletos, manejo ineficiente del inventario (stock crítico y productos vencidos) y falta de integración entre atención, facturación y almacén. El administrador estima una pérdida de rentabilidad del 20% y destaca la necesidad urgente de un sistema integrado para mejorar la eficiencia y escalar el negocio.
+
+
+---
+
 
 ### 2.2.3. Análisis de entrevistas
 ## 2.3. Needfinding
