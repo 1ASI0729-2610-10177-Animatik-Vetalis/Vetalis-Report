@@ -301,7 +301,20 @@ A continuación, se presenta el registro detallado de las contribuciones destina
 | Lui Mathias Gamero Miranda | 19/04/2026 | docs: update high-fidelity mockups for landing page | de62be9 |
 
 #### 5.2.1.5. Execution Evidence for Sprint Review
+
+En esta entrega, el equipo de desarrolladores de Vetalis ha completado con éxito la implementación y el lanzamiento de la página de la Landing Page. Esta página presenta diferentes secciones que brindan información detallada sobre nuestro producto.
+
+<img src="../assets/vetalis_landing_1.jpeg" alt="Vetalis landing"/>
+<img src="../assets/vetalis_landing_2.jpeg" alt="Vetalis landing"/>
+<img src="../assets/vetalis_landing_3.jpeg" alt="Vetalis landing"/>
+<img src="../assets/vetalis_landing_4.jpeg" alt="Vetalis landing"/>
+<img src="../assets/vetalis_landing_5.jpeg" alt="Vetalis landing"/>
+<img src="../assets/vetalis_landing_6.jpeg" alt="Vetalis landing"/>
+<img src="../assets/vetalis_landing_7.jpeg" alt="Vetalis landing"/>
+
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
+
+
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
 #### 5.2.1.8. Team Collaboration Insights during Sprint
 
