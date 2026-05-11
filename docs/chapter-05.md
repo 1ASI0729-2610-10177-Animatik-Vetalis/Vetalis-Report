@@ -340,6 +340,9 @@ A continuación todos los analíticos que nos proporciona Github, en su apartado
 <img src="../assets/team_Insights.png" alt="Vetalis landing"/>
 
 ### 5.2.2. Sprint 2
+
+La segunda iteración representa un avance consecuente en nuestra metodología de desarrollo ágil. Durante este periodo, enfocaremos nuestra capacidad operativa en la construcción y despliegue de la aplicación web frontend, priorizando las interfaces interactivas de gestión clínica establecidas en la fase de planificación. Este proceso consiste en traducir los requisitos de experiencia de usuario y lógica de negocio en componentes visuales operativos, expandiendo los cimientos funcionales de nuestro producto hacia una solución de software interactiva bajo un modelo de mejora continua y entregas incrementales.
+
 ### 5.2.2.1. Sprint Planning 2
 
 | Sprint # | Sprint 2                                                                                                                                                                                                                                         |
@@ -357,7 +360,11 @@ A continuación todos los analíticos que nos proporciona Github, en su apartado
 | Sprint 2 Velocity | 34                                                                                                                                                                                                                                               |
 | Sum of Story Points | 34                                                                                                                                                                                                                                               |
 
+La sesión de Sprint Planning es clave dentro de nuestra metodología ágil, ya que nos permitió organizar con detalle las actividades de esta segunda iteración. Durante la reunión, determinamos las tareas específicas para la configuración y desarrollo del frontend, asignamos los tiempos estimados y definimos a los responsables de cada módulo clínico. El objetivo principal fue trazar una hoja de ruta definida y realista para la implementación de las interfaces de usuario, promoviendo el trabajo en equipo y garantizando que todos compartamos la misma visión sobre las metas trazadas para el despliegue de la aplicación web.
+
 ### 5.2.2.2. Aspect Leaders and Collaborators
+
+Durante la ejecución de la segunda iteración, el equipo focalizó sus capacidades en el desarrollo y estructuración de la aplicación web frontend, abordando los requerimientos priorizados dentro del Epic 2: Clinical Management - EHR (Veterinarian). La finalidad de este ciclo fue consolidar las interfaces operativas de la plataforma y habilitar los módulos interactivos de triaje, prescripción e historial médico para optimizar el flujo de trabajo diario de los profesionales veterinarios.
 
 | Team Member (Last Name, First Name) | GitHub Username   | Configuración y Despliegue Frontend Leader (L) / Collaborator (C) | Módulo de Búsqueda y Alertas Leader (L) / Collaborator (C) | Módulo de Historial y Recetas Leader (L) / Collaborator (C) | Módulo de Triaje Leader (L) / Collaborator (C) |
 | :--- |:------------------| :---: | :---: | :---: | :---: |
@@ -379,6 +386,15 @@ A continuación todos los analíticos que nos proporciona Github, en su apartado
 | *US013* | View Allergy Alerts | Implementación visual de alertas de alta prioridad (banners) en la vista del historial clínico para notificar alergias del paciente. | 4 | Gamero Miranda, Lui Mathias | To Do |
 | *US014* | Create Digital Prescription | Desarrollo del módulo de recetas médicas para la generación de prescripciones digitales y planes nutricionales estandarizados. | 8 | Romero Vilela, Dario Alberto | To Do |
 | *US019* | View Medical History Timeline | Maquetación de la línea de tiempo cronológica para visualizar de forma ordenada el historial de consultas pasadas del paciente. | 6 | Roman Zevallos, Sebastian Jared | To Do |
+
+Evidencia del avance en Trello:
+
+<img src="../assets/Sprint_02_Trello.png" alt="Foto Sprint 02 en Trello"/>
+
+*URL:* https://trello.com/invite/b/69ea5e4e6743746b9259cdec/ATTI07c5209f0d55628672b1d547ef9c38243661ADA5/vetalis-user-stories
+
+Este segundo ciclo de trabajo concluyó con la entrega funcional de la aplicación web frontend de Animatik, permitiendo a los médicos veterinarios interactuar directamente con los módulos de gestión clínica. La plataforma ahora facilita la búsqueda ágil de pacientes, el registro de signos vitales durante el triaje y la gestión de historiales médicos digitales, integrando una interfaz responsiva desplegada en la nube que optimiza la operatividad y la atención diaria en la clínica.
+
 ### 5.2.2.4.Development Evidence for Sprint Review.
 ### 5.2.2.5.Execution Evidence for Sprint Review.
 ### 5.2.2.6.Services Documentation Evidence for Sprint Review.
