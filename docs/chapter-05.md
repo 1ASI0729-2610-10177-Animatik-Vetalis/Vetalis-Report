@@ -16,12 +16,12 @@ La gestión de los proyectos tiene como objetivo mejorar los procesos y su entor
 
 * **Trello:** Es una herramienta visual que permite gestionar cualquier tipo de proyecto y el flujo de trabajo que el equipo desarrollador seguirá para implementar correctamente las tareas de código para el Landing Page y el Web Application.
 
-| **Link de referencia:** | https://trello.com/es |
+| **URL:** | https://trello.com/es |
 | :--- | :--- |
 
 * **Pivotal Tracker:** Esta herramienta se define como una plataforma en la que se realiza la gestión de user stories, agrupándolos en epics y clasificando su presencia en el programa, por puntaje. Permite que cada miembro del equipo comparta la misma vista en tiempo real de lo que está sucediendo.
 
-| **Link de referencia:** | https://www.pivotaltracker.com/ |
+| **URL:** | https://www.pivotaltracker.com/ |
 | :--- | :--- |
 
 **Product UX/UI Design:**
@@ -30,27 +30,27 @@ Nos permite desarrollar el modelo en nuestro producto de manera digital y forme 
 
 * **Uxpressia:** Es una herramienta en línea para el mapeo de la trayectoria del cliente que crea mapas de impacto y personas. Sus herramientas nos permitieron establecer las bases del modelado de User Persona, Empathy Map y Journey Map.
 
-| **Link de referencia:** | https://uxpressia.com/ |
+| **URL:** | https://uxpressia.com/ |
 | :--- | :--- |
 
 * **MIRO:** Es una pizarra digital colaborativa en línea, que puede ser usada para la investigación, la ideación, la creación de lluvias de ideas, mapas mentales y una variedad de otras actividades colaborativas.
 
-| **Link de referencia:** | https://www.miro.com/ |
+| **URL:** | https://www.miro.com/ |
 | :--- | :--- |
 
 * **Figma:** Es una herramienta de prototipo web y editor de gráficos vectorial alojada en la web, que permite establecer los modelos para las versiones de Web Browser y Landing Page.
 
-| **Link de referencia:** | https://www.figma.com/ |
+| **URL:** | https://www.figma.com/ |
 | :--- | :--- |
 
 * **LucidChart:** Es una herramienta de diagramación basada en la web, que permite colaborar en tiempo real creando diseños UML, mapas mentales, prototipos de software, entre otros.
 
-| **Link de referencia:** | https://www.lucidchart.com |
+| **URL:** | https://www.lucidchart.com |
 | :--- | :--- |
 
 * **Structurizr:** Es una herramienta de diseño que soporta el modelo C4 para visualizar la arquitectura de software de nuestra solución.
 
-| **Link de referencia:** | https://structurizr.com/ |
+| **URL:** | https://structurizr.com/ |
 | :--- | :--- |
 
 **Software Development:**
@@ -59,37 +59,37 @@ Representa el marco metodológico y técnico empleado para la construcción del 
 
 * **GitHub:** Plataforma de alojamiento y gestión de repositorios que facilita el control de versiones y la colaboración técnica entre los integrantes del equipo Animatik.
 
-| **Link de referencia:** | https://github.com/ |
+| **URL:** | https://github.com/ |
 | :--- | :--- |
 
 * **WebStorm:** Entorno de desarrollo integrado (IDE) de JetBrains optimizado para el ecosistema web moderno, que agiliza la codificación, el refactorizado y las pruebas de la plataforma.
 
-| **Link de referencia:** | https://www.jetbrains.com/webstorm/ |
+| **URL:** | https://www.jetbrains.com/webstorm/ |
 | :--- | :--- |
 
 * **HTML:** Lenguaje de marcado estándar utilizado para estructurar semánticamente el contenido y los componentes de la interfaz de usuario de Vetalis.
 
-| **Link de referencia:** | https://www.jetbrains.com/help/webstorm/editing-html-files.html |
+| **URL:** | https://www.jetbrains.com/help/webstorm/editing-html-files.html |
 | :--- | :--- |
 
 * **CSS:** Lenguaje de hojas de estilo encargado de la presentación visual, permitiendo implementar la identidad de marca y asegurar una experiencia estética coherente.
 
-| **Link de referencia:** | https://www.jetbrains.com/help/webstorm/style-sheets.html#ws_css_completion |
+| **URL:** | https://www.jetbrains.com/help/webstorm/style-sheets.html#ws_css_completion |
 | :--- | :--- |
 
 * **TypeScript:** Lenguaje de programación de código abierto que añade tipado estático opcional a JavaScript, permitiendo un desarrollo más robusto, mantenible y escalable para la lógica de la solución veterinaria.
 
-| **Link de referencia:** | https://www.typescriptlang.org/ |
+| **URL:** | https://www.typescriptlang.org/ |
 | :--- | :--- |
 
 * **Angular:** Framework de desarrollo para aplicaciones web diseñado por Google, utilizado para construir aplicaciones de una sola página (SPA) altamente eficientes mediante una arquitectura basada en componentes.
 
-| **Link de referencia:** | https://angular.io/ |
+| **URL:** | https://angular.io/ |
 | :--- | :--- |
 
 * **GitHub Pages:** Servicio de despliegue que permite el alojamiento público de la Landing Page y las versiones preliminares de las aplicaciones web del proyecto.
 
-| **Link de referencia:** | https://pages.github.com/ |
+| **URL:** | https://pages.github.com/ |
 | :--- | :--- |
 
 **Software Testing:**
@@ -98,7 +98,7 @@ Es el acto de examinar los artefactos y el comportamiento del software bajo prue
 
 * **Lenguaje Gherkin:** Es un DSL o Lenguaje Específico de Dominio, es decir, un lenguaje que está creado para resolver un problema. Se pueden agregar los user stories del programa con sus respectivas partes: Feature, Scenario, Example, Scenario Outline, Given, When, Then y And.
 
-| **Link de referencia:** | https://cucumber.io/docs/gherkin/ |
+| **URL:** | https://cucumber.io/docs/gherkin/ |
 | :--- | :--- |
 
 ### 5.1.2. Source Code Management
@@ -248,7 +248,7 @@ Evidencia del avance en Trello:
 
 <img src="../assets/Sprint_01_Trello.png" alt="Foto Sprint 01 en Trello"/>
 
-*Enlace de Trello:* https://trello.com/invite/b/69ea5e4e6743746b9259cdec/ATTI07c5209f0d55628672b1d547ef9c38243661ADA5/vetalis-user-stories
+*URL:* https://trello.com/invite/b/69ea5e4e6743746b9259cdec/ATTI07c5209f0d55628672b1d547ef9c38243661ADA5/vetalis-user-stories
 
 Este primer ciclo de trabajo concluyó con la entrega funcional de la Landing Page de Vetalis, ofreciendo a los usuarios un acercamiento inicial a la propuesta de valor integral. El sitio permite explorar las herramientas de gestión administrativa, las funcionalidades diseñadas para el sector clínico veterinario y la automatización IoT, integrando además testimonios de la industria y datos generales sobre el ecosistema de la aplicación.
 
