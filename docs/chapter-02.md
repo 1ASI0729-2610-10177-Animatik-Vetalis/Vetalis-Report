@@ -99,7 +99,7 @@ Detalles de la entrevista:
 
 ● Duración: 3:46
 
-[● URL: https://drive.google.com/file/d/1nM0OIsRKgyyDADDFHH-yaDa_JVTFisPJ/view?usp=sharing
+● URL: https://drive.google.com/file/d/1nM0OIsRKgyyDADDFHH-yaDa_JVTFisPJ/view?usp=sharing
 <div align="center"><img src="../assets/img-entrevista-1.png"  width="100%"><br></div>
 Resumen de los puntos clave en la entrevista:
 
@@ -123,7 +123,7 @@ Detalles de la entrevista:
 
 ● Duración: 3:05
 
-[● URL:https://drive.google.com/file/d/1BGYq1yVYAhpoYhfwEWUBFwGSxxMljYCi/view?usp=sharing
+● URL:https://drive.google.com/file/d/1BGYq1yVYAhpoYhfwEWUBFwGSxxMljYCi/view?usp=sharing
 <div align="center"><img src="../assets/img-entrevista-2.png"  width="100%"><br></div>
 Resumen de los puntos clave en la entrevista:
 
@@ -147,7 +147,7 @@ Detalles de la entrevista:
 
 ● Duración: 4:39
 
-[● URL: https://drive.google.com/file/d/1mwxMAZjR1POjRgdj4TdPqpi-UGCLeybD/view?usp=sharing
+● URL: https://drive.google.com/file/d/1mwxMAZjR1POjRgdj4TdPqpi-UGCLeybD/view?usp=sharing
 <div align="center"><img src="../assets/img-entrevista-3.png"  width="100%"><br></div>
 Resumen de los puntos clave en la entrevista:
 
@@ -173,7 +173,9 @@ Detalles de la entrevista:
 
 ● Duración: 6:21
 
-[● Link: https://drive.google.com/file/d/1y0_TqNTB0kN0RuZfMNMWJhLAXkJWZdC0/view?usp=drive_link](https://drive.google.com/file/d/1y0_TqNTB0kN0RuZfMNMWJhLAXkJWZdC0/view?usp=drive_link)
+<div align="center"><img src="../assets/img-entrevista-4.png"  width="100%"><br></div>
+
+● URL: https://drive.google.com/file/d/1y0_TqNTB0kN0RuZfMNMWJhLAXkJWZdC0/view?usp=drive_link
 
 Resumen de los puntos clave en la entrevista:
 
@@ -195,7 +197,9 @@ Entrevista N°5
 
 ● Duración: 5:26
 
-● Link: https://drive.google.com/file/d/16mMMNXUSO98sTWSoNVqfFMeESr85HkSf/view?usp=drive_link
+<div align="center"><img src="../assets/img-entrevista-5.png"  width="100%"><br></div>
+
+● URL: https://drive.google.com/file/d/16mMMNXUSO98sTWSoNVqfFMeESr85HkSf/view?usp=drive_link
 
 Resumen de los puntos clave en la entrevista:
 
@@ -219,7 +223,9 @@ Entrevista N°6
 
 ● Duración: 5:35
 
-● Link: https://drive.google.com/file/d/1DKd6yk7YOgPyVI-Yiyc038Zer3lMDpvj/view?usp=sharing
+<div align="center"><img src="../assets/img-entrevista-6.png"  width="100%"><br></div>
+
+● URL: https://drive.google.com/file/d/1DKd6yk7YOgPyVI-Yiyc038Zer3lMDpvj/view?usp=sharing
 
 Resumen de los puntos clave en la entrevista:
 
