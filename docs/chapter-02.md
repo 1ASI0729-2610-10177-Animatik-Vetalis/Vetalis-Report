@@ -99,8 +99,8 @@ Detalles de la entrevista:
 
 ● Duración: 3:46
 
-[● Link: https://drive.google.com/file/d/1nM0OIsRKgyyDADDFHH-yaDa_JVTFisPJ/view?usp=sharing
-
+[● URL: https://drive.google.com/file/d/1nM0OIsRKgyyDADDFHH-yaDa_JVTFisPJ/view?usp=sharing
+<div align="center"><img src="../assets/img-entrevista-1.png"  width="100%"><br></div>
 Resumen de los puntos clave en la entrevista:
 
 La entrevista con Diego Lavado, practicante de medicina, expone una crítica saturación operativa debido a la carga administrativa que consume gran parte de su jornada, restando tiempo valioso a la atención clínica directa. El uso de métodos fragmentados como fichas físicas y archivos de Excel le obliga a dedicar entre 10 y 15 minutos adicionales tras cada consulta para regularizar la información, lo que genera desorden y dificulta el acceso inmediato a historiales médicos precisos. Esta falta de integración tecnológica no solo propicia errores humanos y olvidos en el seguimiento de tratamientos, sino que también complica el control logístico en hospitalización, especialmente en la precisión de la dieta y medicación. Diego identifica como una necesidad urgente la implementación de un sistema centralizado que automatice la trazabilidad del paciente y la gestión de insumos mediante alertas inteligentes. Para él, una solución ideal debe unificar el registro médico con el monitoreo en tiempo real y la automatización IoT, permitiéndole recuperar capacidad operativa y garantizar un estándar de cuidado animal más riguroso y eficiente.
@@ -123,8 +123,8 @@ Detalles de la entrevista:
 
 ● Duración: 3:05
 
-[● Link: https://drive.google.com/file/d/1BGYq1yVYAhpoYhfwEWUBFwGSxxMljYCi/view?usp=sharing](https://drive.google.com/file/d/1BGYq1yVYAhpoYhfwEWUBFwGSxxMljYCi/view?usp=sharing)
-
+[● URL:https://drive.google.com/file/d/1BGYq1yVYAhpoYhfwEWUBFwGSxxMljYCi/view?usp=sharing
+<div align="center"><img src="../assets/img-entrevista-2.png"  width="100%"><br></div>
 Resumen de los puntos clave en la entrevista:
 
 La entrevista con el veterinario Adrián destaca los graves problemas de organización y pérdida de tiempo derivados del uso de fichas impresas y hojas de Excel básicas. Adrián invierte entre 10 y 15 minutos por paciente solo en registrar datos, lo que le supone una pérdida de casi tres horas diarias en tareas de digitación. Además, la búsqueda de historiales de pacientes antiguos en carpetas físicas o correos retrasa la atención, lo que genera frustración en los dueños de las mascotas. En la operativa diaria, enfrenta desafíos constantes con el cruce de citas y emergencias al no tener un sistema de alertas, así como en el control de pacientes hospitalizados, donde el cansancio y el uso de notas físicas (post-its) han provocado olvidos en la medicación y seguimiento. El software genérico que utiliza actualmente lo frustra porque no le permite vincular los historiales médicos con las necesidades de la clínica. Adrián considera fundamental contar con un sistema diseñado específicamente para veterinarias, con una interfaz limpia que permita, con pocos clics, visualizar historiales, programar dietas en dispensadores inteligentes y generar cobros de manera automática.
@@ -147,8 +147,8 @@ Detalles de la entrevista:
 
 ● Duración: 4:39
 
-[● Link: https://drive.google.com/file/d/1mwxMAZjR1POjRgdj4TdPqpi-UGCLeybD/view?usp=sharing](https://drive.google.com/file/d/1mwxMAZjR1POjRgdj4TdPqpi-UGCLeybD/view?usp=sharing)
-
+[● URL: https://drive.google.com/file/d/1mwxMAZjR1POjRgdj4TdPqpi-UGCLeybD/view?usp=sharing
+<div align="center"><img src="../assets/img-entrevista-3.png"  width="100%"><br></div>
 Resumen de los puntos clave en la entrevista:
 
 La entrevista con el veterinario David Bermudez evidencia un entorno de trabajo caótico debido al uso de un sistema mixto de historias clínicas en cartón y hojas de cálculo. Esta falta de digitalización eficiente provoca historias incompletas por mala caligrafía u olvidos al transcribir, y la pérdida constante de información de pacientes antiguos, lo que genera situaciones estresantes con los dueños. David pierde casi tres horas diarias en labores de digitación y papeleo, tiempo que le resta a cirugías o a su propio descanso. Además, sufre un estrés logístico significativo en el área de hospitalización, donde le preocupa constantemente el cumplimiento de las dietas y medicaciones exactas de los internados mientras atiende cirugías u otras urgencias. Actualmente utiliza un software de facturación genérico que no se adapta a las necesidades médicas ni conecta el historial con la operatividad de la clínica. Su sistema ideal incluiría una interfaz visual intuitiva que muestre todo el historial, curvas de peso y alertas al instante, permitiendo además programar dietas en dispensadores inteligentes directamente desde la consulta y automatizar el flujo de cobros hacia recepción para reducir su enorme carga mental.
