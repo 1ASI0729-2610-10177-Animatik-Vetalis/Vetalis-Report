@@ -339,6 +339,52 @@ URL de Landing Page Desplegada: https://1asi0729-2610-10177-animatik-vetalis.git
 A continuación todos los analíticos que nos proporciona Github, en su apartado de Insights, sobre la colaboración del equipo durante el Sprint 1:
 <img src="../assets/team_Insights.png" alt="Vetalis landing"/>
 
+### 5.2.2. Sprint 2
+### 5.2.2.1. Sprint Planning 2
+
+| Sprint # | Sprint 2                                                                                                                                                                                                                                         |
+| :--- |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Sprint Planning Background** |                                                                                                                                                                                                                                                  |
+| Date | 2026-05-11                                                                                                                                                                                                                                       |
+| Time | 05:00 PM                                                                                                                                                                                                                                         |
+| Location | Google Meet (Reunión virtual)                                                                                                                                                                                                                         |
+| Prepared By | Gamero Miranda, Lui Mathias                                                                                                                                                                                                                      |
+| Attendees (to planning meeting) | Gamero Miranda, Lui Mathias / Roman Zevallos, Sebastian Jared / Romero Vilela, Dario Alberto / Sanchez Benavente, Leonardo Matias / Sejuro Medina, Mario Gabriel                                                                                 |
+| **Sprint 1 Review Summary** | Se logró implementar y desplegar exitosamente la primera versión del Landing Page estático con HTML5, CSS3 y JavaScript. Se validó correctamente la presentación de la propuesta de valor y los planes de precios ante el Product Owner.         |
+| **Sprint 1 Retrospective Summary** | El equipo identificó que la comunicación durante el control de versiones fue fluida gracias a GitFlow, pero se acordó mejorar la estimación de tiempos en el diseño responsivo para evitar sobrecargas de tareas en los últimos días del sprint. |
+| **Sprint Goal & User Stories** |                                                                                                                                                                                                                                                  |
+| Sprint 2 Goal | Nuestro enfoque es desplegar el frontend de gestión clínica. Creemos que facilitará a los veterinarios el manejo de triajes e historiales. Se confirmará cuando los usuarios naveguen por la aplicación Angular y sus módulos básicos.           |
+| Sprint 2 Velocity | 34                                                                                                                                                                                                                                               |
+| Sum of Story Points | 34                                                                                                                                                                                                                                               |
+
+### 5.2.2.2. Aspect Leaders and Collaborators
+
+| Team Member (Last Name, First Name) | GitHub Username   | Configuración y Despliegue Frontend Leader (L) / Collaborator (C) | Módulo de Búsqueda y Alertas Leader (L) / Collaborator (C) | Módulo de Historial y Recetas Leader (L) / Collaborator (C) | Módulo de Triaje Leader (L) / Collaborator (C) |
+| :--- |:------------------| :---: | :---: | :---: | :---: |
+| Gamero Miranda, Lui Mathias | lug07m            | L | C | C | C |
+| Roman Zevallos, Sebastian Jared | Chebas19          | C | C | L | C |
+| Romero Vilela, Dario Alberto | patatitis9-alt    | C | C | L | C |
+| Sanchez Benavente, Leonardo Matias | Matiassb06        | C | C | C | L |
+| Sejuro Medina, Mario Gabriel | maghetthi         | C | L | C | C |
+
+### 5.2.2.3.Sprint Backlog 2.
+| Sprint # | Sprint 2 |
+| :--- | :--- |
+
+| User Story / Task Id | Title | Description | Estimation (Hours) | Assigned To | Status |
+| :--- | :--- | :--- |:------------------:| :--- | :---: |
+| *WK07* | Configuración y Despliegue del Frontend | Configuración del entorno de desarrollo en Angular y despliegue de la primera versión de la Web Application en la nube, generando la URL pública. | 5 | Todos los miembros del equipo | To Do |
+| *US011* | Search Patient Profile | Desarrollo de la barra de búsqueda y vista de resultados para localizar rápidamente los perfiles y el historial médico de los pacientes. | 6 | Sejuro Medina, Mario Gabriel | To Do |
+| *US012* | Record Vital Signs | Maquetación e implementación del formulario para el registro de los signos vitales (peso y temperatura) durante el proceso de triaje. | 5 | Sanchez Benavente, Leonardo Matias | To Do |
+| *US013* | View Allergy Alerts | Implementación visual de alertas de alta prioridad (banners) en la vista del historial clínico para notificar alergias del paciente. | 4 | Gamero Miranda, Lui Mathias | To Do |
+| *US014* | Create Digital Prescription | Desarrollo del módulo de recetas médicas para la generación de prescripciones digitales y planes nutricionales estandarizados. | 8 | Romero Vilela, Dario Alberto | To Do |
+| *US019* | View Medical History Timeline | Maquetación de la línea de tiempo cronológica para visualizar de forma ordenada el historial de consultas pasadas del paciente. | 6 | Roman Zevallos, Sebastian Jared | To Do |
+### 5.2.2.4.Development Evidence for Sprint Review.
+### 5.2.2.5.Execution Evidence for Sprint Review.
+### 5.2.2.6.Services Documentation Evidence for Sprint Review.
+### 5.2.2.7.Software Deployment Evidence for Sprint Review.
+### 5.2.2.8.Team Collaboration Insights during Sprint.
+
 ## 5.3. Validation Interviews
 ***
 ### 5.3.1. Diseño de Entrevistas
