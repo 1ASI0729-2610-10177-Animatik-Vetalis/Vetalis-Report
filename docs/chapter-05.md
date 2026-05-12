@@ -492,6 +492,8 @@ El despliegue de la aplicación web frontend se realizó utilizando GitHub Pages
 
 <img src="../assets/Deployment.png" alt="Vetalis Frontend Deployment"/>
 
+**URL:** https://1asi0729-2610-10177-animatik-vetalis.github.io/Vetalis-Frontend/
+
 ### 5.2.2.8.Team Collaboration Insights during Sprint.
 
 Durante el Sprint 2, nuestra colaboración se centró principalmente en la estructuración y desarrollo de la aplicación web frontend, así como en la actualización de la base documental. El equipo utilizó Trello y GitFlow para la gestión de tareas y control de versiones, asegurando que cada módulo (Dashboard, Perfil, Agenda) fuera implementado correctamente y a tiempo.
