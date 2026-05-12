@@ -522,6 +522,18 @@ Durante el Sprint 2, nuestra colaboración se centró principalmente en la estru
 
 ### Conclusiones y recomendaciones
 
+**Conclusiones:**
+1. **Adopción exitosa de Metodologías Ágiles:** El uso de Sprints y herramientas como Trello y Pivotal Tracker ha permitido al equipo de Animatik mantener un flujo de trabajo organizado y estructurado. Esto se evidenció en la entrega oportuna de la Landing Page en el Sprint 1 y del Frontend de la aplicación web en el Sprint 2, cumpliendo con los objetivos y la velocidad estimada.
+2. **Eficiencia en la Gestión de Configuración y Control de Versiones:** La estricta implementación de GitFlow en GitHub, apoyada con Convenciones de Commits (Conventional Commits), facilitó la colaboración fluida entre los desarrolladores, mitigando conflictos de integración y asegurando la estabilidad de las ramas `main` y `develop`.
+3. **Calidad y Estandarización de Código:** La definición y seguimiento de guías de estilo para HTML, CSS, TypeScript y Angular ha garantizado que el código base de Vetalis sea escalable, legible y fácilmente mantenible.
+4. **Despliegue Continuo con Github Pages:** La automatización básica implementada a través de GitHub Pages ha demostrado ser una solución efectiva y ágil para el despliegue tanto de la Landing Page como del Frontend, permitiendo la validación continua del producto por parte de los stakeholders.
+5. **Enfoque Centrado en el Usuario (Veterinarios):** La correcta maquetación de funcionalidades clave, como el Electronic Health Record (EHR), el registro de signos vitales (Triaje) y el módulo de recetas médicas, demuestra que la solución Vetalis está profundamente alineada con las necesidades operativas de la gestión clínica veterinaria y el control de dispositivos IoT.
+
+**Recomendaciones:**
+1. **Mejora en la Estimación de Tareas:** Se recomienda refinar la asignación de Story Points y la estimación de tiempos, especialmente para módulos con alta complejidad en diseño responsivo y lógica de componentes, evitando la sobrecarga técnica al final de cada Sprint.
+2. **Integración Continua Avanzada:** A medida que el proyecto escale hacia el desarrollo del Backend (Spring Boot/Java) y los servicios IoT, será recomendable implementar pipelines o flujos de CI/CD (GitHub Actions) más robustos que incluyan pruebas automatizadas antes del despliegue.
+3. **Validación Temprana con Usuarios Finales:** Se sugiere ejecutar rondas de Usability Testing con veterinarios y administradores utilizando el Frontend actual, para aplicar ajustes de experiencia de usuario (UX) antes de completar la integración con la base de datos y la API.
+
 ### Video About-the-Team
 
 ---
