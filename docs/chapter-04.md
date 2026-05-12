@@ -187,7 +187,7 @@ Enlace para acceder a los Mockups en Figma: https://www.figma.com/design/eXvRezC
 
 ### Introducción
 
-En esta sección se presentan los prototipos interactivos de la aplicación **Vetalis**, diseñados tanto para desktop como para mobile web browser.
+En esta sección se presentan los prototipos interactivos de la aplicación **Vetalis**.
 Estos prototipos simulan la navegación y los principales flujos de interacción, basados en los **User Flow Diagrams** previamente definidos.
 
 ---
@@ -202,18 +202,18 @@ Los criterios principales que guiaron las decisiones de interacción fueron:
 
 ---
 
-### Prototipo Desktop
+### Prototipo Web
 
-Los prototipos de escritorio muestran los siguientes flujos clave:
+Los prototipos muestran los siguientes flujos clave:
 
 - Registro e Inicio de sesión de usuario.
 - Acceso al Dashboard principal y visualización rápida.
 - Gestión de la Agenda y las citas.
 - Exploración de las Historias Clínicas y la mensajería.
 
-**Screenshot de ejemplo (Desktop):**
+**Screenshot de ejemplo :**
 
-![Prototipo Desktop](../assets/app-dashboard-mockup.png)
+<img src="../assets/app-dashboard-mockup.png">
 
 ---
 
