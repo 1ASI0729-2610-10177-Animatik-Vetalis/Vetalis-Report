@@ -396,10 +396,115 @@ Evidencia del avance en Trello:
 Este segundo ciclo de trabajo concluyó con la entrega funcional de la aplicación web frontend de Animatik, permitiendo a los médicos veterinarios interactuar directamente con los módulos de gestión clínica. La plataforma ahora facilita la búsqueda ágil de pacientes, el registro de signos vitales durante el triaje y la gestión de historiales médicos digitales, integrando una interfaz responsiva desplegada en la nube que optimiza la operatividad y la atención diaria en la clínica.
 
 ### 5.2.2.4.Development Evidence for Sprint Review.
+
+En este apartado se detallan los commits más significativos realizados en el repositorio durante el Sprint 2:
+
+| Repository | Branch | Commit id | Commit message | Commited on (Date) |
+| :--- | :---: | :---: | :--- | :---: |
+| Vetalis-Frontend | main | bef77e0 | feat(main): add schedule.html, schedule.css, and schedule.ts | 12/05/2026 |
+| Vetalis-Frontend | main | da539b3 | feat(main): add dashboard.html and profile.css | 12/05/2026 |
+| Vetalis-Frontend | main | 3c2d25e | feat(main): add profile html and ts files | 12/05/2026 |
+| Vetalis-Frontend | main | 7e66bba | feat(main): add comunication | 12/05/2026 |
+| Vetalis-Frontend | main | cd62339 | Vetalis-Frontend | 12/05/2026 |
+
 ### 5.2.2.5.Execution Evidence for Sprint Review.
+
+Durante este segundo Sprint, el equipo avanzó en la implementación de la aplicación web frontend, logrando una interfaz interactiva, visualmente coherente y adaptable a diferentes dispositivos para los módulos de gestión clínica. A continuación se muestra la evidencia visual de las secciones desplegadas, mostrando la navegación de la plataforma.
+
+1. Dashboard - Panel Principal:
+
+<img src="../assets/Frontend-01.png" alt="Vetalis Frontend - Vista 1"/>
+
+2. Perfil de Usuario (Profile):
+
+<img src="../assets/Frontend-02.png" alt="Vetalis Frontend - Vista 2"/>
+
+3. Calendario/Agenda (Schedule):
+
+<img src="../assets/Frontend-03.png" alt="Vetalis Frontend - Vista 3"/>
+
+4. Comunicación (Comunication):
+
+<img src="../assets/Frontend-04.png" alt="Vetalis Frontend - Vista 4"/>
+
+5. Otras vistas de gestión:
+
+<img src="../assets/Frontend-05.png" alt="Vetalis Frontend - Vista 5"/>
+
 ### 5.2.2.6.Services Documentation Evidence for Sprint Review.
+
+A continuación, se presentan los commits que evidencian la construcción e integración de servicios y componentes para el Frontend:
+
+<table>
+  <thead>
+    <tr>
+      <th>Repository</th>
+      <th>Branch</th>
+      <th>Commit ID</th>
+      <th>Commit message</th>
+      <th>Commit Message body</th>
+      <th>Commit on (date)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="5" align="center" valign="middle">Vetalis-<br>Frontend</td>
+      <td align="center">main</td>
+      <td align="center">cd62339</td>
+      <td>Vetalis-Frontend</td>
+      <td>Configuración base inicial del repositorio del frontend.</td>
+      <td align="center">12/05/2026</td>
+    </tr>
+    <tr>
+      <td align="center">main</td>
+      <td align="center">7e66bba</td>
+      <td>feat(main): add comunication</td>
+      <td>Desarrollo e integración del módulo de comunicación.</td>
+      <td align="center">12/05/2026</td>
+    </tr>
+    <tr>
+      <td align="center">main</td>
+      <td align="center">3c2d25e</td>
+      <td>feat(main): add profile html and ts files</td>
+      <td>Agregada la estructura HTML y la lógica en TypeScript para el perfil.</td>
+      <td align="center">12/05/2026</td>
+    </tr>
+    <tr>
+      <td align="center">main</td>
+      <td align="center">da539b3</td>
+      <td>feat(main): add dashboard.html and profile.css</td>
+      <td>Creación de la vista del dashboard y estilos asociados al perfil.</td>
+      <td align="center">12/05/2026</td>
+    </tr>
+    <tr>
+      <td align="center">main</td>
+      <td align="center">bef77e0</td>
+      <td>feat(main): add schedule.html, schedule.css, and schedule.ts</td>
+      <td>Implementación de las vistas y estilos para el módulo de agenda (schedule).</td>
+      <td align="center">12/05/2026</td>
+    </tr>
+  </tbody>
+</table>
+
 ### 5.2.2.7.Software Deployment Evidence for Sprint Review.
+
+El despliegue de la aplicación web frontend se realizó utilizando GitHub Pages, aprovechando la integración directa con el repositorio del proyecto. Esta configuración permite que el sitio sea accesible públicamente y se actualice automáticamente con cada cambio en la rama principal.
+
+<img src="../assets/deployment.png" alt="Vetalis Frontend Deployment"/>
+
 ### 5.2.2.8.Team Collaboration Insights during Sprint.
+
+Durante el Sprint 2, nuestra colaboración se centró principalmente en la estructuración y desarrollo de la aplicación web frontend, así como en la actualización de la base documental. El equipo utilizó Trello y GitFlow para la gestión de tareas y control de versiones, asegurando que cada módulo (Dashboard, Perfil, Agenda) fuera implementado correctamente y a tiempo.
+
+**Gráfico de Contribuciones del equipo**
+
+**Contribuciones al desarrollo del Frontend:**
+
+<img src="../assets/Team Collaboration- Frontend.png" alt="Team Collaboration Frontend"/>
+
+**Contribuciones al desarrollo del Documento:**
+
+<img src="../assets/Team Collaboration.png" alt="Team Collaboration Documento"/>
 
 ## 5.3. Validation Interviews
 ***
