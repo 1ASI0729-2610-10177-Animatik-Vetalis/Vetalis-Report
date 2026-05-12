@@ -490,7 +490,7 @@ A continuación, se presentan los commits que evidencian la construcción e inte
 
 El despliegue de la aplicación web frontend se realizó utilizando GitHub Pages, aprovechando la integración directa con el repositorio del proyecto. Esta configuración permite que el sitio sea accesible públicamente y se actualice automáticamente con cada cambio en la rama principal.
 
-<img src="../assets/deployment.png" alt="Vetalis Frontend Deployment"/>
+<img src="../assets/Deployment.png" alt="Vetalis Frontend Deployment"/>
 
 ### 5.2.2.8.Team Collaboration Insights during Sprint.
 
