@@ -37,7 +37,6 @@
 ---
 
 # Registro de Versiones del Informe
-
 | Versión |   Fecha    | Autor | Descripción de modificación |
 | :---: |:----------:| :--- | :--- |
 | 1.0 | 10/04/2026 | Sejuro Medina, Mario Gabriel | Creación del reporte en formato Markdown. |
@@ -46,6 +45,11 @@
 | 1.3 | 16/04/2026 | Romero Vilela, Dario Alberto | Completado el Capítulo 3. |
 | 1.4 | 18/04/2026 | Roman Zevallos, Sebastian Jared | Completado el Capítulo 4. |
 | 1.5 | 23/04/2026 | Sejuro Medina, Mario Gabriel | Completado el Capítulo 5. |
+| 1.6 | 10/05/2026 | Sanchez Benavente, Leonardo Matias | Mejora de calidad de fotos y desarrollo del Sprint 2. |
+| 1.7 | 11/05/2026 | Gamero Miranda, Lui Mathias | Agregado de fotos de evidencia a las entrevistas y desarrollo del Sprint 2. |
+| 1.8 | 11/05/2026 | Romero Vilela, Dario Alberto | Eliminación de links y desarrollo del Sprint 2. |
+| 1.9 | 11/05/2026 | Roman Zevallos, Sebastian Jared | Adición de conclusiones y desarrollo del Sprint 2. |
+| 2.0 | 11/05/2026 | Sejuro Medina, Mario Gabriel | Desarrollo del Sprint 2. |
 <br>
 
 # Project Report Collaboration Insights
