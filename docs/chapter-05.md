@@ -433,6 +433,10 @@ Durante este segundo Sprint, el equipo avanzó en la implementación de la aplic
 
 ### 5.2.2.6.Services Documentation Evidence for Sprint Review.
 
+Durante este Sprint 2, el equipo desplegó una Fake API REST utilizando My JSON Server / Render, la cual simula los endpoints del backend de Vetalis y permite al frontend consumir datos reales durante el desarrollo. A continuación se presenta la URL del servicio desplegado:
+
+**URL de la Fake API:** https://vetalis-api.onrender.com/
+
 A continuación, se presentan los commits que evidencian la construcción e integración de servicios y componentes para el Frontend:
 
 <table>
@@ -555,39 +559,178 @@ Enlace del trello: https://trello.com/invite/b/69ea5e4e6743746b9259cdec/ATTI07c5
 
 Se detalla a continuación el registro de los commits más significativos orientados a la construcción de los Web Services y la integración con la base de datos:
 
-| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| | | | | | |
-| | | | | | |
-| | | | | | |
-| | | | | | |
-| | | | | | |
+<table>
+  <thead>
+    <tr>
+      <th>Repository</th>
+      <th>Branch</th>
+      <th>Commit Id</th>
+      <th>Commit Message</th>
+      <th>Commit Message Body</th>
+      <th>Commited on (Date)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="7" align="center" valign="middle">Vetalis-<br>Backend</td>
+      <td align="center">main</td>
+      <td align="center">20a09bd</td>
+      <td>add src and root</td>
+      <td>Configuración base inicial del proyecto Spring Boot y estructura raíz del repositorio.</td>
+      <td align="center">19/06/2026</td>
+    </tr>
+    <tr>
+      <td align="center">main</td>
+      <td align="center">ce0663f</td>
+      <td>feat: add bounded context clients</td>
+      <td>Implementación del bounded context de clientes con sus respectivos endpoints REST.</td>
+      <td align="center">19/06/2026</td>
+    </tr>
+    <tr>
+      <td align="center">main</td>
+      <td align="center">22b34f8</td>
+      <td>feat: add boundend context clinical</td>
+      <td>Desarrollo del bounded context clínico con gestión de historiales médicos y triaje.</td>
+      <td align="center">19/06/2026</td>
+    </tr>
+    <tr>
+      <td align="center">main</td>
+      <td align="center">e2f49d1</td>
+      <td>feat: add bounded context dashboard and iam</td>
+      <td>Implementación del bounded context de dashboard y módulo de Identity & Access Management con JWT.</td>
+      <td align="center">19/06/2026</td>
+    </tr>
+    <tr>
+      <td align="center">main</td>
+      <td align="center">1dba316</td>
+      <td>feat: add bounded context inventory</td>
+      <td>Desarrollo del bounded context de inventario con control de stock y alertas de medicamentos.</td>
+      <td align="center">19/06/2026</td>
+    </tr>
+    <tr>
+      <td align="center">main</td>
+      <td align="center">9ddcc9f</td>
+      <td>feat: add boundend context iot</td>
+      <td>Implementación del bounded context IoT para la gestión de dispositivos de alimentación automática.</td>
+      <td align="center">19/06/2026</td>
+    </tr>
+    <tr>
+      <td align="center">main</td>
+      <td align="center">b53804c</td>
+      <td>feat: add schedule and shared bounded contexts</td>
+      <td>Desarrollo del bounded context de agenda y componentes compartidos entre los módulos del sistema.</td>
+      <td align="center">19/06/2026</td>
+    </tr>
+  </tbody>
+</table>
+
+Evidencia de los commits realizados en el repositorio Vetalis-Backend durante el Sprint 3:
+
+<img src="../assets/evidences-sprint3.png" alt="Evidencia de commits Sprint 3 en GitHub"/>
 
 #### 5.2.3.5. Execution Evidence for Sprint Review
 
 Se implementaron los servicios RESTful requeridos para el funcionamiento de la plataforma. A través de clientes HTTP se verificó que los controladores procesen correctamente las solicitudes JSON, apliquen la seguridad JWT y retornen los códigos de estado correspondientes a la lógica de negocio.
 
+A continuación se muestra la evidencia visual de la documentación interactiva de la API desplegada con Swagger, donde se pueden observar los endpoints operativos del backend:
+
+<img src="../assets/swagger-evidence.png" alt="Swagger UI - Vetalis API Sprint 3"/>
+
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
 En cumplimiento con los requerimientos, los Web Services han sido documentados utilizando OpenAPI Specification vía Swagger. La documentación detalla las acciones soportadas, los verbos HTTP, la sintaxis de llamada y los modelos de respuesta esperados.
 
+**URL de Swagger UI:** http://34.31.128.116:8081/api/v1/swagger-ui/index.html
+
+A continuación se presenta la evidencia de la documentación interactiva generada con Swagger/OpenAPI 3.1:
+
+<img src="../assets/swagger-evidence.png" alt="Swagger UI - Documentación de Web Services Vetalis API"/>
+
+Se detallan los endpoints implementados y documentados durante este Sprint:
+
+| Endpoint | Verbo HTTP | Descripción | Ejemplo de Llamada | Response |
+| :--- | :---: | :--- | :--- | :---: |
+| /vacunas | GET | Recupera la lista completa de vacunas registradas. | GET /api/v1/vacunas | 200 OK |
+| /vacunas | POST | Registra una nueva vacuna en el sistema. | POST /api/v1/vacunas | 201 Created |
+| /vacunas/{id} | GET | Obtiene los detalles de una vacuna específica por su ID. | GET /api/v1/vacunas/1 | 200 OK |
+| /vacunas/{id} | PUT | Actualiza los datos de una vacuna existente. | PUT /api/v1/vacunas/1 | 200 OK |
+| /vacunas/{id} | DELETE | Elimina una vacuna del registro. | DELETE /api/v1/vacunas/1 | 204 No Content |
+| /vacunas/alerts | GET | Consulta las alertas de vacunación pendientes. | GET /api/v1/vacunas/alerts | 200 OK |
+
 A continuación, se detalla el registro de los commits asociados a la generación de la documentación de los Web Services:
 
-| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| | | | | | |
-| | | | | | |
-| | | | | | |
-| | | | | | |
-| | | | | | |
+<table>
+  <thead>
+    <tr>
+      <th>Repository</th>
+      <th>Branch</th>
+      <th>Commit ID</th>
+      <th>Commit Message</th>
+      <th>Commit Message Body</th>
+      <th>Commited on (Date)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="5" align="center" valign="middle">Vetalis-<br>Backend</td>
+      <td align="center">main</td>
+      <td align="center">22b34f8</td>
+      <td>feat: add boundend context clinical</td>
+      <td>Bounded context clínico con endpoints documentados para gestión de historiales médicos.</td>
+      <td align="center">19/06/2026</td>
+    </tr>
+    <tr>
+      <td align="center">main</td>
+      <td align="center">e2f49d1</td>
+      <td>feat: add bounded context dashboard and iam</td>
+      <td>Endpoints documentados para autenticación JWT e inicio de sesión en el módulo IAM.</td>
+      <td align="center">19/06/2026</td>
+    </tr>
+    <tr>
+      <td align="center">main</td>
+      <td align="center">1dba316</td>
+      <td>feat: add bounded context inventory</td>
+      <td>Endpoints documentados del módulo de inventario incluyendo CRUD de vacunas y alertas.</td>
+      <td align="center">19/06/2026</td>
+    </tr>
+    <tr>
+      <td align="center">main</td>
+      <td align="center">b53804c</td>
+      <td>feat: add schedule and shared bounded contexts</td>
+      <td>Endpoints documentados para la gestión de agenda y citas veterinarias.</td>
+      <td align="center">19/06/2026</td>
+    </tr>
+    <tr>
+      <td align="center">main</td>
+      <td align="center">9ddcc9f</td>
+      <td>feat: add boundend context iot</td>
+      <td>Endpoints documentados para la gestión de dispositivos IoT de alimentación automática.</td>
+      <td align="center">19/06/2026</td>
+    </tr>
+  </tbody>
+</table>
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
 Se realizó la configuración y el despliegue exitoso de los Web Services en la nube, conectando el backend a una base de datos productiva. Esto asegura que la API esté disponible públicamente para el consumo de la Web Application (Frontend) previamente desplegada.
 
+El backend fue desplegado en un servidor cloud con acceso público, permitiendo la interacción directa con los endpoints documentados a través de Swagger UI.
+
+**URL de la API desplegada:** http://34.31.128.116:8081/api/v1/
+
+**URL de Swagger UI:** http://34.31.128.116:8081/api/v1/swagger-ui/index.html
+
+<img src="../assets/swagger-evidence.png" alt="Evidencia de despliegue - Swagger UI Vetalis API"/>
+
 #### 5.2.3.8. Team Collaboration Insights during Sprint
 
 La colaboración del equipo se mantuvo constante a través de GitHub, respetando la estrategia de ramas de GitFlow y el uso de Conventional Commits para asegurar la trazabilidad del desarrollo del backend.
+
+A continuación se presentan los analíticos proporcionados por GitHub en su apartado de Insights, sobre la colaboración del equipo durante el Sprint 3:
+
+**Contribuciones al desarrollo del Backend:**
+
+<img src="../assets/evidences-sprint3.png" alt="Team Collaboration Insights - Vetalis Backend Sprint 3"/>
 
 ---
 
