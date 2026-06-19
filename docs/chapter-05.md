@@ -641,7 +641,7 @@ Detalles de la entrevista:
 
 ● URL: https://drive.google.com/file/d/1M4I-Sl_nTlORD9gaPROh_wAGkTbjWP4G/view?usp=sharing
 
-<div align="center"><img src="../assets/Entrevista2_Segmento1.png"  width="100%"><br></div>
+<div align="center"><img src="../assets/Entrevista2_Segmento1.png" width="100%"><br></div>
 
 Resumen de los puntos clave en la entrevista:
 
@@ -669,7 +669,7 @@ Detalles de la entrevista:
 
 ● URL: https://drive.google.com/file/d/1B6nk-ESuFE9yeQlp8TgnkcAIgUknUQ0r/view?usp=sharing
 
-<div align="center"><img src="../assets/Entrevista3_segmento2.png"  width="100%"><br></div>
+<div align="center"><img src="../assets/Entrevista3_segmento2.png" width="100%"><br></div>
 
 Resumen de los puntos clave en la entrevista:
 
@@ -697,7 +697,7 @@ Detalles de la entrevista:
 
 ● URL: https://drive.google.com/file/d/1arSjN2ninHc0QcYMgbDHZsIaBHZD0q9D/view?usp=sharing
 
-<div align="center"><img src="../assets/Entrevista%204_segmento2.png"  width="100%"><br></div>
+<div align="center"><img src="../assets/Entrevista%204_segmento2.png" width="100%"><br></div>
 
 Resumen de los puntos clave en la entrevista:
 
@@ -740,8 +740,22 @@ La entrevista evalúa la plataforma de gestión clínica desde la perspectiva de
 
 ### 5.3.3. Evaluaciones según heurísticas
 
+**Evaluación heurística de la aplicación Vetalis**
 
----
+Este análisis se basa en los principios de usabilidad de Jakob Nielsen para evaluar la experiencia de usuario de la plataforma Vetalis, contrastando los hallazgos de las entrevistas de validación realizadas a ambos segmentos (Practicantes de veterinaria y Administradores de centros veterinarios). Se identifican fortalezas, debilidades y recomendaciones de mejora.
+
+| Heurística | Severidad | Descripción | Recomendación |
+| :--- | :--- | :--- | :--- |
+| Visibilidad del estado del sistema | 1 | El Dashboard inicial presenta de forma inmediata un resumen de pacientes activos, atenciones del día y carga automáticamente la información al iniciar sesión, lo cual fue valorado positivamente por ambos administradores entrevistados. | Mantener el comportamiento actual. Se podría añadir un indicador visual de "última actualización" para reforzar la confianza en la data mostrada. |
+| Coincidencia entre el sistema y el mundo real | 1 | El buscador de pacientes filtra con exactitud incluso ante nombres similares, y el historial clínico se muestra de forma clara y ordenada, replicando la lógica con la que el personal médico revisaba antes las fichas físicas. | Conservar el diseño actual. Se sugiere mantener la nomenclatura clínica estándar al incorporar nuevos módulos. |
+| Control y libertad del usuario | 2 | Los datos de triaje se guardan de forma segura sin perderse al recargar la página; sin embargo, no se reportó explícitamente una opción visible de deshacer o cancelar un registro clínico en proceso. | Incorporar un botón de "Cancelar/Deshacer" explícito durante el registro de triaje y recetas, evitando que el usuario dependa únicamente del autoguardado. |
+| Consistencia y estándares | 1 | La agenda de citas refleja con precisión los datos necesarios de las mascotas (peso, edad) y permite identificar con claridad los espacios reservados o disponibles, manteniendo un mismo patrón visual entre los módulos de citas, inventario y reportes financieros. | Mantener el estándar visual actual entre módulos. Documentar la guía de estilo para que futuros componentes (IoT) respeten la misma consistencia. |
+| Prevención de errores | 2 | Las alertas visuales de alergias cumplen su función preventiva en pacientes con condiciones críticas; no obstante, un entrevistado sugirió intensificar el color rojo de dichas alertas para captar la atención de forma más inmediata durante la consulta. | Aumentar el contraste y saturación del color de alerta de alergias, y evaluar la incorporación de un ícono de advertencia adicional junto al texto. |
+| Reconocimiento antes que recordar | 2 | La generación de recetas médicas está conectada directamente con el inventario disponible, lo cual reduce la carga de memoria del veterinario; sin embargo, se identificó que el autocompletado al buscar medicamentos podría ser más ágil. | Optimizar el algoritmo de autocompletado de medicamentos para reducir la cantidad de caracteres necesarios antes de sugerir resultados relevantes. |
+| Flexibilidad y eficiencia de uso | 1 | El uso de tokens de sesión permite a los practicantes mantenerse autenticados sin reingresar la contraseña constantemente, agilizando el flujo de atención diario tanto para usuarios nuevos como recurrentes. | Mantener el manejo de sesión actual. Se podría añadir accesos rápidos (shortcuts) para usuarios administradores frecuentes en los reportes financieros. |
+| Diseño estético y minimalista | 1 | El sistema fue calificado como estable, robusto y fluido al navegar por reportes financieros e inventario, sin sobrecarga de información ni lentitud reportada por ninguno de los cuatro entrevistados. | Mantener el estilo actual. Se podría reforzar con micro-animaciones sutiles al cargar los dashboards para mejorar la percepción de fluidez. |
+| Ayudar a los usuarios a reconocer y recuperarse de errores | 2 | No se reportaron errores críticos durante las pruebas; sin embargo, no se evidenció un mensaje claro de recuperación ante posibles fallos de conexión con los dispensadores IoT durante la dispensación automática de alimento. | Diseñar mensajes de error específicos para fallos de conectividad IoT, indicando al usuario la causa probable y los pasos a seguir. |
+| Ayuda y documentación | 3 | Las alertas de stock mínimo de medicamentos son consideradas claras y fundamentales para anticipar compras a proveedores; no obstante, un administrador sugirió implementar una notificación automática por correo electrónico como refuerzo. | Implementar un sistema de notificaciones automáticas vía correo electrónico o push, complementando las alertas visuales dentro de la plataforma. |
 
 ## 5.4. Video About-the-Product
 
