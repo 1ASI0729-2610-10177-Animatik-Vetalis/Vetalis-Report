@@ -508,12 +508,131 @@ Durante el Sprint 2, nuestra colaboración se centró principalmente en la estru
 
 <img src="../assets/Team Collaboration.png" alt="Team Collaboration Documento"/>
 
+### 5.2.3. Sprint 3
+
+#### 5.2.3.1. Sprint Planning 3
+
+| Sprint # | Sprint 3 |
+|---|---|
+| **Sprint Planning Background** | Sesión de planificación enfocada en la implementación y despliegue de la primera versión de los Web Services (RESTful API) en Java con Spring Boot, garantizando la persistencia de datos y la lógica de negocio para los módulos de gestión de la plataforma. |
+| **Date** | 14/06/2026 |
+| **Time** | 05:00 PM |
+| **Location** | Google Meet |
+| **Prepared By** | Sejuro Medina, Mario Gabriel |
+| **Attendees (to planning meeting)** | Gamero Miranda, Lui Mathias / Roman Zevallos, Sebastian Jared / Romero Vilela, Dario Alberto / Sanchez Benavente, Leonardo Matias / Sejuro Medina, Mario Gabriel |
+| **Sprint 2 Review Summary** | Se logró implementar y desplegar exitosamente la aplicación web frontend en Angular mediante GitHub Pages. Se validaron las vistas de triaje, agenda y dashboard. |
+| **Sprint 2 Retrospective Summary** | El equipo identificó que la integración de vistas tomó más tiempo del esperado. Se acordó mejorar la estimación de tiempos técnicos para la creación de los endpoints del backend y mantener la fluidez en el control de versiones con GitFlow. |
+| **Sprint 3 Goal** | Nuestro enfoque es desplegar la primera versión de Web Services. Creemos que brindará la lógica de negocio y persistencia de datos al frontend. Se confirmará cuando los endpoints de historias clínicas y autenticación respondan a las peticiones del cliente y estén documentados con Swagger. |
+| **Sprint 3 Velocity** | 23 |
+| **Sum of Story Points** | 23 |
+
+#### 5.2.3.2. Aspect Leaders and Collaborators
+
+| Team Member (Last Name, First Name) | GitHub Username | API Development Leader (L) / Collaborator (C) | Database Integration Leader (L) / Collaborator (C) | API Documentation Leader (L) / Collaborator (C) | Software Deployment Leader (L) / Collaborator (C) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| Gamero Miranda, Lui Mathias | lug07m | C | C | C | L |
+| Roman Zevallos, Sebastian Jared | Chebas19 | C | L | C | C |
+| Romero Vilela, Dario Alberto | patatitis9-alt | L | C | C | C |
+| Sanchez Benavente, Leonardo Matias | Matiassb06 | C | C | C | C |
+| Sejuro Medina, Mario Gabriel | blackdollie | C | C | L | C |
+
+#### 5.2.3.3. Sprint Backlog 3
+
+| Sprint # | Sprint 3 | | | | |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **User Story Id** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
+| TS001 | Retrieve Patient History Endpoint | Crear un GET endpoint en Java para recuperar el historial médico. | 5 | Roman Zevallos, Sebastian Jared | Done |
+| TS003 | Validate JWT Authentication | Implementar middleware de autenticación JWT para proteger los endpoints. | 5 | Romero Vilela, Dario Alberto | Done |
+| TS005 | Create New Appointment Endpoint | Construir un POST endpoint para programar citas en el calendario. | 5 | Sanchez Benavente, Leonardo Matias | Done |
+| TS007 | User Login & Token Generation | Implementar un POST endpoint para el inicio de sesión y emisión de JWT. | 5 | Gamero Miranda, Lui Mathias | Done |
+| TS010 | Validate Token Endpoint | Crear un endpoint que verifique si un JWT sigue activo. | 3 | Sejuro Medina, Mario Gabriel | Done |
+
+#### 5.2.3.4. Development Evidence for Sprint Review
+
+Se detalla a continuación el registro de los commits más significativos orientados a la construcción de los Web Services y la integración con la base de datos:
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| | | | | | |
+| | | | | | |
+| | | | | | |
+| | | | | | |
+| | | | | | |
+
+#### 5.2.3.5. Execution Evidence for Sprint Review
+
+Se implementaron los servicios RESTful requeridos para el funcionamiento de la plataforma. A través de clientes HTTP se verificó que los controladores procesen correctamente las solicitudes JSON, apliquen la seguridad JWT y retornen los códigos de estado correspondientes a la lógica de negocio.
+
+#### 5.2.3.6. Services Documentation Evidence for Sprint Review
+
+En cumplimiento con los requerimientos, los Web Services han sido documentados utilizando OpenAPI Specification vía Swagger. La documentación detalla las acciones soportadas, los verbos HTTP, la sintaxis de llamada y los modelos de respuesta esperados.
+
+A continuación, se detalla el registro de los commits asociados a la generación de la documentación de los Web Services:
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| | | | | | |
+| | | | | | |
+| | | | | | |
+| | | | | | |
+| | | | | | |
+
+#### 5.2.3.7. Software Deployment Evidence for Sprint Review
+
+Se realizó la configuración y el despliegue exitoso de los Web Services en la nube, conectando el backend a una base de datos productiva. Esto asegura que la API esté disponible públicamente para el consumo de la Web Application (Frontend) previamente desplegada.
+
+#### 5.2.3.8. Team Collaboration Insights during Sprint
+
+La colaboración del equipo se mantuvo constante a través de GitHub, respetando la estrategia de ramas de GitFlow y el uso de Conventional Commits para asegurar la trazabilidad del desarrollo del backend.
+
+---
+
 ## 5.3. Validation Interviews
-***
+
 ### 5.3.1. Diseño de Entrevistas
+
+**Segmento 1: Médico Veterinario**
+1. Al iniciar sesión en la plataforma, ¿qué tan rápido e intuitivo le resultó el proceso de autenticación?
+2. Al utilizar la barra de búsqueda de pacientes, ¿los resultados de la base de datos coincidieron con lo que esperaba encontrar?
+3. Durante el registro de un triaje, ¿el sistema guardó su información de manera correcta y reflejó los datos actualizados?
+4. Al revisar el historial clínico completo, ¿la información se cargó de forma clara y sin demoras significativas?
+5. ¿Le resultó sencillo comprender y generar una receta médica digital desde la interfaz conectada?
+6. ¿Considera que las alertas visuales de alergias son lo suficientemente claras para evitar errores de medicación?
+7. En términos generales, ¿considera que el uso de esta plataforma en tiempo real agiliza su trabajo clínico diario en comparación con sus herramientas anteriores?
+
+**Segmento 2: Administrador / Propietario de Veterinaria**
+1. Al ingresar al sistema, ¿la carga inicial de los datos del Dashboard general le pareció fluida?
+2. Al revisar la agenda de citas, ¿la información mostrada refleja con precisión las reservas registradas?
+3. ¿Pudo identificar fácilmente los diferentes estados de las citas (pendientes, confirmadas) en el calendario?
+4. ¿Experimentó algún tipo de lentitud o error al momento de navegar por los reportes financieros o de inventario?
+5. ¿Qué tan claras le resultaron las alertas de stock mínimo de medicamentos proporcionadas por el sistema?
+6. ¿Le fue sencillo interpretar los flujos de caja y reconciliación de pagos diarios mostrados en la interfaz?
+7. ¿Esta vista centralizada le genera la confianza necesaria para tomar decisiones gerenciales rápidas y efectivas?
+
 ### 5.3.2. Registro de Entrevistas
+
+| Nombres y Apellidos | Edad | Distrito | Segmento | Timing / Duración | URL del Video (Microsoft Stream) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| | | | Médico Veterinario | | |
+| | | | Médico Veterinario | | |
+| | | | Administrador | | |
+| | | | Administrador | | |
+
+**Resumen de Entrevistas:**
+
+*   **Entrevista 1:**
+*   **Entrevista 2:**
+*   **Entrevista 3:**
+*   **Entrevista 4:**
+
 ### 5.3.3. Evaluaciones según heurísticas
+
+
+---
+
 ## 5.4. Video About-the-Product
+
+El Video About-the-Product tiene una orientación promocional enfocada a visitantes del Landing Page y a posibles clientes de la clínica. Resume el modelo de negocio, destacando cómo se centralizan las historias clínicas (EHR), se agiliza la gestión administrativa (ERP) y se automatiza el cuidado de los pacientes. El contenido incluye demostraciones de uso del software funcional y recoge el valor agregado que la solución aporta al rubro veterinario.
 
 ---
 ## Conclusiones
