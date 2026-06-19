@@ -547,6 +547,10 @@ Durante el Sprint 2, nuestra colaboración se centró principalmente en la estru
 | TS007 | User Login & Token Generation | Implementar un POST endpoint para el inicio de sesión y emisión de JWT. | 5 | Gamero Miranda, Lui Mathias | Done |
 | TS010 | Validate Token Endpoint | Crear un endpoint que verifique si un JWT sigue activo. | 3 | Sejuro Medina, Mario Gabriel | Done |
 
+Evidencia del trello: 
+<img src="../assets/Sprint_03_Trello.png" alt="Foto Sprint 03 en Trello"/>
+Enlace del trello: https://trello.com/invite/b/69ea5e4e6743746b9259cdec/ATTI07c5209f0d55628672b1d547ef9c38243661ADA5/vetalis-user-stories
+
 #### 5.2.3.4. Development Evidence for Sprint Review
 
 Se detalla a continuación el registro de los commits más significativos orientados a la construcción de los Web Services y la integración con la base de datos:
