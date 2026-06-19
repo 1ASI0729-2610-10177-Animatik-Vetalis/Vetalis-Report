@@ -593,6 +593,115 @@ La colaboración del equipo se mantuvo constante a través de GitHub, respetando
 
 ## 5.3. Validation Interviews
 
+**Segmento 1: Practicantes de veterinaria**
+
+Entrevista N°1
+
+● Nombre: Diego Fernando Lavado Quintanilla
+
+● Sexo: Masculino
+
+● Edad: 28
+
+● Estado Civil: Soltero
+
+● Labor: Practicante de Veterinaria
+
+Detalles de la entrevista:
+
+● Duración: 3:07
+
+● URL: https://drive.google.com/file/d/1NFeYZikIhpmp7hBB6cVEut_OigyxbtEK/view?usp=sharing
+
+<div align="center"><img src="../assets/Entrevista1_Segmento1.png"  width="100%"><br></div>
+
+Resumen de los puntos clave en la entrevista:
+
+La entrevista evalúa la usabilidad y eficiencia de una plataforma de gestión clínica veterinaria. El entrevistado destaca que el sistema es rápido, intuitivo y eficiente en tiempo real, lo que reduce significativamente el trabajo manual y el tiempo perdido en papeleo entre consultas. Resalta la precisión en la búsqueda de pacientes, la correcta persistencia de datos al registrar un triaje y la carga estructurada y sin demoras del historial clínico. Como oportunidades de mejora, sugiere implementar un sistema de autocompletado más ágil al buscar medicamentos para las recetas digitales e intensificar el color rojo de las alertas visuales de alergias para captar la atención más rápidamente.
+
+---
+
+**Segmento 1: Practicantes de veterinaria**
+
+Entrevista N°2
+
+● Nombre: Ángel Matías Rocca
+
+● Sexo: Masculino
+
+● Edad: No especificada
+
+● Estado Civil: No especificado
+
+● Labor: Practicante de Veterinaria
+
+Detalles de la entrevista:
+
+● Duración: 3:08
+
+● URL: https://drive.google.com/file/d/1M4I-Sl_nTlORD9gaPROh_wAGkTbjWP4G/view?usp=sharing
+
+<div align="center"><img src="../assets/Entrevista2_Segmento1.png"  width="100%"><br></div>
+
+Resumen de los puntos clave en la entrevista:
+
+La entrevista evalúa el uso de una plataforma de gestión clínica veterinaria. El entrevistado resalta que el sistema es muy útil para reducir la carga mental y acelerar el flujo de atención diario. Destaca varios puntos fuertes: el proceso de inicio de sesión es sencillo y el uso de tokens mantiene la sesión activa sin necesidad de reingresar la contraseña constantemente; el buscador de pacientes filtra con exactitud incluso con nombres similares; y los datos de triaje se guardan de forma segura sin perderse al recargar la página. Además, menciona que el historial clínico es visualmente claro, ordenado y más rápido de consultar que las fichas físicas. También valora que la generación de recetas médicas esté conectada directamente con el inventario disponible y que las alertas visuales de alergias cumplen perfectamente su función preventiva en pacientes con condiciones críticas.
+
+---
+
+**Segmento 2: Administradores de centros veterinarios**
+
+Entrevista N°3
+
+● Nombre: Anghelo Faustino
+
+● Sexo: Masculino
+
+● Edad: 24
+
+● Estado Civil: Soltero
+
+● Labor: Administrador de Veterinaria
+
+Detalles de la entrevista:
+
+● Duración: 3:26
+
+● URL: https://drive.google.com/file/d/1B6nk-ESuFE9yeQlp8TgnkcAIgUknUQ0r/view?usp=sharing
+
+<div align="center"><img src="../assets/Entrevista3_segmento2.png"  width="100%"><br></div>
+
+Resumen de los puntos clave en la entrevista:
+
+La entrevista se centra en la perspectiva administrativa de la plataforma de gestión clínica. El entrevistado, Anghelo, valora positivamente el sistema, destacando que el dashboard inicial presenta un resumen rápido de pacientes activos y atenciones del día. La agenda de citas en tiempo real es considerada vital para evitar cruces de horarios y permite identificar fácilmente los espacios libres de los practicantes. A nivel administrativo, destaca que no experimentó lentitud al navegar por los reportes financieros o de inventario, calificando al sistema de estable y robusto. Las alertas de stock mínimo son consideradas fundamentales, aunque sugiere la implementación de un correo automático en el futuro. Finalmente, resalta que el resumen financiero y la conciliación automática de pagos le otorgan la confianza necesaria para tomar decisiones gerenciales, ahorrándole horas de trabajo que antes invertía en cuadrar las cuentas a mano a fin de mes.
+
+---
+
+**Segmento 2: Administradores de centros veterinarios**
+
+Entrevista N°4
+
+● Nombre: Eduardo Aguirre
+
+● Sexo: Masculino
+
+● Edad: 26
+
+● Estado Civil: Soltero
+
+● Labor: Administrador de Veterinaria
+
+Detalles de la entrevista:
+
+● Duración: 04:33
+
+● URL: https://drive.google.com/file/d/1arSjN2ninHc0QcYMgbDHZsIaBHZD0q9D/view?usp=sharing
+
+<div align="center"><img src="../assets/Entrevista%204_segmento2.png"  width="100%"><br></div>
+
+Resumen de los puntos clave en la entrevista:
+
+La entrevista evalúa la plataforma de gestión clínica desde la perspectiva de un administrador. Eduardo Aguirre destaca que el *dashboard* es muy fluido y carga toda la información de los pacientes automáticamente al iniciar sesión. Señala que la agenda de citas refleja con precisión los datos necesarios de las mascotas, como peso y edad, y permite identificar con claridad los espacios reservados o disponibles en el calendario. Además, afirma que la navegación por los reportes financieros y de inventario no presenta lentitud, resaltando una excelente velocidad de carga en las consultas. Considera que las alertas de stock mínimo son muy claras y visibles, lo cual es fundamental para anticipar compras a proveedores o emitir alertas de emergencia en caso de falta de inventario. Finalmente, menciona que la vista unificada de ingresos y flujos de caja es fácil de interpretar, lo que le brinda total confianza, exactitud y rapidez al momento de generar reportes y tomar decisiones gerenciales.
 ### 5.3.1. Diseño de Entrevistas
 
 **Segmento 1: Médico Veterinario**
