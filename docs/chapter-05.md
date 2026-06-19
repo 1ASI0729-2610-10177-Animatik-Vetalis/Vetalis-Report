@@ -893,6 +893,8 @@ Este análisis se basa en los principios de usabilidad de Jakob Nielsen para eva
 
 El Video About-the-Product tiene una orientación promocional enfocada a visitantes del Landing Page y a posibles clientes de la clínica. Resume el modelo de negocio, destacando cómo se centralizan las historias clínicas (EHR), se agiliza la gestión administrativa (ERP) y se automatiza el cuidado de los pacientes. El contenido incluye demostraciones de uso del software funcional y recoge el valor agregado que la solución aporta al rubro veterinario.
 
+**URL del Video About-the-Product:** https://youtu.be/UjcH5Xqd82A
+
 ---
 ## Conclusiones
 
