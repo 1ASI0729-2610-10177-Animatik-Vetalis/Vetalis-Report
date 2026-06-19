@@ -593,6 +593,28 @@ La colaboración del equipo se mantuvo constante a través de GitHub, respetando
 
 ## 5.3. Validation Interviews
 
+### 5.3.1. Diseño de Entrevistas
+
+**Segmento 1: Médico Veterinario**
+1. Al iniciar sesión en la plataforma, ¿qué tan rápido e intuitivo le resultó el proceso de autenticación?
+2. Al utilizar la barra de búsqueda de pacientes, ¿los resultados de la base de datos coincidieron con lo que esperaba encontrar?
+3. Durante el registro de un triaje, ¿el sistema guardó su información de manera correcta y reflejó los datos actualizados?
+4. Al revisar el historial clínico completo, ¿la información se cargó de forma clara y sin demoras significativas?
+5. ¿Le resultó sencillo comprender y generar una receta médica digital desde la interfaz conectada?
+6. ¿Considera que las alertas visuales de alergias son lo suficientemente claras para evitar errores de medicación?
+7. En términos generales, ¿considera que el uso de esta plataforma en tiempo real agiliza su trabajo clínico diario en comparación con sus herramientas anteriores?
+
+**Segmento 2: Administrador / Propietario de Veterinaria**
+1. Al ingresar al sistema, ¿la carga inicial de los datos del Dashboard general le pareció fluida?
+2. Al revisar la agenda de citas, ¿la información mostrada refleja con precisión las reservas registradas?
+3. ¿Pudo identificar fácilmente los diferentes estados de las citas (pendientes, confirmadas) en el calendario?
+4. ¿Experimentó algún tipo de lentitud o error al momento de navegar por los reportes financieros o de inventario?
+5. ¿Qué tan claras le resultaron las alertas de stock mínimo de medicamentos proporcionadas por el sistema?
+6. ¿Le fue sencillo interpretar los flujos de caja y reconciliación de pagos diarios mostrados en la interfaz?
+7. ¿Esta vista centralizada le genera la confianza necesaria para tomar decisiones gerenciales rápidas y efectivas?
+
+### 5.3.2. Registro de Entrevistas
+
 **Segmento 1: Practicantes de veterinaria**
 
 Entrevista N°1
@@ -702,41 +724,8 @@ Detalles de la entrevista:
 Resumen de los puntos clave en la entrevista:
 
 La entrevista evalúa la plataforma de gestión clínica desde la perspectiva de un administrador. Eduardo Aguirre destaca que el *dashboard* es muy fluido y carga toda la información de los pacientes automáticamente al iniciar sesión. Señala que la agenda de citas refleja con precisión los datos necesarios de las mascotas, como peso y edad, y permite identificar con claridad los espacios reservados o disponibles en el calendario. Además, afirma que la navegación por los reportes financieros y de inventario no presenta lentitud, resaltando una excelente velocidad de carga en las consultas. Considera que las alertas de stock mínimo son muy claras y visibles, lo cual es fundamental para anticipar compras a proveedores o emitir alertas de emergencia en caso de falta de inventario. Finalmente, menciona que la vista unificada de ingresos y flujos de caja es fácil de interpretar, lo que le brinda total confianza, exactitud y rapidez al momento de generar reportes y tomar decisiones gerenciales.
-### 5.3.1. Diseño de Entrevistas
 
-**Segmento 1: Médico Veterinario**
-1. Al iniciar sesión en la plataforma, ¿qué tan rápido e intuitivo le resultó el proceso de autenticación?
-2. Al utilizar la barra de búsqueda de pacientes, ¿los resultados de la base de datos coincidieron con lo que esperaba encontrar?
-3. Durante el registro de un triaje, ¿el sistema guardó su información de manera correcta y reflejó los datos actualizados?
-4. Al revisar el historial clínico completo, ¿la información se cargó de forma clara y sin demoras significativas?
-5. ¿Le resultó sencillo comprender y generar una receta médica digital desde la interfaz conectada?
-6. ¿Considera que las alertas visuales de alergias son lo suficientemente claras para evitar errores de medicación?
-7. En términos generales, ¿considera que el uso de esta plataforma en tiempo real agiliza su trabajo clínico diario en comparación con sus herramientas anteriores?
-
-**Segmento 2: Administrador / Propietario de Veterinaria**
-1. Al ingresar al sistema, ¿la carga inicial de los datos del Dashboard general le pareció fluida?
-2. Al revisar la agenda de citas, ¿la información mostrada refleja con precisión las reservas registradas?
-3. ¿Pudo identificar fácilmente los diferentes estados de las citas (pendientes, confirmadas) en el calendario?
-4. ¿Experimentó algún tipo de lentitud o error al momento de navegar por los reportes financieros o de inventario?
-5. ¿Qué tan claras le resultaron las alertas de stock mínimo de medicamentos proporcionadas por el sistema?
-6. ¿Le fue sencillo interpretar los flujos de caja y reconciliación de pagos diarios mostrados en la interfaz?
-7. ¿Esta vista centralizada le genera la confianza necesaria para tomar decisiones gerenciales rápidas y efectivas?
-
-### 5.3.2. Registro de Entrevistas
-
-| Nombres y Apellidos | Edad | Distrito | Segmento | Timing / Duración | URL del Video (Microsoft Stream) |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| | | | Médico Veterinario | | |
-| | | | Médico Veterinario | | |
-| | | | Administrador | | |
-| | | | Administrador | | |
-
-**Resumen de Entrevistas:**
-
-*   **Entrevista 1:**
-*   **Entrevista 2:**
-*   **Entrevista 3:**
-*   **Entrevista 4:**
+---
 
 ### 5.3.3. Evaluaciones según heurísticas
 
