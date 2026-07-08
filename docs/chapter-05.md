@@ -516,7 +516,7 @@ El despliegue de la aplicación web frontend se realizó utilizando GitHub Pages
 
 <img src="../assets/Deployment.png" alt="Vetalis Frontend Deployment"/>
 
-**URL:** https://1asi0729-2610-10177-animatik-vetalis.github.io/Vetalis-Frontend/
+**URL:** https://vetalis-front.netlify.app/admin
 
 ### 5.2.2.8.Team Collaboration Insights during Sprint.
 
@@ -789,9 +789,7 @@ Se realizó la configuración y el despliegue exitoso de los Web Services en la 
 
 El backend fue desplegado en un servidor cloud con acceso público, permitiendo la interacción directa con los endpoints documentados a través de Swagger UI.
 
-**URL de la API desplegada:** http://34.31.128.116:8081/api/v1/
-
-**URL de Swagger UI:** http://34.31.128.116:8081/api/v1/swagger-ui/index.html
+**URL de Swagger UI:** https://vetalis-backend-production.up.railway.app/api/v1/swagger-ui.html
 
 <img src="../assets/swagger-evidence.png" alt="Evidencia de despliegue - Swagger UI Vetalis API"/>
 
