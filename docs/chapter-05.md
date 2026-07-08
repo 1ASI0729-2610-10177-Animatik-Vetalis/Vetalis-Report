@@ -1298,7 +1298,7 @@ El Video About-the-Product tiene una orientación promocional enfocada a visitan
 
 El Video About-the-Team tiene como objetivo presentar al equipo Animatik, documentar el proceso de trabajo colaborativo durante los cuatro Sprints del proyecto y registrar la retrospectiva final del ciclo de desarrollo. El video incluye la presentación de cada integrante, su rol dentro del proyecto, los aprendizajes obtenidos y una reflexión sobre los retos enfrentados durante la implementación de Vetalis.
 
-**URL del Video About-the-Team:** *(Pendiente de publicación en la plataforma de streaming del curso)*
+**URL del Video About-the-Team:** https://youtu.be/Vn47kuX0u7w?si=fP5RXz32mLYZrmQz
 
 ---
 
