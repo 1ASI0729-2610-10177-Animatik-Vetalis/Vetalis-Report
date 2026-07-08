@@ -1012,7 +1012,7 @@ Durante el Sprint 4, el equipo completó e integró la totalidad de los módulos
 
 3. Módulo Administrativo: Cierre de Caja Diario y Reporte Mensual de Ventas (US021, US029):
 
-<img src="../assets/Sprint4-Admin.png" alt="Vetalis - Cierre de Caja y Reportes Sprint 4"/>
+<img src="../assets/Sprint4-admin.png" alt="Vetalis - Cierre de Caja y Reportes Sprint 4"/>
 
 4. Gestión de Inventario con Alertas de Stock Mínimo y Alta de Nuevos Productos (US022, US023, US026):
 
