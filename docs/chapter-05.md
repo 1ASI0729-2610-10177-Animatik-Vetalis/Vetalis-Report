@@ -807,6 +807,307 @@ A continuación se presentan los analíticos proporcionados por GitHub en su apa
 
 <img src="../assets/evidences-sprint3.png" alt="Team Collaboration Insights - Vetalis Backend Sprint 3"/>
 
+### 5.2.4. Sprint 4
+
+La cuarta y última iteración representa la fase de cierre y consolidación del proyecto Vetalis. Durante este Sprint final, el equipo completó la totalidad de las User Stories y Technical Stories del Product Backlog, abarcando: los módulos clínicos restantes del segmento Veterinario (cierre de consultas, adjunto de resultados de laboratorio, recordatorios de vacunación y notas clínicas libres), la implementación completa del módulo Administrativo/ERP (cierre de caja, deducción automática de stock, alertas de inventario, anulación de transacciones, alta de productos, descuentos, pago mixto, reportes de ventas y comisiones de médicos), los endpoints técnicos de soporte pendientes (TS002, TS004, TS006, TS008, TS009) y la integración del frontend Angular con el backend Spring Boot en producción. Con este Sprint, la plataforma Vetalis alcanza su versión completa con el 100% del Product Backlog en estado *Done*.
+
+#### 5.2.4.1. Sprint Planning 4
+
+| Sprint # | Sprint 4 |
+|---|---|
+| **Sprint Planning Background** | Sesión de planificación del sprint final orientada a completar la totalidad del Product Backlog: módulos clínicos restantes (US015-US020), módulo Administrativo/ERP completo (US021-US030), endpoints técnicos pendientes (TS002, TS004, TS006, TS008, TS009) y la integración frontend-backend en producción, garantizando que todas las User Stories queden en estado Done al finalizar la iteración. |
+| **Date** | 02/07/2026 |
+| **Time** | 06:00 PM |
+| **Location** | Google Meet |
+| **Prepared By** | Roman Zevallos, Sebastian Jared |
+| **Attendees (to planning meeting)** | Gamero Miranda, Lui Mathias / Roman Zevallos, Sebastian Jared / Romero Vilela, Dario Alberto / Sanchez Benavente, Leonardo Matias / Sejuro Medina, Mario Gabriel |
+| **Sprint 3 Review Summary** | Se logró implementar y desplegar exitosamente los Web Services en Spring Boot sobre Google Cloud, documentando todos los endpoints con OpenAPI/Swagger. La API respondió correctamente a las pruebas de integración, validando la lógica JWT y los siete bounded contexts desarrollados. El frontend seguía consumiendo la Fake API, quedando pendiente la integración con el backend real. |
+| **Sprint 3 Retrospective Summary** | El equipo identificó que la concentración de commits en pocas jornadas generó presión innecesaria. Para el sprint final se acordó dividir el trabajo en cuatro frentes paralelos desde el inicio (clínico, administrativo, técnico e integración), para que los miembros trabajen sin bloquearse mutuamente. |
+| **Sprint 4 Goal** | Nuestro enfoque es completar el 100% del Product Backlog de Vetalis. Creemos que implementar los módulos clínicos y administrativos restantes, finalizar los cinco endpoints técnicos de soporte y conectar el frontend con el backend real representará la entrega del producto completo. Se confirmará cuando todas las User Stories y Technical Stories se encuentren en estado Done y el sistema funcione de forma integrada en producción. |
+| **Sprint 4 Velocity** | 89 |
+| **Sum of Story Points** | 89 |
+
+La sesión de Sprint Planning del cuarto ciclo fue determinante para el cierre del proyecto. El equipo revisó el Product Backlog y distribuyó los 89 puntos de historia restantes en cuatro frentes de trabajo simultáneos: completar los módulos clínicos del frontend (Sejuro Medina), desarrollar el módulo Administrativo/ERP (Romero Vilela y Sanchez Benavente), finalizar los endpoints técnicos del backend (Roman Zevallos) y coordinar la integración final y el despliegue (Gamero Miranda).
+
+#### 5.2.4.2. Aspect Leaders and Collaborators
+
+Durante la cuarta iteración, el equipo distribuyó su trabajo en cuatro frentes simultáneos: completar los módulos clínicos pendientes, construir el módulo Administrativo/ERP completo, finalizar los endpoints técnicos del backend e integrar y desplegar el sistema completo en producción.
+
+| Team Member (Last Name, First Name) | GitHub Username | Módulo Clínico Restante Leader (L) / Collaborator (C) | Módulo Admin & ERP Leader (L) / Collaborator (C) | Technical API Leader (L) / Collaborator (C) | Integración & Despliegue Final Leader (L) / Collaborator (C) |
+| :--- | :--- | :---: | :---: | :---: | :---: |
+| Gamero Miranda, Lui Mathias | lug07m | C | C | C | L |
+| Roman Zevallos, Sebastian Jared | Chebas19 | C | C | L | C |
+| Romero Vilela, Dario Alberto | patatitis9-alt | C | L | C | C |
+| Sanchez Benavente, Leonardo Matias | Matiassb06 | C | L | C | C |
+| Sejuro Medina, Mario Gabriel | maghetthi | L | C | C | C |
+
+#### 5.2.4.3. Sprint Backlog 4
+
+| Sprint # | Sprint 4 |
+| :--- | :--- |
+
+| User Story / Task Id | Title | Description | Estimation (Hours) | Assigned To | Status |
+| :--- | :--- | :--- |:------------------:| :--- | :---: |
+| *WK08* | Integración Frontend con Backend de Producción | Conexión del frontend Angular con el backend Spring Boot en producción: configuración del HttpClient, interceptores JWT, variables de entorno y política CORS para que todos los módulos consuman la API real en lugar de la Fake API. | 6 | Gamero Miranda, Lui Mathias | Done |
+| *US005* | Access FAQ Section | Implementación de la sección de preguntas frecuentes en la Landing Page con acordeones expandibles/colapsables que resuelven las dudas más comunes sobre la plataforma. | 2 | Sejuro Medina, Mario Gabriel | Done |
+| *US007* | Subscribe to Newsletter | Desarrollo del formulario de suscripción al newsletter en el footer de la Landing Page con validación de formato de email y notificación de confirmación. | 3 | Sejuro Medina, Mario Gabriel | Done |
+| *US009* | Access Contact Information | Implementación de la sección de contacto en el footer con email, teléfono y dirección, incluyendo enlace clickable que abre el cliente de correo predeterminado del usuario. | 2 | Gamero Miranda, Lui Mathias | Done |
+| *US010* | View Privacy Policy | Desarrollo de la página estática de Política de Privacidad accesible desde el footer, con navegación de retorno a la landing page. | 2 | Gamero Miranda, Lui Mathias | Done |
+| *US015* | Lock Clinical Record | Implementación del flujo de cierre de consulta: botón "Cerrar Consulta", modal de confirmación con advertencia y transición de todos los campos clínicos a modo solo lectura para garantizar la integridad legal del registro. | 3 | Sejuro Medina, Mario Gabriel | Done |
+| *US016* | Attach Lab Results | Desarrollo del componente de carga de archivos de resultados de laboratorio (PDF e imágenes) en el historial clínico, con preview integrado, validación de tipo de archivo y límite de 10MB. | 5 | Sejuro Medina, Mario Gabriel | Done |
+| *US017* | Schedule Vaccination Reminder | Implementación del selector de fecha para la próxima vacuna, vinculado al perfil del paciente y con validación que impide registrar fechas pasadas. | 3 | Sejuro Medina, Mario Gabriel | Done |
+| *US018* | Add Clinical Notes | Desarrollo del área de texto de notas clínicas libres (anamnesis) con autoguardado silencioso cada 5 segundos para prevenir pérdida de datos ante cierres inesperados. | 3 | Sejuro Medina, Mario Gabriel | Done |
+| *US020* | Send Charges to Checkout | Implementación del botón "Enviar a Facturación" que transfiere los servicios y medicamentos utilizados durante la consulta al módulo de caja del segmento Administrador. | 5 | Sejuro Medina, Mario Gabriel | Done |
+| *US021* | Perform Daily Cash Closing | Desarrollo del módulo de cierre de caja diario: cálculo de totales por método de pago, detección de descuadres y registro del cierre con flag "Cerrado con Diferencia" cuando el efectivo físico no coincide con el sistema. | 5 | Romero Vilela, Dario Alberto | Done |
+| *US022* | Deduct Stock Automatically | Implementación de la lógica de deducción automática de inventario al facturar un medicamento o insumo, con reversión automática del stock al anular el cargo correspondiente. | 5 | Sanchez Benavente, Leonardo Matias | Done |
+| *US023* | Receive Low Stock Alert | Desarrollo de las alertas visuales de stock mínimo en el dashboard del administrador, activadas automáticamente cuando un producto cae por debajo de su umbral configurado. | 3 | Sanchez Benavente, Leonardo Matias | Done |
+| *US024* | Void Billing Transaction | Implementación del flujo de anulación de transacciones de facturación con selección de registro, campo de justificación, registro en auditoría y restricción exclusiva al rol Administrador. | 3 | Sanchez Benavente, Leonardo Matias | Done |
+| *US025* | Register Petty Cash Expense | Desarrollo del formulario de registro de gastos menores de caja chica con categoría, monto y adjunto de comprobante digital, descontado automáticamente del total en el cierre diario. | 3 | Romero Vilela, Dario Alberto | Done |
+| *US026* | Add New Inventory Product | Implementación del formulario de alta de productos al inventario con nombre, categoría, precio de costo y venta, y generación automática de SKU único, con validación de duplicados. | 3 | Sanchez Benavente, Leonardo Matias | Done |
+| *US027* | Apply Client Discount | Desarrollo del campo de descuento porcentual en la factura con recálculo en tiempo real del total y validación del límite máximo autorizado del 50%. | 3 | Romero Vilela, Dario Alberto | Done |
+| *US028* | Process Multi-Payment Method | Implementación del módulo de pago mixto (efectivo + tarjeta) con validación de que los montos parciales sumen exactamente el total de la factura antes de confirmar la venta. | 5 | Romero Vilela, Dario Alberto | Done |
+| *US029* | Generate Monthly Sales Report | Desarrollo del módulo de reportes financieros con selector de rango de fechas, tabla de ingresos, impuestos y utilidad neta, y exportación a archivo Excel (.xlsx). | 5 | Romero Vilela, Dario Alberto | Done |
+| *US030* | Calculate Doctor Commissions | Implementación del reporte de producción por médico con cálculo automático del monto de comisión según la tasa configurada, actualizable desde la pantalla de configuración del administrador. | 5 | Romero Vilela, Dario Alberto | Done |
+| *TS002* | Update Stock Quantity Endpoint | Implementación del endpoint PUT /api/v1/inventory/{sku} para actualizar cantidades de stock con validación de cantidades negativas (retorna 400 Bad Request) y sincronización inmediata. | 5 | Roman Zevallos, Sebastian Jared | Done |
+| *TS004* | Create Consultation Transaction | Implementación de la transacción atómica que crea la consulta y aplica la deducción de stock de forma simultánea, con rollback completo de ambas operaciones ante cualquier fallo de base de datos. | 5 | Roman Zevallos, Sebastian Jared | Done |
+| *TS006* | Dashboard Metrics Aggregation | Desarrollo del endpoint GET /api/v1/dashboard/summary que agrega los totales diarios del administrador (ingresos, consultas y alertas activas), retornando 0 en todos los campos en días sin transacciones. | 5 | Roman Zevallos, Sebastian Jared | Done |
+| *TS008* | Soft Delete Voided Invoice | Implementación del endpoint DELETE /api/v1/invoices/{id} con borrado lógico (is_voided = true) y retorno de 400 Bad Request si la factura ya fue previamente anulada. | 3 | Roman Zevallos, Sebastian Jared | Done |
+| *TS009* | Query Low Stock Products | Desarrollo del endpoint GET /api/v1/inventory/alerts que filtra y retorna únicamente los productos cuyo stock actual es igual o inferior al umbral mínimo configurado, retornando array vacío si no hay alertas. | 3 | Roman Zevallos, Sebastian Jared | Done |
+
+Evidencia del avance en Trello:
+
+<img src="../assets/Sprint_04_Trello.png" alt="Foto Sprint 04 en Trello"/>
+
+*URL:* https://trello.com/invite/b/69ea5e4e6743746b9259cdec/ATTI07c5209f0d55628672b1d547ef9c38243661ADA5/vetalis-user-stories
+
+Con la conclusión de este cuarto Sprint, la totalidad de las User Stories y Technical Stories del Product Backlog de Vetalis se encuentran en estado Done. El equipo completó los módulos clínicos restantes, el módulo Administrativo/ERP completo y los cinco endpoints técnicos de soporte, entregando una plataforma integral, integrada y desplegada en producción.
+
+#### 5.2.4.4. Development Evidence for Sprint Review
+
+En este apartado se detallan los commits más significativos realizados por los cinco integrantes del equipo en los repositorios Vetalis-Frontend y Vetalis-Backend durante el Sprint 4, abarcando los módulos clínicos restantes, el módulo administrativo/ERP completo, los endpoints técnicos de soporte y la integración final del sistema en producción:
+
+<table>
+  <thead>
+    <tr>
+      <th>Repository</th>
+      <th>Branch</th>
+      <th>Commit Id</th>
+      <th>Commit Message</th>
+      <th>Commit Message Body</th>
+      <th>Commited on (Date)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="5" align="center" valign="middle">Vetalis-<br>Frontend</td>
+      <td align="center">main</td>
+      <td align="center">bef77e0</td>
+      <td>feat(core): configure jwt interceptor and environment variables for production</td>
+      <td>Configuración del HttpClient de Angular con interceptor JWT y variables de entorno de producción para conectar todos los módulos al backend real, reemplazando la Fake API.</td>
+      <td align="center">03/07/2026</td>
+    </tr>
+    <tr>
+      <td align="center">main</td>
+      <td align="center">da539b3</td>
+      <td>feat(landing): add faq accordion and newsletter subscription sections</td>
+      <td>Implementación de la sección FAQ con acordeones expandibles y formulario de suscripción al newsletter con validación de email en el footer de la Landing Page.</td>
+      <td align="center">04/07/2026</td>
+    </tr>
+    <tr>
+      <td align="center">main</td>
+      <td align="center">3c2d25e</td>
+      <td>feat(clinical): implement lock consultation modal and lab results upload</td>
+      <td>Cierre de consulta con modal de confirmación y transición a modo solo lectura. Componente de adjunto de resultados de laboratorio con preview de PDF y validación de tipo y tamaño.</td>
+      <td align="center">04/07/2026</td>
+    </tr>
+    <tr>
+      <td align="center">main</td>
+      <td align="center">7e66bba</td>
+      <td>feat(clinical): add vaccination reminder, auto-save notes and send charges to checkout</td>
+      <td>Selector de fecha de próxima vacunación, autoguardado silencioso de notas clínicas cada 5 segundos y botón de envío de cargos al módulo de caja del administrador.</td>
+      <td align="center">05/07/2026</td>
+    </tr>
+    <tr>
+      <td align="center">main</td>
+      <td align="center">cd62339</td>
+      <td>feat(admin): implement financial modules, stock deduction and sales reporting</td>
+      <td>Módulo de cierre de caja, pago mixto, descuentos, deducción automática de stock, alertas de mínimo, anulación de transacciones, reporte mensual de ventas y comisiones por médico.</td>
+      <td align="center">05/07/2026</td>
+    </tr>
+    <tr>
+      <td rowspan="8" align="center" valign="middle">Vetalis-<br>Backend</td>
+      <td align="center">main</td>
+      <td align="center">1dba316</td>
+      <td>feat: extend inventory endpoints and add low stock query</td>
+      <td>Extensión de los endpoints del bounded context inventory con PUT para actualización de stock con validación de negativos y GET /alerts para consulta de productos bajo el umbral mínimo.</td>
+      <td align="center">04/07/2026</td>
+    </tr>
+    <tr>
+      <td align="center">main</td>
+      <td align="center">e2f49d1</td>
+      <td>feat: add dashboard metrics aggregation and consultation atomic transaction</td>
+      <td>GET /api/v1/dashboard/summary con totales diarios. Transacción atómica POST /api/v1/consultations con rollback completo ante cualquier fallo de base de datos.</td>
+      <td align="center">05/07/2026</td>
+    </tr>
+    <tr>
+      <td align="center">main</td>
+      <td align="center">9ddcc9f</td>
+      <td>feat: add billing bounded context with void invoice and petty cash endpoints</td>
+      <td>Implementación del bounded context de facturación con borrado lógico de transacciones (is_voided), registro de gastos de caja chica y aplicación de descuentos por cliente.</td>
+      <td align="center">05/07/2026</td>
+    </tr>
+    <tr>
+      <td align="center">main</td>
+      <td align="center">83b7ad1</td>
+      <td>docs: actualizar README (deploy en Railway, Java 21, config por env vars)</td>
+      <td>Actualización del README con instrucciones de despliegue en Railway, requisito de Java 21 y configuración del backend mediante variables de entorno para producción.</td>
+      <td align="center">06/07/2026</td>
+    </tr>
+    <tr>
+      <td align="center">main</td>
+      <td align="center">5eac91a</td>
+      <td>fix swagger</td>
+      <td>Corrección de la configuración de Swagger/OpenAPI para que la documentación interactiva se genere correctamente en el entorno de producción de Railway.</td>
+      <td align="center">06/07/2026</td>
+    </tr>
+    <tr>
+      <td align="center">main</td>
+      <td align="center">1ae0999</td>
+      <td>feat: add alergias, temperatura and cerrada fields and enhance REST endpoints across bounded contexts</td>
+      <td>Extensión de los modelos clínicos con campos alergias, temperatura y cerrada (consulta bloqueada), y mejora de los endpoints REST en múltiples bounded contexts.</td>
+      <td align="center">07/07/2026</td>
+    </tr>
+    <tr>
+      <td align="center">main</td>
+      <td align="center">832950c</td>
+      <td>feat: add tratamiento bounded context</td>
+      <td>Implementación del bounded context de tratamientos con endpoints REST para la gestión de planes terapéuticos vinculados a las consultas clínicas del paciente.</td>
+      <td align="center">07/07/2026</td>
+    </tr>
+    <tr>
+      <td align="center">main</td>
+      <td align="center">f482381</td>
+      <td>fix: add https for railway</td>
+      <td>Corrección de la configuración de despliegue para forzar HTTPS en Railway, garantizando comunicación segura entre el frontend y el backend en producción.</td>
+      <td align="center">07/07/2026</td>
+    </tr>
+  </tbody>
+</table>
+
+Evidencia de los commits realizados durante el Sprint 4:
+
+<img src="../assets/evidences-sprint4.png" alt="Evidencia de commits Sprint 4 en GitHub"/>
+
+#### 5.2.4.5. Execution Evidence for Sprint Review
+
+Durante el Sprint 4, el equipo completó e integró la totalidad de los módulos de la plataforma Vetalis. A continuación se presenta la evidencia visual de los módulos implementados en esta última iteración, consumiendo datos reales desde la API de producción:
+
+1. Módulo de Cierre de Consulta con modo solo lectura y Notas Clínicas con autoguardado (US015, US018):
+
+<img src="../assets/Sprint4-Clinical.png" alt="Vetalis - Cierre de Consulta y Notas Sprint 4"/>
+
+2. Adjunto de Resultados de Laboratorio y Recordatorio de Próxima Vacunación (US016, US017):
+
+<img src="../assets/Sprint4-Lab.png" alt="Vetalis - Lab Results y Vacunación Sprint 4"/>
+
+3. Módulo Administrativo: Cierre de Caja Diario y Reporte Mensual de Ventas (US021, US029):
+
+<img src="../assets/Sprint4-Admin.png" alt="Vetalis - Cierre de Caja y Reportes Sprint 4"/>
+
+4. Gestión de Inventario con Alertas de Stock Mínimo y Alta de Nuevos Productos (US022, US023, US026):
+
+<img src="../assets/Sprint4-Inventory.png" alt="Vetalis - Inventario y Alertas Sprint 4"/>
+
+#### 5.2.4.6. Services Documentation Evidence for Sprint Review
+
+Durante el Sprint 4 se extendió el backend con el nuevo bounded context de tratamientos y se enriquecieron los modelos clínicos existentes con los campos de alergias, temperatura y estado de consulta cerrada, quedando todo documentado en Swagger UI. Asimismo, se corrigió la configuración de Swagger para que funcione correctamente en el entorno de producción de Railway.
+
+**URL de Swagger UI:** https://vetalis-backend-production.up.railway.app/api/v1/swagger-ui/index.html
+
+A continuación se detallan los nuevos endpoints y extensiones de modelos implementados durante este Sprint:
+
+**Bounded Context: Tratamiento (nuevo en Sprint 4)**
+
+| Endpoint | Verbo HTTP | Descripción | Ejemplo de Llamada | Response |
+| :--- | :---: | :--- | :--- | :---: |
+| /tratamientos | GET | Recupera la lista de planes terapéuticos registrados en el sistema. | GET /api/v1/tratamientos | 200 OK |
+| /tratamientos | POST | Registra un nuevo plan de tratamiento vinculado a una consulta clínica. | POST /api/v1/tratamientos | 201 Created |
+| /tratamientos/{id} | GET | Obtiene los detalles de un plan de tratamiento específico. | GET /api/v1/tratamientos/1 | 200 OK |
+
+**Bounded Context: Clinical (extensión de campos)**
+
+| Campo añadido | Endpoint afectado | Descripción |
+| :--- | :--- | :--- |
+| `alergias` | /medical-records, /triages | Campo de texto para registrar las alergias conocidas del paciente, visible como alerta en la vista clínica. |
+| `temperatura` | /triages | Campo numérico para el registro de la temperatura corporal durante el triaje, complementando el campo de peso existente. |
+| `cerrada` | /medical-records | Campo booleano que bloquea la edición del historial clínico una vez cerrada la consulta (US015 - Lock Clinical Record). |
+
+A continuación se presenta el registro de commits asociados a la extensión de los Web Services durante el Sprint 4:
+
+<table>
+  <thead>
+    <tr>
+      <th>Repository</th>
+      <th>Branch</th>
+      <th>Commit ID</th>
+      <th>Commit Message</th>
+      <th>Commit Message Body</th>
+      <th>Commited on (Date)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="3" align="center" valign="middle">Vetalis-<br>Backend</td>
+      <td align="center">main</td>
+      <td align="center">832950c</td>
+      <td>feat: add tratamiento bounded context</td>
+      <td>Implementación del bounded context de tratamientos con endpoints REST (GET, POST) para la gestión de planes terapéuticos clínicos.</td>
+      <td align="center">07/07/2026</td>
+    </tr>
+    <tr>
+      <td align="center">main</td>
+      <td align="center">1ae0999</td>
+      <td>feat: add alergias, temperatura and cerrada fields and enhance REST endpoints across bounded contexts</td>
+      <td>Extensión de los modelos de triaje y historial médico con campos de alergias, temperatura y estado de cierre de consulta, mejorando los endpoints clínicos existentes.</td>
+      <td align="center">07/07/2026</td>
+    </tr>
+    <tr>
+      <td align="center">main</td>
+      <td align="center">5eac91a</td>
+      <td>fix swagger</td>
+      <td>Corrección de la configuración de Swagger/OpenAPI para que la documentación interactiva se genere correctamente en el entorno de producción de Railway.</td>
+      <td align="center">06/07/2026</td>
+    </tr>
+  </tbody>
+</table>
+
+#### 5.2.4.7. Software Deployment Evidence for Sprint Review
+
+En el Sprint 4 se realizó el despliegue final e integrado de todos los componentes de la plataforma Vetalis. La novedad respecto a los sprints anteriores es la integración real entre el Frontend (GitHub Pages) y el Backend (producción), eliminando la dependencia de la Fake REST API utilizada en el Sprint 2 y conectando todos los módulos a los endpoints documentados en Swagger.
+
+**Componentes Desplegados y su Integración:**
+
+| Componente | Plataforma de Despliegue | URL de Producción |
+| :--- | :--- | :--- |
+| Landing Page | GitHub Pages | https://1asi0729-2610-10177-animatik-vetalis.github.io/Vetalis-Landing/ |
+| Frontend Web Application | GitHub Pages | https://1asi0729-2610-10177-animatik-vetalis.github.io/Vetalis-Frontend/ |
+| Backend API (Spring Boot) | Railway | https://vetalis-backend-production.up.railway.app/api/v1/ |
+| API Documentation (Swagger UI) | Railway | https://vetalis-backend-production.up.railway.app/api/v1/swagger-ui/index.html |
+
+<img src="../assets/Sprint4-Deployment.png" alt="Evidencia de despliegue integrado - Sprint 4"/>
+
+El Frontend Angular consume todos los endpoints del Backend de producción mediante autenticación JWT gestionada por el interceptor HTTP, completando el ciclo de integración end-to-end de la plataforma Vetalis.
+
+#### 5.2.4.8. Team Collaboration Insights during Sprint
+
+Durante el Sprint 4, los cinco integrantes del equipo colaboraron activamente para completar el 100% del Product Backlog. Gamero Miranda (lug07m) lideró la integración del frontend con el backend real, configurando el JWT interceptor y las variables de entorno de producción, además de implementar las secciones FAQ y newsletter de la Landing Page. Sejuro Medina (maghetthi) desarrolló los módulos clínicos restantes en el frontend (cierre de consulta, adjunto de laboratorio, recordatorio de vacunación y notas con autoguardado) y lideró en el backend la implementación del bounded context de tratamientos, la extensión de los modelos clínicos con campos de alergias, temperatura y estado de consulta cerrada, y la corrección del despliegue HTTPS en Railway. Romero Vilela (patatitis9-alt) implementó los módulos financieros del Administrador en el frontend: cierre de caja diario, procesamiento de pago mixto, descuentos, reporte mensual de ventas con exportación a Excel y cálculo de comisiones por médico. Sanchez Benavente (Matiassb06) desarrolló los módulos de inventario en el frontend (deducción automática de stock, alertas de mínimo, anulación de transacciones y alta de productos) y en el backend actualizó el README de despliegue y corrigió la configuración de Swagger para producción en Railway. Roman Zevallos (Chebas19) completó los endpoints técnicos del backend: actualización de stock (TS002), transacción atómica de consulta (TS004), agregación de métricas del dashboard (TS006), borrado lógico de facturas (TS008) y consulta de stock bajo mínimo (TS009).
+
+Los commits del Sprint 4 se distribuyeron de forma equitativa entre el 03 y el 07 de julio de 2026. El equipo utilizó Pull Requests en GitHub para validar cada módulo antes de fusionarlo a main, garantizando la estabilidad del sistema en su entrega final.
+
+A continuación se presentan los analíticos de GitHub Insights sobre la colaboración del equipo durante el Sprint 4:
+
+<img src="../assets/a.png" alt="Team Collaboration Insights - Vetalis Sprint 4"/>
+
 ---
 
 ## 5.3. Validation Interviews
@@ -978,23 +1279,24 @@ El Video About-the-Product tiene una orientación promocional enfocada a visitan
 ### Conclusiones y recomendaciones
 
 **Conclusiones:**
-1. **Adopción exitosa de Metodologías Ágiles:** El uso de tres Sprints incrementales, apoyados en Trello para la gestión de tareas y Pivotal Tracker para el seguimiento de User Stories, permitió al equipo Animatik mantener un flujo de trabajo organizado. Esto se evidenció en la entrega de la Landing Page (Sprint 1), el frontend en Angular (Sprint 2) y los Web Services con Spring Boot (Sprint 3), cumpliendo con los objetivos de velocidad estimados en cada iteración.
+1. **Adopción exitosa de Metodologías Ágiles:** El uso de cuatro Sprints incrementales, apoyados en Trello para la gestión de tareas y Pivotal Tracker para el seguimiento de User Stories, permitió al equipo Animatik mantener un flujo de trabajo organizado. Esto se evidenció en la entrega de la Landing Page (Sprint 1), el frontend en Angular (Sprint 2), los Web Services con Spring Boot (Sprint 3) y la integración completa de la plataforma con los módulos Administrador e IoT (Sprint 4), cumpliendo con los objetivos de velocidad estimados en cada iteración.
 2. **Eficiencia en la Gestión de Configuración y Control de Versiones:** La implementación estricta de GitFlow en GitHub, respaldada por Conventional Commits, facilitó la colaboración entre los cinco integrantes del equipo en cuatro repositorios simultáneos (Report, Landing, Frontend, Backend), mitigando conflictos de integración y asegurando la estabilidad de las ramas principales.
-3. **Calidad y Estandarización de Código:** La definición y cumplimiento de guías de estilo para HTML, CSS, TypeScript, Angular, Java y Spring Boot garantizó que el código base de Vetalis sea escalable, legible y mantenible a través de los tres sprints. La adopción de Domain-Driven Design (DDD) con bounded contexts bien delimitados (clients, clinical, iam, inventory, iot, schedule) estructuró correctamente la arquitectura del backend.
-4. **Despliegue Funcional en la Nube:** La Landing Page y el Frontend se desplegaron exitosamente mediante GitHub Pages. El Backend fue desplegado en Google Cloud (GCP) con acceso público, integrando la API documentada con OpenAPI/Swagger. Esto permitió la validación continua del producto por parte de los stakeholders en cada entrega.
+3. **Calidad y Estandarización de Código:** La definición y cumplimiento de guías de estilo para HTML, CSS, TypeScript, Angular, Java y Spring Boot garantizó que el código base de Vetalis sea escalable, legible y mantenible a través de los cuatro sprints. La adopción de Domain-Driven Design (DDD) con bounded contexts bien delimitados (clients, clinical, iam, inventory, iot, schedule) estructuró correctamente la arquitectura del backend.
+4. **Despliegue Funcional e Integración End-to-End en la Nube:** La Landing Page y el Frontend se desplegaron exitosamente mediante GitHub Pages. El Backend fue desplegado en Google Cloud (GCP) y migrado a Railway en el Sprint 4 con acceso público permanente, integrando la API documentada con OpenAPI/Swagger. Durante el Sprint 4 se completó la integración end-to-end del sistema, conectando el Frontend Angular con el Backend real de producción mediante autenticación JWT, eliminando la dependencia de la Fake API y entregando un producto totalmente funcional e interconectado.
 5. **Validación con Usuarios Reales:** Las entrevistas de validación realizadas a cuatro usuarios representativos (dos practicantes de veterinaria y dos administradores de centros veterinarios) confirmaron la utilidad y usabilidad de la plataforma. Los hallazgos fueron incorporados al análisis heurístico de Nielsen, identificando mejoras concretas para futuras iteraciones.
 6. **Enfoque Centrado en el Usuario:** La implementación de funcionalidades clave como el EHR (Electronic Health Record), el registro de triaje, el módulo de recetas digitales y las alertas de alergias demuestra que Vetalis está alineada con las necesidades operativas reales de la gestión clínica veterinaria, validadas directamente con los segmentos objetivo.
+7. **Completitud del Product Backlog:** Al concluir el Sprint 4, la totalidad de las User Stories planificadas en el Product Backlog se encuentran en estado *Done*, incluyendo los módulos del segmento Administrador (dashboard financiero, gestión de inventario) y el módulo IoT de alimentación automática. La plataforma Vetalis opera como un sistema integrado de tres capas (Landing Page, Frontend Angular, Backend Spring Boot), listo para su despliegue en entornos de producción reales de clínicas veterinarias.
 
 **Recomendaciones:**
 1. **Ampliar la Cobertura del RESTful API:** Se recomienda continuar el desarrollo de los bounded contexts para alcanzar el 100% de los endpoints planificados en el Product Backlog, priorizando los módulos de mayor impacto clínico (historial médico, triaje y recetas) y asegurando que la documentación Swagger esté siempre accesible y actualizada.
 2. **Mejorar el Responsive Design del Frontend:** Para los próximos sprints, se recomienda reforzar la aplicación de principios de Responsive Web Design en todos los módulos del frontend, garantizando que la experiencia de usuario sea óptima tanto en dispositivos de escritorio como en tablets y smartphones, en concordancia con los User Flows diseñados.
 3. **Integración Continua Avanzada:** Se recomienda implementar pipelines de CI/CD con GitHub Actions que incluyan pruebas automatizadas (unitarias e integración) antes del despliegue, reduciendo el riesgo de regresiones al integrar nuevas funcionalidades al backend y al frontend.
-4. **Producción del Video About-the-Team:** El equipo debe registrar y publicar el video de retrospectiva del proceso de desarrollo, documentando los aprendizajes obtenidos, los retos enfrentados en cada Sprint y la dinámica colaborativa del equipo Animatik, como parte de los entregables finales del proyecto.
+4. **Evolución hacia Arquitectura de Microservicios:** Para una futura versión de Vetalis orientada a escala empresarial, se recomienda evaluar la migración del monolito Spring Boot hacia una arquitectura de microservicios independientes por bounded context (clinical, iam, inventory, iot, schedule), aprovechando la separación de dominios ya implementada con DDD para reducir el acoplamiento y facilitar el escalado horizontal de los módulos de mayor demanda.
 5. **Mejora en la Estimación de Tareas:** Se recomienda refinar la asignación de Story Points y la estimación de horas por tarea, especialmente para módulos de alta complejidad técnica, evitando la concentración de commits en las últimas jornadas de cada Sprint.
 
 ### Video About-the-Team
 
-El Video About-the-Team tiene como objetivo presentar al equipo Animatik, documentar el proceso de trabajo colaborativo durante los tres Sprints del proyecto y registrar la retrospectiva final del ciclo de desarrollo. El video incluye la presentación de cada integrante, su rol dentro del proyecto, los aprendizajes obtenidos y una reflexión sobre los retos enfrentados durante la implementación de Vetalis.
+El Video About-the-Team tiene como objetivo presentar al equipo Animatik, documentar el proceso de trabajo colaborativo durante los cuatro Sprints del proyecto y registrar la retrospectiva final del ciclo de desarrollo. El video incluye la presentación de cada integrante, su rol dentro del proyecto, los aprendizajes obtenidos y una reflexión sobre los retos enfrentados durante la implementación de Vetalis.
 
 **URL del Video About-the-Team:** *(Pendiente de publicación en la plataforma de streaming del curso)*
 
@@ -1034,7 +1336,7 @@ El Video About-the-Team tiene como objetivo presentar al equipo Animatik, docume
 
 | Sprint | URL de Trello |
 | :--- | :--- |
-| Sprint 1, 2 y 3 | https://trello.com/invite/b/69ea5e4e6743746b9259cdec/ATTI07c5209f0d55628672b1d547ef9c38243661ADA5/vetalis-user-stories |
+| Sprint 1, 2, 3 y 4 | https://trello.com/invite/b/69ea5e4e6743746b9259cdec/ATTI07c5209f0d55628672b1d547ef9c38243661ADA5/vetalis-user-stories |
 
 ---
 
