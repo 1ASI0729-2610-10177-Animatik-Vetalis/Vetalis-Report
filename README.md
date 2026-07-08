@@ -1,37 +1,72 @@
 <div align="center">
-  <img src="assets/upc_logo.png" alt="UPC Logo" width="300">
 
-  <h1>UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS</h1>
+<img src="assets/upc_logo.png" alt="UPC Logo" width="80">
 
-  <br>
+Universidad Peruana de Ciencias Aplicadas
 
-  <h3>Carrera: Ingeniería de Software</h3>
-  <h3>Periodo: 2026-10</h3>
-  <h3>Nombre del curso: Desarrollo de Aplicaciones Open Source (1ASI0729)</h3>
-  <h3>NRC: 10177</h3>
-  <h3>Nombre del profesor: Hugo Allan Mori Paiva</h3>
+Carrera de Ingeniería de Software
 
-  <br>
+<br>
 
-  <h2>Informe de Trabajo Final</h2>
-  <h2>Nombre del startup: Animatik</h2>
-  <h2>Nombre del producto: Vetalis</h2>
+**1ASI0729**
 
-  <br>
+**Desarrollo de Aplicaciones Open Source**
 
-  <h3>Relación de integrantes:</h3>
+NRC
 
-| Nombre | Código |
-| :--- | :--- |
-| Gamero Miranda, Lui Mathias | U202419335 |
-| Roman Zevallos, Sebastian Jared | U202419009 |
-| Romero Vilela, Dario Alberto | U202419286 |
-| Sanchez Benavente, Leonardo Matias | U20241B184 |
-| Sejuro Medina, Mario Gabriel | U20241C198 |
+**10177**
 
-  <br>
+**Informe del Trabajo Final**
 
-  <h3>Mayo, 2026</h3>
+Docente
+
+**Mori Paiva, Hugo Allan**
+
+Equipo
+
+**Animatik**
+
+Proyecto
+
+**Vetalis**
+
+<br>
+
+**Integrantes**
+
+<table>
+  <tr>
+    <td><strong>Código</strong></td>
+    <td><strong>Apellidos y Nombres</strong></td>
+  </tr>
+  <tr>
+    <td>U202419335</td>
+    <td>Gamero Miranda, Lui Mathias</td>
+  </tr>
+  <tr>
+    <td>U202419009</td>
+    <td>Roman Zevallos, Sebastian Jared</td>
+  </tr>
+  <tr>
+    <td>U202419286</td>
+    <td>Romero Vilela, Dario Alberto</td>
+  </tr>
+  <tr>
+    <td>U20241B184</td>
+    <td>Sanchez Benavente, Leonardo Matias</td>
+  </tr>
+  <tr>
+    <td>U20241C198</td>
+    <td>Sejuro Medina, Mario Gabriel</td>
+  </tr>
+</table>
+
+<br>
+
+**Período 202610**
+
+**Julio 2026**
+
 </div>
 
 ---
