@@ -108,6 +108,10 @@ Proyecto
 
 </div>
 
+Durante el desarrollo del proyecto, los cinco integrantes del equipo Animatik realizaron contribuciones al repositorio del informe (Vetalis-Report) a lo largo de los cuatro Sprints. A continuación se presentan los analíticos de GitHub Insights que evidencian la participación de cada miembro en la documentación del proyecto:
+
+<img src="assets/img.png" alt="Project Report Collaboration Insights - Vetalis Report"/>
+
 <br>
 
 # Student Outcome
