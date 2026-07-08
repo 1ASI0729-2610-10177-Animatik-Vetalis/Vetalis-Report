@@ -188,7 +188,7 @@ Para la redacción de criterios de aceptación y pruebas de comportamiento:
 
 Como se mencionó previamente, la gestión de nuestro código fuente se realizará a través de GitHub. Asimismo, se utilizará GitHub Pages para la publicación y despliegue de la página.
 
-Para el desarrollo del Landing Page de NeuroZen se han usado las siguientes herramientas:
+Para el desarrollo del Landing Page de Vetalis se han usado las siguientes herramientas:
 
 * **HTML:** lenguaje con el cual está estructurado nuestro landing page.
 * **CSS:** diseño y formato para el html desarrollado.
@@ -318,11 +318,25 @@ Durante el Sprint 1, se llevó a cabo la publicación de la Landing Page de Veta
 
 Se creó el repositorio denominado Vetalis-Landing-Page dentro de la organización 1ASI0729-2610-10177-Animatik-Vetalis en GitHub.
 
-El desarrollo de la Landing Page se realizó en la rama develop, siguiendo el modelo de trabajo GitFlow, donde se implementaron secciones como hero, problemática, beneficios, startup, planes y footer.
-
-Tras validar el contenido, se efectuó la fusión de la rama develop hacia main mediante un Pull Request, lo que permitió activar automáticamente el despliegue del sitio a través de GitHub Pages.
+El desarrollo de la Landing Page se realizó en la rama develop, siguiendo el modelo de trabajo GitFlow, donde se implementaron todas las secciones requeridas. Tras validar el contenido, se efectuó la fusión de la rama develop hacia main mediante un Pull Request, lo que permitió activar automáticamente el despliegue del sitio a través de GitHub Pages.
 
 Se verificó el despliegue exitoso accediendo a la URL pública: https://1asi0729-2610-10177-animatik-vetalis.github.io/Vetalis-Landing/
+
+La Landing Page presenta el modelo de negocio y la propuesta de valor de Vetalis, aplicando principios de Responsive Web Design para garantizar su correcta visualización en dispositivos móviles y de escritorio. A continuación se describen las secciones implementadas:
+
+| Sección | Descripción | User Story |
+| :--- | :--- | :---: |
+| **Hero / Propuesta de Valor** | Sección principal con el mensaje central de la plataforma, destacando el ecosistema IoT y la gestión clínica integral como diferenciadores clave. Incluye el *pitch message* dirigido a veterinarios y administradores para persuadir a los visitantes de probar la aplicación. | US001 |
+| **Problemática** | Exposición de los principales dolores del rubro veterinario (papeleo, desconexión de datos, falta de automatización) que Vetalis resuelve mediante su plataforma digital. | — |
+| **Beneficios** | Descripción de las ventajas competitivas: digitalización del EHR, control de inventario en tiempo real y automatización IoT del cuidado de mascotas. Incluye screenshots de la aplicación web. | US002 |
+| **Planes y Precios** | Tabla comparativa de los tres niveles de suscripción (Basic, Pro y Enterprise) con características y precios. Cada plan incluye un botón de CTA (*Call-to-Action*) "Comenzar ahora" que redirige al formulario de contacto. | US004 |
+| **Testimonios** | Sección de prueba social con reseñas verificadas de administradores y médicos veterinarios que validan la propuesta de valor de la plataforma. | US006 |
+| **Formulario de Contacto / Demo** | CTA principal de la página con formulario de captación de leads para solicitar una demostración del software, incluyendo campos de nombre, correo electrónico y organización. | US003 |
+| **Startup** | Sección "Sobre Nosotros" que presenta al equipo Animatik, la misión de Vetalis y el contexto del proyecto. | — |
+| **Footer** | Pie de página con información de contacto del equipo, vínculos de acceso a cuentas de redes sociales (Instagram, LinkedIn, Facebook), y navegación rápida a todas las secciones del sitio. | — |
+| **Menú Responsivo** | Navegación principal adaptada a dispositivos móviles mediante menú tipo hamburguesa, garantizando la accesibilidad completa desde smartphones y tablets. | US008 |
+
+El proceso de elaboración se evidencia a través del repositorio de control de versiones, accesible en la organización GitHub de Animatik-Vetalis, con commits registrados por cada miembro del equipo según la estrategia GitFlow.
 
 ---
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
@@ -336,8 +350,14 @@ URL de Landing Page Desplegada: https://1asi0729-2610-10177-animatik-vetalis.git
 
 ---
 #### 5.2.1.8. Team Collaboration Insights during Sprint
-A continuación todos los analíticos que nos proporciona Github, en su apartado de Insights, sobre la colaboración del equipo durante el Sprint 1:
-<img src="../assets/team_Insights.png" alt="Vetalis landing"/>
+
+Durante el Sprint 1, los cinco integrantes del equipo Animatik colaboraron de forma activa en la construcción del reporte técnico y el despliegue de la Landing Page. Cada miembro asumió la responsabilidad de uno o más capítulos del informe, realizando commits de documentación en el repositorio del Report bajo la estrategia GitFlow. La coordinación se realizó a través de reuniones virtuales en Google Meet y el tablero de Trello.
+
+La distribución del trabajo fue equitativa: Sanchez Benavente aportó la definición de segmentos objetivo; Roman Zevallos refinó las User Stories del capítulo 3; Gamero Miranda actualizó los assets y la paleta de colores del capítulo 4; Sejuro Medina documentó los customer journey maps y el sprint backlog; y Romero Vilela elaboró los empathy maps y diagramas de event storming.
+
+A continuación, los analíticos de GitHub Insights sobre la colaboración del equipo durante el Sprint 1:
+
+<img src="../assets/team_Insights.png" alt="Vetalis Team Insights Sprint 1"/>
 
 ### 5.2.2. Sprint 2
 
@@ -347,7 +367,7 @@ La segunda iteración representa un avance consecuente en nuestra metodología d
 
 | Sprint # | Sprint 2                                                                                                                                                                                                                                         |
 | :--- |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Sprint Planning Background** |                                                                                                                                                                                                                                                  |
+| **Sprint Planning Background** | Sesión de planificación para el desarrollo e implementación de la aplicación web frontend con Angular, priorizando los módulos de gestión clínica y la integración con la Fake RESTful API, en base al Product Backlog del Sprint 2 del proyecto Vetalis. |
 | Date | 2026-05-11                                                                                                                                                                                                                                       |
 | Time | 05:00 PM                                                                                                                                                                                                                                         |
 | Location | Google Meet (Reunión virtual)                                                                                                                                                                                                                         |
@@ -380,12 +400,12 @@ Durante la ejecución de la segunda iteración, el equipo focalizó sus capacida
 
 | User Story / Task Id | Title | Description | Estimation (Hours) | Assigned To | Status |
 | :--- | :--- | :--- |:------------------:| :--- | :---: |
-| *WK07* | Configuración y Despliegue del Frontend | Configuración del entorno de desarrollo en Angular y despliegue de la primera versión de la Web Application en la nube, generando la URL pública. | 5 | Todos los miembros del equipo | To Do |
-| *US011* | Search Patient Profile | Desarrollo de la barra de búsqueda y vista de resultados para localizar rápidamente los perfiles y el historial médico de los pacientes. | 6 | Sejuro Medina, Mario Gabriel | To Do |
-| *US012* | Record Vital Signs | Maquetación e implementación del formulario para el registro de los signos vitales (peso y temperatura) durante el proceso de triaje. | 5 | Sanchez Benavente, Leonardo Matias | To Do |
-| *US013* | View Allergy Alerts | Implementación visual de alertas de alta prioridad (banners) en la vista del historial clínico para notificar alergias del paciente. | 4 | Gamero Miranda, Lui Mathias | To Do |
-| *US014* | Create Digital Prescription | Desarrollo del módulo de recetas médicas para la generación de prescripciones digitales y planes nutricionales estandarizados. | 8 | Romero Vilela, Dario Alberto | To Do |
-| *US019* | View Medical History Timeline | Maquetación de la línea de tiempo cronológica para visualizar de forma ordenada el historial de consultas pasadas del paciente. | 6 | Roman Zevallos, Sebastian Jared | To Do |
+| *WK07* | Configuración y Despliegue del Frontend | Configuración del entorno de desarrollo en Angular y despliegue de la primera versión de la Web Application en la nube, generando la URL pública. | 5 | Todos los miembros del equipo | Done |
+| *US011* | Search Patient Profile | Desarrollo de la barra de búsqueda y vista de resultados para localizar rápidamente los perfiles y el historial médico de los pacientes. | 6 | Sejuro Medina, Mario Gabriel | Done |
+| *US012* | Record Vital Signs | Maquetación e implementación del formulario para el registro de los signos vitales (peso y temperatura) durante el proceso de triaje. | 5 | Sanchez Benavente, Leonardo Matias | Done |
+| *US013* | View Allergy Alerts | Implementación visual de alertas de alta prioridad (banners) en la vista del historial clínico para notificar alergias del paciente. | 4 | Gamero Miranda, Lui Mathias | Done |
+| *US014* | Create Digital Prescription | Desarrollo del módulo de recetas médicas para la generación de prescripciones digitales y planes nutricionales estandarizados. | 8 | Romero Vilela, Dario Alberto | Done |
+| *US019* | View Medical History Timeline | Maquetación de la línea de tiempo cronológica para visualizar de forma ordenada el historial de consultas pasadas del paciente. | 6 | Roman Zevallos, Sebastian Jared | Done |
 
 Evidencia del avance en Trello:
 
@@ -423,7 +443,7 @@ Durante este segundo Sprint, el equipo avanzó en la implementación de la aplic
 
 <img src="../assets/Frontend-03.png" alt="Vetalis Frontend - Vista 3"/>
 
-4. Comunicación (Comunication):
+4. Comunicación (Communication):
 
 <img src="../assets/Frontend-04.png" alt="Vetalis Frontend - Vista 4"/>
 
@@ -500,17 +520,17 @@ El despliegue de la aplicación web frontend se realizó utilizando GitHub Pages
 
 ### 5.2.2.8.Team Collaboration Insights during Sprint.
 
-Durante el Sprint 2, nuestra colaboración se centró principalmente en la estructuración y desarrollo de la aplicación web frontend, así como en la actualización de la base documental. El equipo utilizó Trello y GitFlow para la gestión de tareas y control de versiones, asegurando que cada módulo (Dashboard, Perfil, Agenda) fuera implementado correctamente y a tiempo.
+Durante el Sprint 2, la colaboración del equipo se centró en el desarrollo de la aplicación web frontend en Angular y la actualización de la documentación técnica. El equipo utilizó Trello para la gestión de tareas y GitHub con la estrategia GitFlow para el control de versiones, asegurando que cada módulo (Dashboard, Perfil, Agenda, Communication) fuera implementado y commiteado correctamente.
 
-**Gráfico de Contribuciones del equipo**
+La distribución de responsabilidades siguió la asignación del Sprint Backlog: Gamero Miranda lideró la configuración y despliegue del frontend; Sejuro Medina desarrolló el módulo de búsqueda y alertas; Sanchez Benavente implementó el registro de signos vitales (triaje); Romero Vilela desarrolló el módulo de recetas digitales; y Roman Zevallos construyó la línea de tiempo del historial médico. Todos los commits se realizaron respetando la convención de Conventional Commits.
 
 **Contribuciones al desarrollo del Frontend:**
 
-<img src="../assets/Team Collaboration- Frontend.png" alt="Team Collaboration Frontend"/>
+<img src="../assets/Team Collaboration- Frontend.png" alt="Team Collaboration Frontend Sprint 2"/>
 
 **Contribuciones al desarrollo del Documento:**
 
-<img src="../assets/Team Collaboration.png" alt="Team Collaboration Documento"/>
+<img src="../assets/Team Collaboration.png" alt="Team Collaboration Documento Sprint 2"/>
 
 ### 5.2.3. Sprint 3
 
@@ -640,13 +660,57 @@ A continuación se muestra la evidencia visual de la documentación interactiva 
 
 En cumplimiento con los requerimientos, los Web Services han sido documentados utilizando OpenAPI Specification vía Swagger. La documentación detalla las acciones soportadas, los verbos HTTP, la sintaxis de llamada y los modelos de respuesta esperados.
 
-**URL de Swagger UI:** http://34.31.128.116:8081/api/v1/swagger-ui/index.html
+**URL de Swagger UI:** https://vetalis-backend-production.up.railway.app/api/v1/swagger-ui/index.html
+
+> **Nota:** La URL de Swagger UI corresponde a un servidor de Google Cloud Platform (GCP) con IP pública asignada durante el Sprint 3. Dado que el servidor puede apagarse fuera de los periodos de evaluación para optimizar costos, la documentación interactiva de la API se replica en la tabla de endpoints de la sección siguiente para garantizar su accesibilidad permanente.
 
 A continuación se presenta la evidencia de la documentación interactiva generada con Swagger/OpenAPI 3.1:
 
 <img src="../assets/swagger-evidence.png" alt="Swagger UI - Documentación de Web Services Vetalis API"/>
 
-Se detallan los endpoints implementados y documentados durante este Sprint:
+Se detallan los endpoints implementados y documentados durante este Sprint, organizados por Bounded Context:
+
+**Bounded Context: IAM (Identity & Access Management)**
+
+| Endpoint | Verbo HTTP | Descripción | Ejemplo de Llamada | Response |
+| :--- | :---: | :--- | :--- | :---: |
+| /authentication/sign-in | POST | Autentica al usuario y emite un token JWT de acceso. | POST /api/v1/authentication/sign-in | 200 OK |
+| /authentication/sign-up | POST | Registra un nuevo usuario en el sistema. | POST /api/v1/authentication/sign-up | 201 Created |
+
+**Bounded Context: Clientes (Owners)**
+
+| Endpoint | Verbo HTTP | Descripción | Ejemplo de Llamada | Response |
+| :--- | :---: | :--- | :--- | :---: |
+| /owners | GET | Recupera la lista de propietarios de mascotas registrados. | GET /api/v1/owners | 200 OK |
+| /owners | POST | Registra un nuevo propietario en el sistema. | POST /api/v1/owners | 201 Created |
+| /owners/{id} | GET | Obtiene los datos de un propietario específico. | GET /api/v1/owners/1 | 200 OK |
+| /owners/{id} | PUT | Actualiza los datos de un propietario existente. | PUT /api/v1/owners/1 | 200 OK |
+| /owners/{id} | DELETE | Elimina un propietario del registro. | DELETE /api/v1/owners/1 | 204 No Content |
+
+**Bounded Context: Clinical (Gestión Clínica)**
+
+| Endpoint | Verbo HTTP | Descripción | Ejemplo de Llamada | Response |
+| :--- | :---: | :--- | :--- | :---: |
+| /medical-records | GET | Recupera los historiales médicos registrados en el sistema. | GET /api/v1/medical-records | 200 OK |
+| /medical-records | POST | Crea un nuevo registro en el historial médico de un paciente. | POST /api/v1/medical-records | 201 Created |
+| /medical-records/{id} | GET | Obtiene el historial médico completo de un paciente por ID. | GET /api/v1/medical-records/1 | 200 OK |
+| /triages | GET | Lista los registros de triaje del sistema. | GET /api/v1/triages | 200 OK |
+| /triages | POST | Registra los signos vitales (peso, temperatura) durante el triaje. | POST /api/v1/triages | 201 Created |
+| /triages/{id} | GET | Obtiene los datos de un triaje específico. | GET /api/v1/triages/1 | 200 OK |
+| /prescriptions | GET | Lista las recetas médicas digitales emitidas. | GET /api/v1/prescriptions | 200 OK |
+| /prescriptions | POST | Genera una nueva prescripción médica digital. | POST /api/v1/prescriptions | 201 Created |
+
+**Bounded Context: Schedule (Agenda)**
+
+| Endpoint | Verbo HTTP | Descripción | Ejemplo de Llamada | Response |
+| :--- | :---: | :--- | :--- | :---: |
+| /appointments | GET | Recupera las citas programadas en el calendario veterinario. | GET /api/v1/appointments | 200 OK |
+| /appointments | POST | Programa una nueva cita veterinaria. | POST /api/v1/appointments | 201 Created |
+| /appointments/{id} | GET | Obtiene los detalles de una cita específica. | GET /api/v1/appointments/1 | 200 OK |
+| /appointments/{id} | PUT | Actualiza o confirma una cita existente. | PUT /api/v1/appointments/1 | 200 OK |
+| /appointments/{id} | DELETE | Cancela una cita programada. | DELETE /api/v1/appointments/1 | 204 No Content |
+
+**Bounded Context: Inventory (Inventario)**
 
 | Endpoint | Verbo HTTP | Descripción | Ejemplo de Llamada | Response |
 | :--- | :---: | :--- | :--- | :---: |
@@ -656,6 +720,15 @@ Se detallan los endpoints implementados y documentados durante este Sprint:
 | /vacunas/{id} | PUT | Actualiza los datos de una vacuna existente. | PUT /api/v1/vacunas/1 | 200 OK |
 | /vacunas/{id} | DELETE | Elimina una vacuna del registro. | DELETE /api/v1/vacunas/1 | 204 No Content |
 | /vacunas/alerts | GET | Consulta las alertas de vacunación pendientes. | GET /api/v1/vacunas/alerts | 200 OK |
+
+**Bounded Context: IoT (Automatización)**
+
+| Endpoint | Verbo HTTP | Descripción | Ejemplo de Llamada | Response |
+| :--- | :---: | :--- | :--- | :---: |
+| /iot/devices | GET | Lista los dispositivos IoT de alimentación automática registrados. | GET /api/v1/iot/devices | 200 OK |
+| /iot/devices | POST | Registra un nuevo dispositivo IoT en el sistema. | POST /api/v1/iot/devices | 201 Created |
+| /iot/devices/{id} | GET | Obtiene el estado y configuración de un dispositivo IoT. | GET /api/v1/iot/devices/1 | 200 OK |
+| /iot/devices/{id}/dispense | POST | Activa la dispensación de alimento en un dispositivo IoT específico. | POST /api/v1/iot/devices/1/dispense | 200 OK |
 
 A continuación, se detalla el registro de los commits asociados a la generación de la documentación de los Web Services:
 
@@ -724,7 +797,9 @@ El backend fue desplegado en un servidor cloud con acceso público, permitiendo 
 
 #### 5.2.3.8. Team Collaboration Insights during Sprint
 
-La colaboración del equipo se mantuvo constante a través de GitHub, respetando la estrategia de ramas de GitFlow y el uso de Conventional Commits para asegurar la trazabilidad del desarrollo del backend.
+Durante el Sprint 3, la colaboración del equipo se enfocó en la implementación y despliegue de los Web Services con Spring Boot. Se mantuvieron reuniones virtuales de coordinación y se utilizó GitHub con GitFlow para el control de versiones, asegurando que cada bounded context fuera desarrollado en su rama correspondiente antes de integrarse a main.
+
+La distribución de responsabilidades siguió la asignación del Sprint Backlog: Romero Vilela lideró el desarrollo del API (bounded context clinical); Roman Zevallos lideró la integración con la base de datos; Sejuro Medina se encargó de la documentación OpenAPI/Swagger; y Gamero Miranda coordinó el despliegue en la nube (Google Cloud). Sanchez Benavente colaboró en el bounded context de agenda. Todos los commits se realizaron el 19/06/2026 con mensajes descriptivos siguiendo Conventional Commits, evidenciando la integración colaborativa de los siete bounded contexts (clients, clinical, dashboard, iam, inventory, iot, schedule).
 
 A continuación se presentan los analíticos proporcionados por GitHub en su apartado de Insights, sobre la colaboración del equipo durante el Sprint 3:
 
@@ -903,18 +978,63 @@ El Video About-the-Product tiene una orientación promocional enfocada a visitan
 ### Conclusiones y recomendaciones
 
 **Conclusiones:**
-1. **Adopción exitosa de Metodologías Ágiles:** El uso de Sprints y herramientas como Trello y Pivotal Tracker ha permitido al equipo de Animatik mantener un flujo de trabajo organizado y estructurado. Esto se evidenció en la entrega oportuna de la Landing Page en el Sprint 1 y del Frontend de la aplicación web en el Sprint 2, cumpliendo con los objetivos y la velocidad estimada.
-2. **Eficiencia en la Gestión de Configuración y Control de Versiones:** La estricta implementación de GitFlow en GitHub, apoyada con Convenciones de Commits (Conventional Commits), facilitó la colaboración fluida entre los desarrolladores, mitigando conflictos de integración y asegurando la estabilidad de las ramas `main` y `develop`.
-3. **Calidad y Estandarización de Código:** La definición y seguimiento de guías de estilo para HTML, CSS, TypeScript y Angular ha garantizado que el código base de Vetalis sea escalable, legible y fácilmente mantenible.
-4. **Despliegue Continuo con Github Pages:** La automatización básica implementada a través de GitHub Pages ha demostrado ser una solución efectiva y ágil para el despliegue tanto de la Landing Page como del Frontend, permitiendo la validación continua del producto por parte de los stakeholders.
-5. **Enfoque Centrado en el Usuario (Veterinarios):** La correcta maquetación de funcionalidades clave, como el Electronic Health Record (EHR), el registro de signos vitales (Triaje) y el módulo de recetas médicas, demuestra que la solución Vetalis está profundamente alineada con las necesidades operativas de la gestión clínica veterinaria y el control de dispositivos IoT.
+1. **Adopción exitosa de Metodologías Ágiles:** El uso de tres Sprints incrementales, apoyados en Trello para la gestión de tareas y Pivotal Tracker para el seguimiento de User Stories, permitió al equipo Animatik mantener un flujo de trabajo organizado. Esto se evidenció en la entrega de la Landing Page (Sprint 1), el frontend en Angular (Sprint 2) y los Web Services con Spring Boot (Sprint 3), cumpliendo con los objetivos de velocidad estimados en cada iteración.
+2. **Eficiencia en la Gestión de Configuración y Control de Versiones:** La implementación estricta de GitFlow en GitHub, respaldada por Conventional Commits, facilitó la colaboración entre los cinco integrantes del equipo en cuatro repositorios simultáneos (Report, Landing, Frontend, Backend), mitigando conflictos de integración y asegurando la estabilidad de las ramas principales.
+3. **Calidad y Estandarización de Código:** La definición y cumplimiento de guías de estilo para HTML, CSS, TypeScript, Angular, Java y Spring Boot garantizó que el código base de Vetalis sea escalable, legible y mantenible a través de los tres sprints. La adopción de Domain-Driven Design (DDD) con bounded contexts bien delimitados (clients, clinical, iam, inventory, iot, schedule) estructuró correctamente la arquitectura del backend.
+4. **Despliegue Funcional en la Nube:** La Landing Page y el Frontend se desplegaron exitosamente mediante GitHub Pages. El Backend fue desplegado en Google Cloud (GCP) con acceso público, integrando la API documentada con OpenAPI/Swagger. Esto permitió la validación continua del producto por parte de los stakeholders en cada entrega.
+5. **Validación con Usuarios Reales:** Las entrevistas de validación realizadas a cuatro usuarios representativos (dos practicantes de veterinaria y dos administradores de centros veterinarios) confirmaron la utilidad y usabilidad de la plataforma. Los hallazgos fueron incorporados al análisis heurístico de Nielsen, identificando mejoras concretas para futuras iteraciones.
+6. **Enfoque Centrado en el Usuario:** La implementación de funcionalidades clave como el EHR (Electronic Health Record), el registro de triaje, el módulo de recetas digitales y las alertas de alergias demuestra que Vetalis está alineada con las necesidades operativas reales de la gestión clínica veterinaria, validadas directamente con los segmentos objetivo.
 
 **Recomendaciones:**
-1. **Mejora en la Estimación de Tareas:** Se recomienda refinar la asignación de Story Points y la estimación de tiempos, especialmente para módulos con alta complejidad en diseño responsivo y lógica de componentes, evitando la sobrecarga técnica al final de cada Sprint.
-2. **Integración Continua Avanzada:** A medida que el proyecto escale hacia el desarrollo del Backend (Spring Boot/Java) y los servicios IoT, será recomendable implementar pipelines o flujos de CI/CD (GitHub Actions) más robustos que incluyan pruebas automatizadas antes del despliegue.
-3. **Validación Temprana con Usuarios Finales:** Se sugiere ejecutar rondas de Usability Testing con veterinarios y administradores utilizando el Frontend actual, para aplicar ajustes de experiencia de usuario (UX) antes de completar la integración con la base de datos y la API.
+1. **Ampliar la Cobertura del RESTful API:** Se recomienda continuar el desarrollo de los bounded contexts para alcanzar el 100% de los endpoints planificados en el Product Backlog, priorizando los módulos de mayor impacto clínico (historial médico, triaje y recetas) y asegurando que la documentación Swagger esté siempre accesible y actualizada.
+2. **Mejorar el Responsive Design del Frontend:** Para los próximos sprints, se recomienda reforzar la aplicación de principios de Responsive Web Design en todos los módulos del frontend, garantizando que la experiencia de usuario sea óptima tanto en dispositivos de escritorio como en tablets y smartphones, en concordancia con los User Flows diseñados.
+3. **Integración Continua Avanzada:** Se recomienda implementar pipelines de CI/CD con GitHub Actions que incluyan pruebas automatizadas (unitarias e integración) antes del despliegue, reduciendo el riesgo de regresiones al integrar nuevas funcionalidades al backend y al frontend.
+4. **Producción del Video About-the-Team:** El equipo debe registrar y publicar el video de retrospectiva del proceso de desarrollo, documentando los aprendizajes obtenidos, los retos enfrentados en cada Sprint y la dinámica colaborativa del equipo Animatik, como parte de los entregables finales del proyecto.
+5. **Mejora en la Estimación de Tareas:** Se recomienda refinar la asignación de Story Points y la estimación de horas por tarea, especialmente para módulos de alta complejidad técnica, evitando la concentración de commits en las últimas jornadas de cada Sprint.
 
 ### Video About-the-Team
+
+El Video About-the-Team tiene como objetivo presentar al equipo Animatik, documentar el proceso de trabajo colaborativo durante los tres Sprints del proyecto y registrar la retrospectiva final del ciclo de desarrollo. El video incluye la presentación de cada integrante, su rol dentro del proyecto, los aprendizajes obtenidos y una reflexión sobre los retos enfrentados durante la implementación de Vetalis.
+
+**URL del Video About-the-Team:** *(Pendiente de publicación en la plataforma de streaming del curso)*
+
+---
+
+## Anexos
+
+### Repositorios del Proyecto
+
+| Repositorio | Descripción | URL |
+| :--- | :--- | :--- |
+| Vetalis-Report | Repositorio del informe técnico del proyecto | https://github.com/1ASI0729-2610-10177-Animatik-Vetalis/Vetalis-Report |
+| Vetalis-Landing | Repositorio de la Landing Page estática | https://github.com/1ASI0729-2610-10177-Animatik-Vetalis/Vetalis-Landing |
+| Vetalis-Frontend | Repositorio de la aplicación web frontend en Angular | https://github.com/1ASI0729-2610-10177-Animatik-Vetalis/Vetalis-Frontend |
+| Vetalis-Backend | Repositorio de los Web Services en Spring Boot | https://github.com/1ASI0729-2610-10177-Animatik-Vetalis/Vetalis-Backend |
+
+### Productos Desplegados
+
+| Producto | URL de Despliegue |
+| :--- | :--- |
+| Landing Page | https://1asi0729-2610-10177-animatik-vetalis.github.io/Vetalis-Landing/ |
+| Frontend Web Application | https://1asi0729-2610-10177-animatik-vetalis.github.io/Vetalis-Frontend/ |
+| Backend API (Swagger UI) | http://34.31.128.116:8081/api/v1/swagger-ui/index.html |
+| Fake RESTful API (Sprint 2) | https://vetalis-api.onrender.com/ |
+
+### Videos del Proyecto
+
+| Video | URL |
+| :--- | :--- |
+| About-the-Product | https://youtu.be/UjcH5Xqd82A |
+| Validation Interviews - Segmento 1 (Entrevista 1) | https://drive.google.com/file/d/1NFeYZikIhpmp7hBB6cVEut_OigyxbtEK/view?usp=sharing |
+| Validation Interviews - Segmento 1 (Entrevista 2) | https://drive.google.com/file/d/1M4I-Sl_nTlORD9gaPROh_wAGkTbjWP4G/view?usp=sharing |
+| Validation Interviews - Segmento 2 (Entrevista 3) | https://drive.google.com/file/d/1B6nk-ESuFE9yeQlp8TgnkcAIgUknUQ0r/view?usp=sharing |
+| Validation Interviews - Segmento 2 (Entrevista 4) | https://drive.google.com/file/d/1arSjN2ninHc0QcYMgcDHZsIaBHZD0q9D/view?usp=sharing |
+
+### Tablero de Gestión de Tareas (Trello)
+
+| Sprint | URL de Trello |
+| :--- | :--- |
+| Sprint 1, 2 y 3 | https://trello.com/invite/b/69ea5e4e6743746b9259cdec/ATTI07c5209f0d55628672b1d547ef9c38243661ADA5/vetalis-user-stories |
 
 ---
 
