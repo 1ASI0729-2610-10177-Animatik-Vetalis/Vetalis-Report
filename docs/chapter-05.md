@@ -1022,7 +1022,7 @@ Durante el Sprint 4, el equipo completó e integró la totalidad de los módulos
 
 Durante el Sprint 4 se extendió el backend con el nuevo bounded context de tratamientos y se enriquecieron los modelos clínicos existentes con los campos de alergias, temperatura y estado de consulta cerrada, quedando todo documentado en Swagger UI. Asimismo, se corrigió la configuración de Swagger para que funcione correctamente en el entorno de producción de Railway.
 
-**URL de Swagger UI:** https://vetalis-backend-production.up.railway.app/api/v1/swagger-ui/index.html
+**URL de Swagger UI:** https://vetalis-backend-production.up.railway.app/api/v1/swagger-ui.html
 
 A continuación se detallan los nuevos endpoints y extensiones de modelos implementados durante este Sprint:
 
@@ -1090,9 +1090,9 @@ En el Sprint 4 se realizó el despliegue final e integrado de todos los componen
 | Componente | Plataforma de Despliegue | URL de Producción |
 | :--- | :--- | :--- |
 | Landing Page | GitHub Pages | https://1asi0729-2610-10177-animatik-vetalis.github.io/Vetalis-Landing/ |
-| Frontend Web Application | GitHub Pages | https://1asi0729-2610-10177-animatik-vetalis.github.io/Vetalis-Frontend/ |
+| Frontend Web Application | Netlify | https://vetalis-front.netlify.app/admin |
 | Backend API (Spring Boot) | Railway | https://vetalis-backend-production.up.railway.app/api/v1/ |
-| API Documentation (Swagger UI) | Railway | https://vetalis-backend-production.up.railway.app/api/v1/swagger-ui/index.html |
+| API Documentation (Swagger UI) | Railway | https://vetalis-backend-production.up.railway.app/api/v1/swagger-ui.html |
 
 <img src="../assets/Sprint4-Deployment.png" alt="Evidencia de despliegue integrado - Sprint 4"/>
 
