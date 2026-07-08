@@ -1317,7 +1317,7 @@ El Video About-the-Team tiene como objetivo presentar al equipo Animatik, docume
 | :--- | :--- |
 | Landing Page | https://1asi0729-2610-10177-animatik-vetalis.github.io/Vetalis-Landing/ |
 | Frontend Web Application | https://1asi0729-2610-10177-animatik-vetalis.github.io/Vetalis-Frontend/ |
-| Backend API (Swagger UI) | http://34.31.128.116:8081/api/v1/swagger-ui/index.html |
+| Backend API (Swagger UI) | https://vetalis-backend-production.up.railway.app/api/v1/swagger-ui.html |
 | Fake RESTful API (Sprint 2) | https://vetalis-api.onrender.com/ |
 
 ### Videos del Proyecto
